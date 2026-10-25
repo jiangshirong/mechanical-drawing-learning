@@ -1,0 +1,44 @@
+[
+  {
+    "original": "D:\\桌面文件夹\\学习\\大学课程\\过考试\\未过）机械制图\\工程制图—试卷\\08sd1.doc",
+    "sha256": "9cfd2e4820424c36ff095363535fdacefcd80f20a0ca0ca0a59d50ab9b77075c",
+    "converted_cache": "08sd1-source.pdf",
+    "conversion": "本机Word打开原DOC并导出PDF；原DOC未修改",
+    "matched_examples": [
+      "points",
+      "section"
+    ],
+    "section_answer_cache": {
+      "page": 9,
+      "clip_pt": [
+        55,
+        286,
+        410,
+        644
+      ],
+      "image": "机械制图学习/assets/source/section-answer.png",
+      "converted_pdf_sha256": "704764d65abe82f4e11dc6f1276756be644b76ba86f8396e8ef8f60c20b43be3"
+    }
+  },
+  {
+    "original": "D:\\桌面文件夹\\学习\\大学课程\\过考试\\未过）机械制图\\工程制图—试卷\\08sd2.doc",
+    "sha256": "eb2156c96f8218912fecaca057f9bccd4046e3d26737352d83424da30e60bd07",
+    "converted_cache": "08sd2-source.pdf",
+    "conversion": "本机Word打开原DOC并导出PDF；原DOC未修改",
+    "matched_examples": [
+      "line",
+      "plane",
+      "slope",
+      "base"
+    ]
+  },
+  {
+    "original": "D:\\桌面文件夹\\学习\\大学课程\\过考试\\未过）机械制图\\工程制图—试卷\\08sd7.doc",
+    "sha256": "c518cd57dbfbf6b402db143a0fee13b2be9b19343049b1a690cd9814cf1e5a00",
+    "converted_cache": "08sd7-source.pdf",
+    "conversion": "本机Word打开原DOC并导出PDF；原DOC未修改",
+    "matched_examples": [
+      "bracket"
+    ]
+  }
+]
