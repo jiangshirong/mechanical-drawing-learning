@@ -1,0 +1,2930 @@
+{
+  "schema_version": 1,
+  "chapter_id": "line",
+  "knowledge_resume_aliases": {
+    "division": "division:parts-context",
+    "parallel_plane:H": "parallel_plane:H-context",
+    "parallel_plane:V": "parallel_plane:V-context",
+    "normal_plane:H": "normal_plane:H-context",
+    "normal_plane:V": "normal_plane:V-context",
+    "normal_plane:H-dot": "normal_plane:H-context",
+    "normal_plane:V-dot": "normal_plane:V-context",
+    "division:3-2": "division:2-3",
+    "division:rule": "division:2-3",
+    "point_on_line:V-guide-context": "point_on_line:height-guide-context",
+    "point_on_line:V-guide": "point_on_line:height-guide",
+    "point_on_line:V-point": "point_on_line:height-point",
+    "point_on_line:V-transfer": "point_on_line:height-transfer",
+    "intersection:result": "intersection:both-space"
+  },
+  "concept": [
+    {
+      "id": "projection",
+      "title": "直线的三面投影",
+      "beats": [
+        {
+          "id": "projection:purpose",
+          "text": "已经会定位点；给出 A、B 两端点，就能确定线段及其投影。",
+          "scene": "bridge",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t07-q01"
+          ]
+        },
+        {
+          "id": "projection:connect",
+          "text": "连接 A、B，得到空间线段 AB。",
+          "scene": "bridge",
+          "action": {
+            "type": "line",
+            "id": "AB",
+            "views": [
+              "space"
+            ]
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t07-q01"
+          ]
+        },
+        {
+          "id": "projection:connect-front",
+          "text": "连接 a′、b′，得到正面投影。",
+          "scene": "bridge",
+          "action": {
+            "type": "line",
+            "id": "AB",
+            "views": [
+              "front"
+            ]
+          },
+          "anchor": [
+            "front:A",
+            "front:B"
+          ],
+          "focus": [
+            "front:A",
+            "front:B"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t07-q01"
+          ]
+        },
+        {
+          "id": "projection:connect-top",
+          "text": "连接 a、b，得到水平投影。",
+          "scene": "bridge",
+          "action": {
+            "type": "line",
+            "id": "AB",
+            "views": [
+              "top"
+            ]
+          },
+          "anchor": [
+            "top:A",
+            "top:B"
+          ],
+          "focus": [
+            "top:A",
+            "top:B"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t07-q01"
+          ]
+        },
+        {
+          "id": "projection:connect-left",
+          "text": "连接 a″、b″，得到侧面投影。",
+          "scene": "bridge",
+          "action": {
+            "type": "line",
+            "id": "AB",
+            "views": [
+              "left"
+            ]
+          },
+          "anchor": [
+            "left:A",
+            "left:B"
+          ],
+          "focus": [
+            "left:A",
+            "left:B"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t07-q01"
+          ]
+        },
+        {
+          "id": "projection:third-A-context",
+          "text": "只给正面、水平投影，怎样补侧面投影？",
+          "scene": "bridge",
+          "action": {
+            "type": "scene",
+            "scene": "third",
+            "retain_lines": [
+              "AB"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t07-q01"
+          ],
+          "label_focus": [],
+          "callout_kind": "problem"
+        },
+        {
+          "id": "projection:third-A",
+          "text": "由 a、a′ 求 a″。",
+          "scene": "third",
+          "action": {
+            "type": "side_point",
+            "id": "A",
+            "duration": 2.4
+          },
+          "anchor": [
+            "front:A",
+            "top:A",
+            "left:A"
+          ],
+          "focus": [
+            "front:A",
+            "top:A",
+            "left:A"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t07-q01"
+          ]
+        },
+        {
+          "id": "projection:third-B",
+          "text": "同样由 b、b′ 求 b″。",
+          "scene": "third",
+          "action": {
+            "type": "side_point",
+            "id": "B",
+            "duration": 2.4
+          },
+          "anchor": [
+            "front:B",
+            "top:B",
+            "left:B"
+          ],
+          "focus": [
+            "front:B",
+            "top:B",
+            "left:B"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t07-q01"
+          ]
+        },
+        {
+          "id": "projection:third-line",
+          "text": "连接 a″、b″。",
+          "scene": "third",
+          "action": {
+            "type": "line",
+            "id": "AB",
+            "views": [
+              "left"
+            ]
+          },
+          "anchor": [
+            "left:AB"
+          ],
+          "focus": [
+            "left:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t07-q01"
+          ]
+        },
+        {
+          "id": "projection:method",
+          "text": "步骤是先画出端点的投影，再将端点连线。",
+          "scene": "third",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "left:AB"
+          ],
+          "focus": [
+            "left:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t07-q01"
+          ]
+        }
+      ],
+      "source_questions": [
+        "t02-q01",
+        "t07-q01"
+      ],
+      "text": "已经会定位点；给出 A、B 两端点，就能确定线段及其投影。连接 A、B，得到空间线段 AB。连接 a′、b′，得到正面投影。连接 a、b，得到水平投影。连接 a″、b″，得到侧面投影。只给正面、水平投影，怎样补侧面投影？由 a、a′ 求 a″。同样由 b、b′ 求 b″。连接 a″、b″。步骤是先画出端点的投影，再将端点连线。"
+    },
+    {
+      "id": "parallel_plane",
+      "title": "平行于投影面",
+      "beats": [
+        {
+          "id": "parallel_plane:H-context",
+          "text": "将 AB 转到平行 H 面的位置，此时称为水平线。",
+          "scene": "third",
+          "action": {
+            "type": "scene",
+            "scene": "horizontal",
+            "retain_lines": [
+              "AB"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t02-q02"
+          ],
+          "label_focus": [
+            "H"
+          ]
+        },
+        {
+          "id": "parallel_plane:H-length",
+          "text": "A、B 距 H 面相同。",
+          "scene": "horizontal",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "space:A",
+            "space:B"
+          ],
+          "focus": [
+            "space:A",
+            "space:B"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t02-q02"
+          ],
+          "label_focus": [
+            "H"
+          ]
+        },
+        {
+          "id": "parallel_plane:H-angle",
+          "text": "水平投影与 X 的夹角，反映直线与 V 面的夹角。",
+          "scene": "horizontal",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "top:A",
+            "top:B",
+            "top:angle_axis"
+          ],
+          "focus": [
+            "top:A",
+            "top:B",
+            "top:angle_axis"
+          ],
+          "indicators": [
+            "angle"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t02-q02"
+          ],
+          "label_focus": [
+            "X",
+            "V"
+          ]
+        },
+        {
+          "id": "parallel_plane:H-others",
+          "text": "正面、侧面投影均为水平线。",
+          "scene": "horizontal",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "front:AB",
+            "left:AB"
+          ],
+          "focus": [
+            "front:AB",
+            "left:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t02-q02"
+          ]
+        },
+        {
+          "id": "parallel_plane:V-context",
+          "text": "将 AB 转到平行 V 面的位置，此时称为正平线。",
+          "scene": "horizontal",
+          "action": {
+            "type": "scene",
+            "scene": "frontal",
+            "retain_lines": [
+              "AB"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t02-q02"
+          ],
+          "label_focus": [
+            "V"
+          ]
+        },
+        {
+          "id": "parallel_plane:V-length",
+          "text": "两端距 V 面相同，水平投影平行 X。",
+          "scene": "frontal",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "top:A",
+            "top:B"
+          ],
+          "focus": [
+            "top:A",
+            "top:B"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q01",
+            "t02-q02"
+          ],
+          "label_focus": [
+            "V",
+            "X"
+          ]
+        }
+      ],
+      "source_questions": [
+        "t02-q01",
+        "t02-q02"
+      ],
+      "text": "将 AB 转到平行 H 面的位置，此时称为水平线。A、B 距 H 面相同。水平投影与 X 的夹角，反映直线与 V 面的夹角。正面、侧面投影均为水平线。将 AB 转到平行 V 面的位置，此时称为正平线。两端距 V 面相同，水平投影平行 X。"
+    },
+    {
+      "id": "normal_plane",
+      "title": "垂直于投影面",
+      "beats": [
+        {
+          "id": "normal_plane:H-context",
+          "text": "将 AB 转到垂直 H 面的位置，此时称为铅垂线。",
+          "scene": "frontal",
+          "action": {
+            "type": "scene",
+            "scene": "normal_H",
+            "retain_lines": [
+              "AB"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB",
+            "top:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t07-q02"
+          ],
+          "label_focus": [
+            "H"
+          ]
+        },
+        {
+          "id": "normal_plane:V-context",
+          "text": "将 AB 转到垂直 V 面的位置，此时称为正垂线。",
+          "scene": "normal_H",
+          "action": {
+            "type": "scene",
+            "scene": "normal_V",
+            "retain_lines": [
+              "AB"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB",
+            "front:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t07-q02"
+          ],
+          "label_focus": [
+            "V"
+          ]
+        }
+      ],
+      "source_questions": [
+        "t03-q02",
+        "t07-q02"
+      ],
+      "text": "将 AB 转到垂直 H 面的位置，此时称为铅垂线。将 AB 转到垂直 V 面的位置，此时称为正垂线。"
+    },
+    {
+      "id": "point_on_line",
+      "title": "线上取点",
+      "beats": [
+        {
+          "id": "point_on_line:height-guide-context",
+          "text": "给出线段 AB，要求确定线上点 C。\n可能通过两种方式给出点C的位置信息：\n  1. 给定点C离某面的距离\n  2. 给定AC和CB的长度比例",
+          "scene": "normal_V",
+          "action": {
+            "type": "scene",
+            "scene": "height",
+            "retain_lines": [
+              "AB"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t07-q01",
+            "t04-q02",
+            "t08-q02"
+          ],
+          "label_focus": [],
+          "callout_kind": "problem",
+          "problem_conditions": [
+            "1. 给定点C离某面的距离",
+            "2. 给定AC和CB的长度比例"
+          ]
+        },
+        {
+          "id": "point_on_line:height-guide",
+          "text": "C 距 H 面 25 mm。",
+          "scene": "height",
+          "action": {
+            "type": "line",
+            "id": "guide",
+            "views": [
+              "front"
+            ]
+          },
+          "anchor": [
+            "front:O",
+            "front:G1"
+          ],
+          "focus": [
+            "front:O",
+            "front:G1",
+            "front:guide"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t07-q01",
+            "t04-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "point_on_line:height-point",
+          "text": "C 在线段 AB 上，等高辅助线与 a′b′ 的交点就是 c′。",
+          "scene": "height",
+          "action": {
+            "type": "points",
+            "ids": [
+              "C"
+            ],
+            "views": [
+              "front"
+            ]
+          },
+          "anchor": [
+            "front:C"
+          ],
+          "focus": [
+            "front:C"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t07-q01",
+            "t04-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "point_on_line:height-transfer",
+          "text": "C 仍须在线上：由 c′ 对应到 ab，再补侧面投影。",
+          "scene": "height",
+          "action": {
+            "type": "points",
+            "ids": [
+              "C"
+            ],
+            "views": [
+              "space",
+              "front",
+              "top",
+              "left"
+            ]
+          },
+          "anchor": [
+            "space:C",
+            "top:C",
+            "left:C"
+          ],
+          "focus": [
+            "space:C",
+            "top:C",
+            "left:C"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t07-q01",
+            "t04-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "division:parts-context",
+          "text": "同一条线上改用比例条件：AC∶CB＝2∶3。",
+          "scene": "height",
+          "action": {
+            "type": "scene",
+            "scene": "ratio",
+            "retain_lines": [
+              "AB"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t05-q01",
+            "t06-q01"
+          ],
+          "label_focus": []
+        },
+        {
+          "id": "division:parts",
+          "text": "把空间 AB 五等分，再对应到各面投影。",
+          "scene": "ratio",
+          "action": {
+            "type": "ticks",
+            "value": 1,
+            "duration": 2.6
+          },
+          "anchor": [
+            "front:AB",
+            "space:AB"
+          ],
+          "focus": [
+            "front:AB",
+            "space:AB"
+          ],
+          "indicators": [
+            "ratio"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t05-q01",
+            "t06-q01"
+          ]
+        },
+        {
+          "id": "division:2-3",
+          "text": "取从 A 起的第二个分点 C。",
+          "scene": "ratio",
+          "action": {
+            "type": "points",
+            "ids": [
+              "C"
+            ],
+            "views": [
+              "space",
+              "front",
+              "top",
+              "left"
+            ]
+          },
+          "anchor": [
+            "space:C",
+            "front:C",
+            "top:C",
+            "left:C"
+          ],
+          "focus": [
+            "space:C",
+            "front:C",
+            "top:C",
+            "left:C"
+          ],
+          "indicators": [
+            "ratio"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t05-q01",
+            "t06-q01"
+          ]
+        }
+      ],
+      "source_questions": [
+        "t07-q01",
+        "t04-q02",
+        "t08-q02",
+        "t05-q01",
+        "t06-q01"
+      ],
+      "text": "给出线段 AB，要求确定线上点 C。\n可能通过两种方式给出点C的位置信息：\n  1. 给定点C离某面的距离\n  2. 给定AC和CB的长度比例C 距 H 面 25 mm。C 在线段 AB 上，等高辅助线与 a′b′ 的交点就是 c′。C 仍须在线上：由 c′ 对应到 ab，再补侧面投影。同一条线上改用比例条件：AC∶CB＝2∶3。把空间 AB 五等分，再对应到各面投影。取从 A 起的第二个分点 C。"
+    },
+    {
+      "id": "parallel",
+      "title": "平行关系",
+      "beats": [
+        {
+          "id": "parallel:through-context",
+          "text": "另给点 A 和直线 EF，\n过 A 作 EF 的平行线。",
+          "scene": "ratio",
+          "action": {
+            "type": "scene",
+            "scene": "parallel",
+            "retain_lines": [],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ],
+          "label_focus": [],
+          "callout_kind": "problem"
+        },
+        {
+          "id": "parallel:through",
+          "text": "过 a′ 画 e′f′ 的平行线。",
+          "scene": "parallel",
+          "action": {
+            "type": "construct",
+            "lines": [
+              "AB"
+            ],
+            "points": [
+              "B"
+            ],
+            "views": [
+              "front"
+            ]
+          },
+          "anchor": [
+            "front:AB"
+          ],
+          "focus": [
+            "front:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "parallel:through-top",
+          "text": "过 a 画 ef 的平行线。",
+          "scene": "parallel",
+          "action": {
+            "type": "construct",
+            "lines": [
+              "AB"
+            ],
+            "points": [
+              "B"
+            ],
+            "views": [
+              "top"
+            ]
+          },
+          "anchor": [
+            "top:AB"
+          ],
+          "focus": [
+            "top:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "parallel:through-result",
+          "text": "选取同名端点对应的位置，再补空间线段和侧面投影。",
+          "scene": "parallel",
+          "action": {
+            "type": "construct",
+            "lines": [
+              "AB"
+            ],
+            "points": [
+              "B"
+            ],
+            "views": [
+              "left",
+              "space"
+            ]
+          },
+          "anchor": [
+            "left:AB",
+            "space:AB"
+          ],
+          "focus": [
+            "left:AB",
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "parallel:rule",
+          "text": "空间平行，同名投影也平行。",
+          "scene": "parallel",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "front:EF",
+            "front:AB",
+            "top:EF",
+            "top:AB"
+          ],
+          "focus": [
+            "front:EF",
+            "front:AB",
+            "top:EF",
+            "top:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "parallel:complete-lines-context",
+          "text": "已知平行四边形的 A、C、D，\n补出顶点 B。",
+          "scene": "parallel",
+          "action": {
+            "type": "scene",
+            "scene": "parallelogram",
+            "retain_lines": [],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ],
+          "label_focus": [],
+          "callout_kind": "problem"
+        },
+        {
+          "id": "parallel:complete-lines",
+          "text": "利用对边平行，补出两条线。",
+          "scene": "parallelogram",
+          "action": {
+            "type": "construct",
+            "lines": [
+              "AB",
+              "BC"
+            ],
+            "points": []
+          },
+          "anchor": [
+            "front:AB",
+            "front:BC",
+            "top:AB",
+            "top:BC"
+          ],
+          "focus": [
+            "front:AB",
+            "front:BC",
+            "top:AB",
+            "top:BC"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "parallel:complete-point",
+          "text": "交点确定第四个顶点。",
+          "scene": "parallelogram",
+          "action": {
+            "type": "points",
+            "ids": [
+              "B"
+            ],
+            "views": [
+              "space",
+              "front",
+              "top",
+              "left"
+            ]
+          },
+          "anchor": [
+            "space:B",
+            "front:B",
+            "top:B"
+          ],
+          "focus": [
+            "space:B",
+            "front:B",
+            "top:B"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "parallel:one-view-context",
+          "text": "换一组直线，比较一面投影平行与空间平行的区别。",
+          "scene": "parallelogram",
+          "action": {
+            "type": "scene",
+            "scene": "parallel_false",
+            "retain_lines": [
+              "AB"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ],
+          "label_focus": []
+        },
+        {
+          "id": "parallel:one-view",
+          "text": "只看一面，不能判断空间平行。",
+          "scene": "parallel_false",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "front:AB",
+            "front:EF"
+          ],
+          "focus": [
+            "front:AB",
+            "front:EF"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "parallel:compare",
+          "text": "看水平投影：方向不同，因此这组空间直线并不平行。",
+          "scene": "parallel_false",
+          "action": {
+            "type": "construct",
+            "lines": [
+              "AB",
+              "EF"
+            ],
+            "points": [
+              "A",
+              "B",
+              "E",
+              "F"
+            ],
+            "views": [
+              "top",
+              "left"
+            ]
+          },
+          "anchor": [
+            "top:AB",
+            "top:EF"
+          ],
+          "focus": [
+            "top:AB",
+            "top:EF"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t02-q02",
+            "t04-q02",
+            "t08-q02"
+          ]
+        }
+      ],
+      "source_questions": [
+        "t02-q02",
+        "t04-q02",
+        "t08-q02"
+      ],
+      "text": "另给点 A 和直线 EF，\n过 A 作 EF 的平行线。过 a′ 画 e′f′ 的平行线。过 a 画 ef 的平行线。选取同名端点对应的位置，再补空间线段和侧面投影。空间平行，同名投影也平行。已知平行四边形的 A、C、D，\n补出顶点 B。利用对边平行，补出两条线。交点确定第四个顶点。换一组直线，比较一面投影平行与空间平行的区别。只看一面，不能判断空间平行。看水平投影：方向不同，因此这组空间直线并不平行。"
+    },
+    {
+      "id": "intersection",
+      "title": "相交关系",
+      "beats": [
+        {
+          "id": "intersection:lines-context",
+          "text": "两条直线怎样才算在空间相交？",
+          "scene": "parallel_false",
+          "action": {
+            "type": "scene",
+            "scene": "intersection",
+            "retain_lines": [
+              "AB"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ],
+          "label_focus": []
+        },
+        {
+          "id": "intersection:lines",
+          "text": "画出第二条直线，找它们的共同点。",
+          "scene": "intersection",
+          "action": {
+            "type": "line",
+            "id": "EF",
+            "views": [
+              "space",
+              "front",
+              "top",
+              "left"
+            ]
+          },
+          "anchor": [
+            "space:AB",
+            "space:EF"
+          ],
+          "focus": [
+            "space:AB",
+            "space:EF"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "intersection:common",
+          "text": "同一个交点，在各面一一对应。",
+          "scene": "intersection",
+          "action": {
+            "type": "points",
+            "ids": [
+              "C"
+            ],
+            "views": [
+              "space",
+              "front",
+              "top",
+              "left"
+            ]
+          },
+          "anchor": [
+            "space:C",
+            "front:C",
+            "top:C",
+            "left:C"
+          ],
+          "focus": [
+            "space:C",
+            "front:C",
+            "top:C",
+            "left:C"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "intersection:apparent-context",
+          "text": "只在正面投影相交，空间中一定相交吗？",
+          "scene": "intersection",
+          "action": {
+            "type": "scene",
+            "scene": "apparent",
+            "retain_lines": [
+              "AB",
+              "EF"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ],
+          "label_focus": []
+        },
+        {
+          "id": "intersection:apparent",
+          "text": "这个正面交点，对应两条线上各自的空间点。",
+          "scene": "apparent",
+          "action": {
+            "type": "points",
+            "ids": [
+              "P",
+              "Q"
+            ],
+            "views": [
+              "space",
+              "front"
+            ]
+          },
+          "anchor": [
+            "front:P",
+            "space:P",
+            "space:Q"
+          ],
+          "focus": [
+            "front:P",
+            "space:P",
+            "space:Q"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "intersection:check",
+          "text": "前后位置不同，空间中没有共同点。",
+          "scene": "apparent",
+          "action": {
+            "type": "points",
+            "ids": [
+              "P",
+              "Q"
+            ],
+            "views": [
+              "space",
+              "front",
+              "top",
+              "left"
+            ]
+          },
+          "anchor": [
+            "top:P",
+            "top:Q",
+            "space:P",
+            "space:Q"
+          ],
+          "focus": [
+            "top:P",
+            "top:Q",
+            "space:P",
+            "space:Q"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "intersection:distance-context",
+          "text": "另给 A 和 EF，过 A 作相交线；\n交点 B 的面距已知。",
+          "scene": "apparent",
+          "action": {
+            "type": "scene",
+            "scene": "through",
+            "retain_lines": [
+              "EF"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ],
+          "label_focus": [],
+          "callout_kind": "problem"
+        },
+        {
+          "id": "intersection:distance",
+          "text": "交点 B 距 V 面 10 mm。",
+          "scene": "through",
+          "action": {
+            "type": "line",
+            "id": "guide",
+            "views": [
+              "top"
+            ]
+          },
+          "anchor": [
+            "top:O",
+            "top:G1"
+          ],
+          "focus": [
+            "top:O",
+            "top:G1",
+            "top:guide"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "intersection:target",
+          "text": "在 EF 上确定交点 B。",
+          "scene": "through",
+          "action": {
+            "type": "points",
+            "ids": [
+              "B"
+            ],
+            "views": [
+              "space",
+              "front",
+              "top",
+              "left"
+            ]
+          },
+          "anchor": [
+            "space:B",
+            "top:B",
+            "front:B"
+          ],
+          "focus": [
+            "space:B",
+            "top:B",
+            "front:B"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "intersection:through",
+          "text": "连接 A、B，得到过 A 的相交线。",
+          "scene": "through",
+          "action": {
+            "type": "line",
+            "id": "AB",
+            "views": [
+              "space",
+              "front",
+              "top",
+              "left"
+            ]
+          },
+          "anchor": [
+            "space:AB",
+            "front:AB",
+            "top:AB"
+          ],
+          "focus": [
+            "space:AB",
+            "front:AB",
+            "top:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "intersection:both-front-context",
+          "text": "已知 AB、CD、EF，\n作平行 AB 且与 CD、EF 相交的线。",
+          "scene": "through",
+          "action": {
+            "type": "scene",
+            "scene": "both",
+            "retain_lines": [
+              "EF",
+              "AB"
+            ],
+            "duration": 1.8
+          },
+          "anchor": [
+            "space:AB"
+          ],
+          "focus": [
+            "space:AB"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ],
+          "label_focus": [],
+          "callout_kind": "problem"
+        },
+        {
+          "id": "intersection:both-clue",
+          "text": "CD 垂直 V 面，在正面积聚成一点；所求线必须经过这个投影点。",
+          "scene": "both",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "front:CD",
+            "space:CD"
+          ],
+          "focus": [
+            "front:CD",
+            "space:CD"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "intersection:both-front",
+          "text": "过 c′d′ 作 a′b′ 的平行线，与 e′f′ 相交，确定另一个交点。",
+          "scene": "both",
+          "action": {
+            "type": "construct",
+            "lines": [
+              "MN"
+            ],
+            "points": [
+              "M",
+              "N"
+            ],
+            "views": [
+              "front"
+            ]
+          },
+          "anchor": [
+            "front:MN",
+            "front:CD",
+            "front:EF"
+          ],
+          "focus": [
+            "front:MN",
+            "front:CD",
+            "front:EF"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "intersection:both-top",
+          "text": "向水平投影对应，在 cd、ef 上分别确定两个交点。",
+          "scene": "both",
+          "action": {
+            "type": "construct",
+            "lines": [
+              "MN"
+            ],
+            "points": [
+              "M",
+              "N"
+            ],
+            "views": [
+              "top"
+            ]
+          },
+          "anchor": [
+            "top:MN",
+            "top:CD",
+            "top:EF"
+          ],
+          "focus": [
+            "top:MN",
+            "top:CD",
+            "top:EF"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        },
+        {
+          "id": "intersection:both-space",
+          "text": "连接两个交点，得到同时平行 AB、并与 CD 和 EF 相交的线。",
+          "scene": "both",
+          "action": {
+            "type": "construct",
+            "lines": [
+              "MN"
+            ],
+            "points": [
+              "M",
+              "N"
+            ]
+          },
+          "anchor": [
+            "space:MN",
+            "space:CD",
+            "space:EF"
+          ],
+          "focus": [
+            "space:MN",
+            "space:CD",
+            "space:EF"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "show_sheet": true,
+          "source_questions": [
+            "t03-q02",
+            "t04-q02",
+            "t07-q02",
+            "t08-q02"
+          ]
+        }
+      ],
+      "source_questions": [
+        "t03-q02",
+        "t04-q02",
+        "t07-q02",
+        "t08-q02"
+      ],
+      "text": "两条直线怎样才算在空间相交？画出第二条直线，找它们的共同点。同一个交点，在各面一一对应。只在正面投影相交，空间中一定相交吗？这个正面交点，对应两条线上各自的空间点。前后位置不同，空间中没有共同点。另给 A 和 EF，过 A 作相交线；\n交点 B 的面距已知。交点 B 距 V 面 10 mm。在 EF 上确定交点 B。连接 A、B，得到过 A 的相交线。已知 AB、CD、EF，\n作平行 AB 且与 CD、EF 相交的线。CD 垂直 V 面，在正面积聚成一点；所求线必须经过这个投影点。过 c′d′ 作 a′b′ 的平行线，与 e′f′ 相交，确定另一个交点。向水平投影对应，在 cd、ef 上分别确定两个交点。连接两个交点，得到同时平行 AB、并与 CD 和 EF 相交的线。"
+    }
+  ],
+  "scenes": {
+    "bridge": {
+      "points": {},
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B"
+      ],
+      "initial_lines": [],
+      "derived": {},
+      "provenance": "teaching_example",
+      "parameter_source": "points"
+    },
+    "third": {
+      "points": {},
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B"
+      ],
+      "initial_lines": [
+        "AB"
+      ],
+      "derived": {},
+      "provenance": "teaching_example",
+      "parameter_source": "points",
+      "known_views": [
+        "space",
+        "front",
+        "top"
+      ]
+    },
+    "horizontal": {
+      "points": {},
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B"
+      ],
+      "initial_lines": [],
+      "derived": {},
+      "provenance": "teaching_example",
+      "parameter_source": "line"
+    },
+    "frontal": {
+      "points": {
+        "A": [
+          -10,
+          -12,
+          12
+        ],
+        "B": [
+          -38,
+          -12,
+          34
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B"
+      ],
+      "initial_lines": [],
+      "derived": {},
+      "provenance": "teaching_example"
+    },
+    "normal_H": {
+      "points": {
+        "A": [
+          -18,
+          -14,
+          10
+        ],
+        "B": [
+          -18,
+          -14,
+          38
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B"
+      ],
+      "initial_lines": [],
+      "derived": {},
+      "provenance": "teaching_example"
+    },
+    "normal_V": {
+      "points": {
+        "A": [
+          -18,
+          -6,
+          24
+        ],
+        "B": [
+          -18,
+          -34,
+          24
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B"
+      ],
+      "initial_lines": [],
+      "derived": {},
+      "provenance": "teaching_example"
+    },
+    "height": {
+      "points": {
+        "A": [
+          -10,
+          -5,
+          15
+        ],
+        "B": [
+          -40,
+          -25,
+          35
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ],
+        "guide": [
+          "G0",
+          "G1"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B"
+      ],
+      "initial_lines": [
+        "AB"
+      ],
+      "derived": {
+        "C": {
+          "type": "face_point",
+          "line": "AB",
+          "axis": "z",
+          "value": 25
+        },
+        "G0": {
+          "type": "level_start",
+          "point": "C",
+          "axis": "z"
+        },
+        "G1": {
+          "type": "axis_foot",
+          "point": "C",
+          "axis": "z"
+        }
+      },
+      "provenance": "teaching_example"
+    },
+    "distance_V": {
+      "points": {
+        "A": [
+          -10,
+          -5,
+          15
+        ],
+        "B": [
+          -40,
+          -25,
+          35
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ],
+        "guide": [
+          "G0",
+          "G1"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B"
+      ],
+      "initial_lines": [
+        "AB"
+      ],
+      "derived": {
+        "C": {
+          "type": "face_point",
+          "line": "AB",
+          "axis": "y",
+          "value": -10
+        },
+        "G0": {
+          "type": "level_start",
+          "point": "C",
+          "axis": "y"
+        },
+        "G1": {
+          "type": "axis_foot",
+          "point": "C",
+          "axis": "y"
+        }
+      },
+      "provenance": "teaching_example"
+    },
+    "ratio": {
+      "points": {
+        "A": [
+          -10,
+          -5,
+          15
+        ],
+        "B": [
+          -40,
+          -25,
+          35
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B"
+      ],
+      "initial_lines": [
+        "AB"
+      ],
+      "derived": {
+        "C": {
+          "type": "fraction",
+          "line": "AB",
+          "value": 0.4
+        }
+      },
+      "provenance": "teaching_example"
+    },
+    "parallel": {
+      "points": {
+        "E": [
+          -12,
+          -8,
+          10
+        ],
+        "F": [
+          -32,
+          -22,
+          30
+        ],
+        "A": [
+          -8,
+          -26,
+          12
+        ]
+      },
+      "lines": {
+        "EF": [
+          "E",
+          "F"
+        ],
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "E",
+        "F"
+      ],
+      "initial_lines": [
+        "EF"
+      ],
+      "derived": {
+        "B": {
+          "type": "parallel_end",
+          "origin": "A",
+          "line": "EF"
+        }
+      },
+      "provenance": "teaching_example"
+    },
+    "parallelogram": {
+      "points": {
+        "A": [
+          -10,
+          -12,
+          10
+        ],
+        "C": [
+          -40,
+          -12,
+          30
+        ],
+        "D": [
+          -20,
+          -6,
+          6
+        ]
+      },
+      "lines": {
+        "AD": [
+          "A",
+          "D"
+        ],
+        "DC": [
+          "D",
+          "C"
+        ],
+        "AB": [
+          "A",
+          "B"
+        ],
+        "BC": [
+          "B",
+          "C"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "C",
+        "D"
+      ],
+      "initial_lines": [
+        "AD",
+        "DC"
+      ],
+      "derived": {
+        "B": {
+          "type": "parallelogram",
+          "a": "A",
+          "c": "C",
+          "d": "D"
+        }
+      },
+      "provenance": "teaching_example"
+    },
+    "parallel_false": {
+      "points": {
+        "E": [
+          -12,
+          -8,
+          10
+        ],
+        "F": [
+          -32,
+          -22,
+          30
+        ],
+        "A": [
+          -8,
+          -26,
+          12
+        ],
+        "B": [
+          -28,
+          -16,
+          32
+        ]
+      },
+      "lines": {
+        "EF": [
+          "E",
+          "F"
+        ],
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "visible_points": [
+        "E",
+        "F",
+        "A",
+        "B"
+      ],
+      "initial_lines": [
+        "EF",
+        "AB"
+      ],
+      "derived": {},
+      "provenance": "teaching_example",
+      "known_views": [
+        "space",
+        "front"
+      ]
+    },
+    "intersection": {
+      "points": {
+        "A": [
+          -10,
+          -10,
+          10
+        ],
+        "B": [
+          -40,
+          -20,
+          40
+        ],
+        "E": [
+          -10,
+          -15,
+          40
+        ],
+        "F": [
+          -40,
+          -15,
+          10
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ],
+        "EF": [
+          "E",
+          "F"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B",
+        "E",
+        "F"
+      ],
+      "initial_lines": [
+        "AB"
+      ],
+      "derived": {
+        "C": {
+          "type": "intersection",
+          "first": "AB",
+          "second": "EF"
+        }
+      },
+      "provenance": "teaching_example"
+    },
+    "apparent": {
+      "points": {
+        "A": [
+          -10,
+          -10,
+          10
+        ],
+        "B": [
+          -40,
+          -20,
+          40
+        ],
+        "E": [
+          -10,
+          -30,
+          40
+        ],
+        "F": [
+          -40,
+          -30,
+          10
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ],
+        "EF": [
+          "E",
+          "F"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B",
+        "E",
+        "F"
+      ],
+      "initial_lines": [
+        "AB",
+        "EF"
+      ],
+      "derived": {
+        "P": {
+          "type": "projected_intersection",
+          "first": "AB",
+          "second": "EF",
+          "on": "AB",
+          "view": "front"
+        },
+        "Q": {
+          "type": "projected_intersection",
+          "first": "AB",
+          "second": "EF",
+          "on": "EF",
+          "view": "front"
+        }
+      },
+      "provenance": "teaching_example"
+    },
+    "through": {
+      "points": {
+        "A": [
+          -5,
+          -25,
+          25
+        ],
+        "E": [
+          -15,
+          -5,
+          10
+        ],
+        "F": [
+          -35,
+          -25,
+          30
+        ]
+      },
+      "lines": {
+        "EF": [
+          "E",
+          "F"
+        ],
+        "AB": [
+          "A",
+          "B"
+        ],
+        "guide": [
+          "G0",
+          "G1"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "E",
+        "F"
+      ],
+      "initial_lines": [
+        "EF"
+      ],
+      "derived": {
+        "B": {
+          "type": "face_point",
+          "line": "EF",
+          "axis": "y",
+          "value": -10
+        },
+        "G0": {
+          "type": "level_start",
+          "point": "B",
+          "axis": "y"
+        },
+        "G1": {
+          "type": "axis_foot",
+          "point": "B",
+          "axis": "y"
+        }
+      },
+      "provenance": "teaching_example"
+    },
+    "both": {
+      "points": {
+        "A": [
+          -5,
+          -30,
+          5
+        ],
+        "B": [
+          -25,
+          -20,
+          17
+        ],
+        "C": [
+          -20,
+          -5,
+          15
+        ],
+        "D": [
+          -20,
+          -35,
+          15
+        ],
+        "E": [
+          -40,
+          -10,
+          5
+        ],
+        "F": [
+          -40,
+          -10,
+          40
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ],
+        "CD": [
+          "C",
+          "D"
+        ],
+        "EF": [
+          "E",
+          "F"
+        ],
+        "MN": [
+          "M",
+          "N"
+        ]
+      },
+      "visible_points": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "initial_lines": [
+        "AB",
+        "CD",
+        "EF"
+      ],
+      "derived": {
+        "M": {
+          "type": "parallel_transversal",
+          "direction": "AB",
+          "first": "CD",
+          "second": "EF",
+          "endpoint": 0
+        },
+        "N": {
+          "type": "parallel_transversal",
+          "direction": "AB",
+          "first": "CD",
+          "second": "EF",
+          "endpoint": 1
+        }
+      },
+      "provenance": "teaching_example"
+    }
+  },
+  "presentation": {
+    "characters_per_second": 16,
+    "punctuation_pause": 0.18
+  },
+  "knowledge_scope": {
+    "basis": "合订卷九道相关题按知识方法归并；题号仅用于后台追溯。",
+    "source_sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c",
+    "direct_questions": [
+      {
+        "id": "t02-q01",
+        "paper": 2,
+        "question": 1,
+        "task": "一、作水平线AB的三面投影。已知点A距H面为15，距V面为5，距W面为10，\nAB与V面夹角为30°，实长为30，点B在点A的左前方。 (10分)\nZ\no\nX Y\nW\nY\nH",
+        "heading": "一、作水平线AB的三面投影。已知点A距H面为15，距V面为5，距W面为10，",
+        "points_candidates": [
+          "10"
+        ],
+        "category": "点线面投影",
+        "pages": [
+          7
+        ],
+        "subparts": [],
+        "regions": [
+          {
+            "page": 7,
+            "box_normalized": [
+              0.03,
+              0.22991887125220442,
+              0.97,
+              0.5040511463844797
+            ],
+            "image": "题图/t02-q01-p07.png"
+          }
+        ],
+        "status": "题干已提取；原图已归档；几何与答案另行核验",
+        "score_mentions": [
+          {
+            "value": 10,
+            "context": "AB与V面夹角为30°，实长为30，点B在点A的左前方。 (10分)"
+          }
+        ],
+        "total_points": 10,
+        "subquestions": [],
+        "recognition_candidates": [
+          {
+            "page": 7,
+            "cache": "ocr原始/p07.json",
+            "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+          }
+        ],
+        "pending_checks": [],
+        "teaching_assumptions": [],
+        "verified_facts": {
+          "pdf_pages": [
+            7
+          ],
+          "question_number": 1,
+          "answer_removed_by_user": true
+        }
+      },
+      {
+        "id": "t02-q02",
+        "paper": 2,
+        "question": 2,
+        "task": "二、已知直线为AC为正平线，试补全平行四边形ABCD的水平投影。(12分)",
+        "heading": "二、已知直线为AC为正平线，试补全平行四边形ABCD的水平投影。(12分)",
+        "points_candidates": [
+          "12"
+        ],
+        "category": "点线面投影",
+        "pages": [
+          7
+        ],
+        "subparts": [],
+        "regions": [
+          {
+            "page": 7,
+            "box_normalized": [
+              0.03,
+              0.5050511463844797,
+              0.97,
+              0.98
+            ],
+            "image": "题图/t02-q02-p07.png"
+          }
+        ],
+        "status": "题干已提取；原图已归档；几何与答案另行核验",
+        "score_mentions": [
+          {
+            "value": 12,
+            "context": "二、已知直线为AC为正平线，试补全平行四边形ABCD的水平投影。(12分)"
+          }
+        ],
+        "total_points": 12,
+        "subquestions": [],
+        "recognition_candidates": [
+          {
+            "page": 7,
+            "cache": "ocr原始/p07.json",
+            "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+          }
+        ],
+        "pending_checks": [],
+        "teaching_assumptions": [],
+        "verified_facts": {
+          "pdf_pages": [
+            7
+          ],
+          "question_number": 2,
+          "answer_removed_by_user": true
+        }
+      },
+      {
+        "id": "t03-q02",
+        "paper": 3,
+        "question": 2,
+        "task": "二、作一直线MN，使MNL//AB,且与直线CD、EF相交。（10分）",
+        "heading": "二、作一直线MN，使MNL//AB,且与直线CD、EF相交。（10分）",
+        "points_candidates": [
+          "10"
+        ],
+        "category": "点线面投影",
+        "pages": [
+          12
+        ],
+        "subparts": [],
+        "regions": [
+          {
+            "page": 12,
+            "box_normalized": [
+              0.03,
+              0.6156100936100936,
+              0.97,
+              0.98
+            ],
+            "image": "题图/t03-q02-p12.png"
+          }
+        ],
+        "status": "题干已提取；原图已归档；几何与答案另行核验",
+        "score_mentions": [
+          {
+            "value": 10,
+            "context": "二、作一直线MN，使MNL//AB,且与直线CD、EF相交。（10分）"
+          }
+        ],
+        "total_points": 10,
+        "subquestions": [],
+        "recognition_candidates": [
+          {
+            "page": 12,
+            "cache": "ocr原始/p12.json",
+            "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+          }
+        ],
+        "pending_checks": [],
+        "teaching_assumptions": [],
+        "verified_facts": {
+          "pdf_pages": [
+            12
+          ],
+          "question_number": 2,
+          "answer_removed_by_user": true
+        }
+      },
+      {
+        "id": "t04-q02",
+        "paper": 4,
+        "question": 2,
+        "task": "二、过已知点作直线。（10分）\n（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，交\n点B距V面为10。",
+        "heading": "二、过已知点作直线。（10分）",
+        "points_candidates": [
+          "10"
+        ],
+        "category": "点线面投影",
+        "pages": [
+          18
+        ],
+        "subparts": [
+          "（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，交"
+        ],
+        "regions": [
+          {
+            "page": 18,
+            "box_normalized": [
+              0.03,
+              0.5589366436033103,
+              0.97,
+              0.98
+            ],
+            "image": "题图/t04-q02-p18.png"
+          }
+        ],
+        "status": "题干已提取；原图已归档；几何与答案另行核验",
+        "score_mentions": [
+          {
+            "value": 10,
+            "context": "二、过已知点作直线。（10分）"
+          }
+        ],
+        "total_points": 10,
+        "subquestions": [
+          {
+            "id": "t04-q02-s01",
+            "number": 1,
+            "page": 18,
+            "marker_bbox_pt": [
+              56.64,
+              433.48900000000003,
+              259.91999999999996,
+              445.48900000000003
+            ],
+            "text_candidate": "（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，交",
+            "figure_region": "题图/t04-q02-p18.png",
+            "status": "原文定位；图形小题共享本大题裁切"
+          },
+          {
+            "id": "t04-q02-s02",
+            "number": 2,
+            "page": 18,
+            "marker_bbox_pt": [
+              264.6,
+              433.48900000000003,
+              479.04,
+              445.48900000000003
+            ],
+            "text_candidate": "（2）过A点作一直线与直线EF相交，交",
+            "figure_region": "题图/t04-q02-p18.png",
+            "status": "原文定位；图形小题共享本大题裁切"
+          }
+        ],
+        "recognition_candidates": [
+          {
+            "page": 18,
+            "cache": "ocr原始/p18.json",
+            "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+          }
+        ],
+        "pending_checks": [],
+        "teaching_assumptions": [],
+        "verified_facts": {
+          "pdf_pages": [
+            18
+          ],
+          "question_number": 2,
+          "answer_removed_by_user": true
+        }
+      },
+      {
+        "id": "t05-q01",
+        "paper": 5,
+        "question": 1,
+        "task": "一、已知直线AB的两面投影，设直线AB 上一点C将AB 分成2：3，求C 点\n的三面投影。（12分）",
+        "heading": "一、已知直线AB的两面投影，设直线AB 上一点C将AB 分成2：3，求C 点",
+        "points_candidates": [
+          "12"
+        ],
+        "category": "点线面投影",
+        "pages": [
+          23
+        ],
+        "subparts": [],
+        "regions": [
+          {
+            "page": 23,
+            "box_normalized": [
+              0.03,
+              0.2203123049789716,
+              0.97,
+              0.5791006647673315
+            ],
+            "image": "题图/t05-q01-p23.png"
+          }
+        ],
+        "status": "题干已提取；原图已归档；几何与答案另行核验",
+        "score_mentions": [
+          {
+            "value": 12,
+            "context": "的三面投影。（12分）"
+          }
+        ],
+        "total_points": 12,
+        "subquestions": [],
+        "recognition_candidates": [
+          {
+            "page": 23,
+            "cache": "ocr原始/p23.json",
+            "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+          }
+        ],
+        "pending_checks": [],
+        "teaching_assumptions": [],
+        "verified_facts": {
+          "pdf_pages": [
+            23
+          ],
+          "question_number": 1,
+          "answer_removed_by_user": true
+        }
+      },
+      {
+        "id": "t06-q01",
+        "paper": 6,
+        "question": 1,
+        "task": "一、已知直线 AB 的两面投影，设直线 AB 上一点 C 将 AB 分成3：2，求 C 点的\n三面投影。（12分）",
+        "heading": "一、已知直线 AB 的两面投影，设直线 AB 上一点 C 将 AB 分成3：2，求 C 点的",
+        "points_candidates": [
+          "12"
+        ],
+        "category": "点线面投影",
+        "pages": [
+          28
+        ],
+        "subparts": [],
+        "regions": [
+          {
+            "page": 28,
+            "box_normalized": [
+              0.03,
+              0.24147632614299266,
+              0.97,
+              0.5791006647673315
+            ],
+            "image": "题图/t06-q01-p28.png"
+          }
+        ],
+        "status": "题干已提取；原图已归档；几何与答案另行核验",
+        "score_mentions": [
+          {
+            "value": 12,
+            "context": "三面投影。（12分）"
+          }
+        ],
+        "total_points": 12,
+        "subquestions": [],
+        "recognition_candidates": [
+          {
+            "page": 28,
+            "cache": "ocr原始/p28.json",
+            "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+          }
+        ],
+        "pending_checks": [],
+        "teaching_assumptions": [],
+        "verified_facts": {
+          "pdf_pages": [
+            28
+          ],
+          "question_number": 1,
+          "answer_removed_by_user": true
+        }
+      },
+      {
+        "id": "t07-q01",
+        "paper": 7,
+        "question": 1,
+        "task": "一、已知直线AB的两面投影。（1）完成其第三面投影；（2）设直线AB上一点\nC距H面25,完成点C的三面投影。（10分）",
+        "heading": "一、已知直线AB的两面投影。（1）完成其第三面投影；（2）设直线AB上一点",
+        "points_candidates": [
+          "10"
+        ],
+        "category": "补视图与补线",
+        "pages": [
+          33
+        ],
+        "subparts": [],
+        "regions": [
+          {
+            "page": 33,
+            "box_normalized": [
+              0.03,
+              0.24147632614299266,
+              0.97,
+              0.5791006647673315
+            ],
+            "image": "题图/t07-q01-p33.png"
+          }
+        ],
+        "status": "题干已提取；原图已归档；几何与答案另行核验",
+        "score_mentions": [
+          {
+            "value": 10,
+            "context": "C距H面25,完成点C的三面投影。（10分）"
+          }
+        ],
+        "total_points": 10,
+        "subquestions": [
+          {
+            "id": "t07-q01-s01",
+            "number": 1,
+            "page": 33,
+            "marker_bbox_pt": [
+              56.64,
+              183.8889999999999,
+              464.64,
+              195.8889999999999
+            ],
+            "text_candidate": "一、已知直线AB的两面投影。（1）完成其第三面投影；（2）设直线AB上一点",
+            "figure_region": "题图/t07-q01-p33.png",
+            "status": "原文定位；图形小题共享本大题裁切"
+          },
+          {
+            "id": "t07-q01-s02",
+            "number": 2,
+            "page": 33,
+            "text_candidate": "（2）设直线AB上一点",
+            "figure_region": "题图/t07-q01-p33.png",
+            "position_region": [
+              0.03,
+              0.24147632614299266,
+              0.97,
+              0.5791006647673315
+            ],
+            "status": "行内小题；用对应原文字框定位"
+          }
+        ],
+        "recognition_candidates": [
+          {
+            "page": 33,
+            "cache": "ocr原始/p33.json",
+            "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+          }
+        ],
+        "pending_checks": [],
+        "teaching_assumptions": [],
+        "verified_facts": {
+          "pdf_pages": [
+            33
+          ],
+          "question_number": 1,
+          "answer_removed_by_user": true
+        }
+      },
+      {
+        "id": "t07-q02",
+        "paper": 7,
+        "question": 2,
+        "task": "二、作一直线MN，使MN//AB,且与直线CD、EF相交。（10分）",
+        "heading": "二、作一直线MN，使MN//AB,且与直线CD、EF相交。（10分）",
+        "points_candidates": [
+          "10"
+        ],
+        "category": "点线面投影",
+        "pages": [
+          33
+        ],
+        "subparts": [],
+        "regions": [
+          {
+            "page": 33,
+            "box_normalized": [
+              0.03,
+              0.5801006647673315,
+              0.97,
+              0.98
+            ],
+            "image": "题图/t07-q02-p33.png"
+          }
+        ],
+        "status": "题干已提取；原图已归档；几何与答案另行核验",
+        "score_mentions": [
+          {
+            "value": 10,
+            "context": "二、作一直线MN，使MN//AB,且与直线CD、EF相交。（10分）"
+          }
+        ],
+        "total_points": 10,
+        "subquestions": [],
+        "recognition_candidates": [
+          {
+            "page": 33,
+            "cache": "ocr原始/p33.json",
+            "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+          }
+        ],
+        "pending_checks": [],
+        "teaching_assumptions": [],
+        "verified_facts": {
+          "pdf_pages": [
+            33
+          ],
+          "question_number": 2,
+          "answer_removed_by_user": true
+        }
+      },
+      {
+        "id": "t08-q02",
+        "paper": 8,
+        "question": 2,
+        "task": "二、过已知点作直线。（10分）\n（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，\n交点B距V面为10。",
+        "heading": "二、过已知点作直线。（10分）",
+        "points_candidates": [
+          "10"
+        ],
+        "category": "点线面投影",
+        "pages": [
+          38
+        ],
+        "subparts": [
+          "（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，"
+        ],
+        "regions": [
+          {
+            "page": 38,
+            "box_normalized": [
+              0.03,
+              0.5589366436033103,
+              0.97,
+              0.98
+            ],
+            "image": "题图/t08-q02-p38.png"
+          }
+        ],
+        "status": "题干已提取；原图已归档；几何与答案另行核验",
+        "score_mentions": [
+          {
+            "value": 10,
+            "context": "二、过已知点作直线。（10分）"
+          }
+        ],
+        "total_points": 10,
+        "subquestions": [
+          {
+            "id": "t08-q02-s01",
+            "number": 1,
+            "page": 38,
+            "marker_bbox_pt": [
+              56.64,
+              433.48900000000003,
+              260.64,
+              445.48900000000003
+            ],
+            "text_candidate": "（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，",
+            "figure_region": "题图/t08-q02-p38.png",
+            "status": "原文定位；图形小题共享本大题裁切"
+          },
+          {
+            "id": "t08-q02-s02",
+            "number": 2,
+            "page": 38,
+            "marker_bbox_pt": [
+              266.64,
+              433.48900000000003,
+              470.64,
+              445.48900000000003
+            ],
+            "text_candidate": "（2）过A点作一直线与直线EF相交，",
+            "figure_region": "题图/t08-q02-p38.png",
+            "status": "原文定位；图形小题共享本大题裁切"
+          }
+        ],
+        "recognition_candidates": [
+          {
+            "page": 38,
+            "cache": "ocr原始/p38.json",
+            "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+          }
+        ],
+        "pending_checks": [],
+        "teaching_assumptions": [],
+        "verified_facts": {
+          "pdf_pages": [
+            38
+          ],
+          "question_number": 2,
+          "answer_removed_by_user": true
+        }
+      }
+    ],
+    "excluded_topics": [
+      "侧平线",
+      "侧垂线",
+      "一般位置线求实长",
+      "平面章节完整作图"
+    ],
+    "teaching_note": "除读取原points/line模型的场景外，所有端点为教学参数。仅题给比例、距离及水平线实长/夹角作为原题条件，示意不冒充无尺寸题图的标准答案。"
+  },
+  "beginner_review": {
+    "date": "2026-10-25",
+    "chapter": "line",
+    "scope": "concept"
+  }
+}
