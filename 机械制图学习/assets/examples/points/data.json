@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "example_version": 1,
+  "id": "points",
+  "title": "两点的三面投影",
+  "abstract": true,
+  "units": "mm",
+  "coordinates": "Blender x right, y back, z up; Godot=(x,z,-y)",
+  "source": {
+    "paper": 1,
+    "pdf_page": 1,
+    "question_id": "t01-q01",
+    "crop": [
+      0.07,
+      0.18,
+      0.93,
+      0.53
+    ],
+    "image": "assets/source/points.png",
+    "pdf_sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c"
+  },
+  "confirmed_facts": [
+    "A距H12、V15、W10",
+    "B相对A：左5、后10、上8"
+  ],
+  "parameters": {
+    "points_mm": {
+      "A": [
+        -10,
+        -15,
+        12
+      ],
+      "B": [
+        -15,
+        -5,
+        20
+      ]
+    }
+  },
+  "teaching_assumptions": [],
+  "features": [
+    {
+      "id": "A",
+      "name": "A 点",
+      "explanation": "空间点 A；选择任一投影能找到同一个空间点。",
+      "points": [
+        [
+          -10,
+          -15,
+          12
+        ]
+      ],
+      "kind": "point"
+    },
+    {
+      "id": "B",
+      "name": "B 点",
+      "explanation": "空间点 B；选择任一投影能找到同一个空间点。",
+      "points": [
+        [
+          -15,
+          -5,
+          20
+        ]
+      ],
+      "kind": "point"
+    }
+  ],
+  "curves": [],
+  "bounds": [
+    [
+      -15,
+      0
+    ],
+    [
+      -15,
+      0
+    ],
+    [
+      0,
+      20
+    ]
+  ],
+  "views": {
+    "front": {
+      "segments": [],
+      "points": [
+        {
+          "feature": "A",
+          "label": "A",
+          "uv": [
+            -10,
+            12
+          ],
+          "world": [
+            -10,
+            -15,
+            12
+          ]
+        },
+        {
+          "feature": "B",
+          "label": "B",
+          "uv": [
+            -15,
+            20
+          ],
+          "world": [
+            -15,
+            -5,
+            20
+          ]
+        }
+      ]
+    },
+    "top": {
+      "segments": [],
+      "points": [
+        {
+          "feature": "A",
+          "label": "A",
+          "uv": [
+            -10,
+            -15
+          ],
+          "world": [
+            -10,
+            -15,
+            12
+          ]
+        },
+        {
+          "feature": "B",
+          "label": "B",
+          "uv": [
+            -15,
+            -5
+          ],
+          "world": [
+            -15,
+            -5,
+            20
+          ]
+        }
+      ]
+    },
+    "left": {
+      "segments": [],
+      "points": [
+        {
+          "feature": "A",
+          "label": "A",
+          "uv": [
+            15,
+            12
+          ],
+          "world": [
+            -10,
+            -15,
+            12
+          ]
+        },
+        {
+          "feature": "B",
+          "label": "B",
+          "uv": [
+            5,
+            20
+          ],
+          "world": [
+            -15,
+            -5,
+            20
+          ]
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "title": "先认识三个投影面",
+      "text": "H 是水平面，V 是正面，W 是侧面。点的位置由到三个面的距离共同确定。",
+      "feature": "A",
+      "unfold": 0
+    },
+    {
+      "title": "放置 A、B 两点",
+      "text": "A 距 H/V/W 分别为 12/15/10；B 在 A 左方5、后方10、上方8。左方改变左右坐标，后方改变深度，上方改变高度。",
+      "feature": "B",
+      "unfold": 0
+    },
+    {
+      "title": "沿垂直方向投影",
+      "text": "从空间点向每个投影面作垂线。投影丢掉垂直于该面的坐标，因此同一个点出现三个投影。",
+      "feature": "A",
+      "unfold": 0
+    },
+    {
+      "title": "展开 H、W 面",
+      "text": "将 H 面绕与 V 面的交线转下，将 W 面转向右侧。空间投影变成一张图纸上的三个区域。",
+      "feature": "A",
+      "unfold": 1
+    },
+    {
+      "title": "核对点的位置",
+      "text": "正面投影看左右与高度；水平投影看左右与前后；侧面投影看前后与高度。A、B 的位置关系可以逐项核对。",
+      "feature": "B",
+      "unfold": 1
+    }
+  ],
+  "objects": [
+    {
+      "name": "A",
+      "part_id": "A"
+    },
+    {
+      "name": "B",
+      "part_id": "B"
+    }
+  ],
+  "answer_source": "08sd1.doc答案第7页",
+  "verification": "程序几何核验；原题/答案对照及真实UI结果见qa与覆盖记录",
+  "center_marks": []
+}

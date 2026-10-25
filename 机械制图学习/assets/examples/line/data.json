@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "example_version": 1,
+  "id": "line",
+  "title": "水平线的三面投影",
+  "abstract": true,
+  "units": "mm",
+  "coordinates": "Blender x right, y back, z up; Godot=(x,z,-y)",
+  "source": {
+    "paper": 2,
+    "pdf_page": 7,
+    "question_id": "t02-q01",
+    "crop": [
+      0.07,
+      0.18,
+      0.93,
+      0.48
+    ],
+    "image": "assets/source/line.png",
+    "pdf_sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c"
+  },
+  "confirmed_facts": [
+    "A距H15、V5、W10",
+    "AB水平，实长30，与V夹角30°，B位于A左前方"
+  ],
+  "parameters": {
+    "A": [
+      -10,
+      -5,
+      15
+    ],
+    "B": [
+      -35.98076211353316,
+      -20,
+      15
+    ],
+    "length_mm": 30,
+    "angle_to_V_deg": 30
+  },
+  "teaching_assumptions": [],
+  "features": [
+    {
+      "id": "A",
+      "name": "A 点",
+      "explanation": "起点位置由三面距离确定。",
+      "points": [
+        [
+          -10,
+          -5,
+          15
+        ]
+      ],
+      "kind": "point"
+    },
+    {
+      "id": "B",
+      "name": "B 点",
+      "explanation": "与 A 等高，向左25.98、向前15。",
+      "points": [
+        [
+          -35.98076211353316,
+          -20,
+          15
+        ]
+      ],
+      "kind": "point"
+    },
+    {
+      "id": "AB",
+      "name": "水平线 AB",
+      "explanation": "与 H 平行；水平投影显实长，另两投影水平但缩短。",
+      "points": [
+        [
+          -10,
+          -5,
+          15
+        ],
+        [
+          -35.98076211353316,
+          -20,
+          15
+        ]
+      ],
+      "kind": "edge"
+    }
+  ],
+  "curves": [
+    {
+      "id": "AB",
+      "name": "水平线 AB",
+      "explanation": "与 H 平行；水平投影显实长，另两投影水平但缩短。",
+      "points": [
+        [
+          -10,
+          -5,
+          15
+        ],
+        [
+          -35.98076211353316,
+          -20,
+          15
+        ]
+      ],
+      "kind": "edge"
+    }
+  ],
+  "bounds": [
+    [
+      -35.98076211353316,
+      0
+    ],
+    [
+      -20,
+      0
+    ],
+    [
+      0,
+      15
+    ]
+  ],
+  "views": {
+    "front": {
+      "segments": [
+        {
+          "a": [
+            -10.0,
+            15.0
+          ],
+          "b": [
+            -35.98076248168945,
+            15.0
+          ],
+          "world_a": [
+            -10.0,
+            -5.0,
+            15.0
+          ],
+          "world_b": [
+            -35.98076248168945,
+            -20.0,
+            15.0
+          ],
+          "feature": "AB",
+          "hidden": false
+        }
+      ],
+      "points": [
+        {
+          "feature": "A",
+          "label": "A",
+          "uv": [
+            -10,
+            15
+          ],
+          "world": [
+            -10,
+            -5,
+            15
+          ]
+        },
+        {
+          "feature": "B",
+          "label": "B",
+          "uv": [
+            -35.98076211353316,
+            15
+          ],
+          "world": [
+            -35.98076211353316,
+            -20,
+            15
+          ]
+        }
+      ]
+    },
+    "top": {
+      "segments": [
+        {
+          "a": [
+            -10.0,
+            -5.0
+          ],
+          "b": [
+            -35.98076248168945,
+            -20.0
+          ],
+          "world_a": [
+            -10.0,
+            -5.0,
+            15.0
+          ],
+          "world_b": [
+            -35.98076248168945,
+            -20.0,
+            15.0
+          ],
+          "feature": "AB",
+          "hidden": false
+        }
+      ],
+      "points": [
+        {
+          "feature": "A",
+          "label": "A",
+          "uv": [
+            -10,
+            -5
+          ],
+          "world": [
+            -10,
+            -5,
+            15
+          ]
+        },
+        {
+          "feature": "B",
+          "label": "B",
+          "uv": [
+            -35.98076211353316,
+            -20
+          ],
+          "world": [
+            -35.98076211353316,
+            -20,
+            15
+          ]
+        }
+      ]
+    },
+    "left": {
+      "segments": [
+        {
+          "a": [
+            5.0,
+            15.0
+          ],
+          "b": [
+            20.0,
+            15.0
+          ],
+          "world_a": [
+            -10.0,
+            -5.0,
+            15.0
+          ],
+          "world_b": [
+            -35.98076248168945,
+            -20.0,
+            15.0
+          ],
+          "feature": "AB",
+          "hidden": false
+        }
+      ],
+      "points": [
+        {
+          "feature": "A",
+          "label": "A",
+          "uv": [
+            5,
+            15
+          ],
+          "world": [
+            -10,
+            -5,
+            15
+          ]
+        },
+        {
+          "feature": "B",
+          "label": "B",
+          "uv": [
+            20,
+            15
+          ],
+          "world": [
+            -35.98076211353316,
+            -20,
+            15
+          ]
+        }
+      ]
+    }
+  },
+  "lessons": [
+    {
+      "title": "水平线是什么",
+      "text": "AB 平行 H 面，两端高度相同，均为15。它并不同时平行 V 面。",
+      "feature": "AB",
+      "unfold": 0
+    },
+    {
+      "title": "实长与方向",
+      "text": "水平投影保留线段实长30。AB 与 V 面夹角30°，B 在 A 左前方，所以沿左方和前方共同移动。",
+      "feature": "AB",
+      "unfold": 0
+    },
+    {
+      "title": "分别投向三个面",
+      "text": "正面与侧面投影都成为水平线，但一般短于实长。不要把正面投影长度直接当成 AB 的空间长度。",
+      "feature": "AB",
+      "unfold": 0
+    },
+    {
+      "title": "展开投影面",
+      "text": "展开后，正面、水平投影的同名端点长对正；正面与侧面的同名端点高平齐。",
+      "feature": "AB",
+      "unfold": 1
+    },
+    {
+      "title": "用数量关系复核",
+      "text": "左右差=30cos30°≈25.98，前后差=30sin30°=15，高度差=0。三份投影来自同一组端点。",
+      "feature": "B",
+      "unfold": 1
+    }
+  ],
+  "objects": [
+    {
+      "name": "A",
+      "part_id": "A"
+    },
+    {
+      "name": "B",
+      "part_id": "B"
+    },
+    {
+      "name": "AB",
+      "part_id": "AB"
+    }
+  ],
+  "answer_source": "08sd2.doc答案第6页",
+  "verification": "程序几何核验；原题/答案对照及真实UI结果见qa与覆盖记录",
+  "center_marks": []
+}
