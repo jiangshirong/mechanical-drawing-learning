@@ -1,0 +1,419 @@
+{
+  "pdf_page": 17,
+  "paper": 3,
+  "width_pt": 521.65,
+  "height_pt": 737.1,
+  "text": "第 6 页 共 12页",
+  "chars": [
+    {
+      "text": "第",
+      "bbox": [
+        234.12,
+        677.15,
+        243.12,
+        686.15
+      ]
+    },
+    {
+      "text": "6",
+      "bbox": [
+        247.68,
+        678.523,
+        252.18,
+        687.523
+      ]
+    },
+    {
+      "text": "页",
+      "bbox": [
+        256.68,
+        677.15,
+        265.68,
+        686.15
+      ]
+    },
+    {
+      "text": "共",
+      "bbox": [
+        270.12,
+        677.15,
+        279.12,
+        686.15
+      ]
+    },
+    {
+      "text": "1",
+      "bbox": [
+        283.68,
+        678.523,
+        288.18,
+        687.523
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        288.2394,
+        678.523,
+        292.7394,
+        687.523
+      ]
+    },
+    {
+      "text": "页",
+      "bbox": [
+        292.68,
+        677.15,
+        301.68,
+        686.15
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "第",
+      "x0": 234.12,
+      "x1": 243.12,
+      "top": 677.15,
+      "doctop": 12470.750000000004,
+      "bottom": 686.15,
+      "upright": true,
+      "height": 9.0,
+      "width": 9.0,
+      "direction": "ltr"
+    },
+    {
+      "text": "6",
+      "x0": 247.68,
+      "x1": 252.18,
+      "top": 678.523,
+      "doctop": 12472.123000000003,
+      "bottom": 687.523,
+      "upright": true,
+      "height": 9.0,
+      "width": 4.5,
+      "direction": "ltr"
+    },
+    {
+      "text": "页",
+      "x0": 256.68,
+      "x1": 265.68,
+      "top": 677.15,
+      "doctop": 12470.750000000004,
+      "bottom": 686.15,
+      "upright": true,
+      "height": 9.0,
+      "width": 9.0,
+      "direction": "ltr"
+    },
+    {
+      "text": "共",
+      "x0": 270.12,
+      "x1": 279.12,
+      "top": 677.15,
+      "doctop": 12470.750000000004,
+      "bottom": 686.15,
+      "upright": true,
+      "height": 9.0,
+      "width": 9.0,
+      "direction": "ltr"
+    },
+    {
+      "text": "12页",
+      "x0": 283.68,
+      "x1": 301.68,
+      "top": 677.15,
+      "doctop": 12470.750000000004,
+      "bottom": 687.523,
+      "upright": true,
+      "height": 10.373000000000047,
+      "width": 18.0,
+      "direction": "ltr"
+    }
+  ],
+  "lines": [
+    {
+      "text": "第 6 页 共 12页",
+      "x0": 234.12,
+      "top": 677.15,
+      "x1": 301.68,
+      "bottom": 687.523,
+      "chars": [
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            234.12,
+            52.210000000000036
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 180.0,
+          "upright": true,
+          "x0": 234.12,
+          "y0": 50.95000000000004,
+          "x1": 243.12,
+          "y1": 59.95000000000004,
+          "width": 9.0,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 17,
+          "ncs": "DeviceRGB",
+          "text": "第",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 677.15,
+          "bottom": 686.15,
+          "doctop": 12470.750000000004
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            247.68,
+            52.33100000000002
+          ],
+          "fontname": "AUWCNV+TimesNewRomanPSMT",
+          "adv": 90.0,
+          "upright": true,
+          "x0": 247.68,
+          "y0": 49.57700000000002,
+          "x1": 252.18,
+          "y1": 58.57700000000002,
+          "width": 4.5,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 17,
+          "ncs": "DeviceRGB",
+          "text": "6",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 678.523,
+          "bottom": 687.523,
+          "doctop": 12472.123000000003
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            256.68,
+            52.210000000000036
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 180.0,
+          "upright": true,
+          "x0": 256.68,
+          "y0": 50.95000000000004,
+          "x1": 265.68,
+          "y1": 59.95000000000004,
+          "width": 9.0,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 17,
+          "ncs": "DeviceRGB",
+          "text": "页",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 677.15,
+          "bottom": 686.15,
+          "doctop": 12470.750000000004
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            270.12,
+            52.210000000000036
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 180.0,
+          "upright": true,
+          "x0": 270.12,
+          "y0": 50.95000000000004,
+          "x1": 279.12,
+          "y1": 59.95000000000004,
+          "width": 9.0,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 17,
+          "ncs": "DeviceRGB",
+          "text": "共",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 677.15,
+          "bottom": 686.15,
+          "doctop": 12470.750000000004
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            283.68,
+            52.33100000000002
+          ],
+          "fontname": "AUWCNV+TimesNewRomanPSMT",
+          "adv": 90.0,
+          "upright": true,
+          "x0": 283.68,
+          "y0": 49.57700000000002,
+          "x1": 288.18,
+          "y1": 58.57700000000002,
+          "width": 4.5,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 17,
+          "ncs": "DeviceRGB",
+          "text": "1",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 678.523,
+          "bottom": 687.523,
+          "doctop": 12472.123000000003
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            288.2394,
+            52.33100000000002
+          ],
+          "fontname": "AUWCNV+TimesNewRomanPSMT",
+          "adv": 90.0,
+          "upright": true,
+          "x0": 288.2394,
+          "y0": 49.57700000000002,
+          "x1": 292.7394,
+          "y1": 58.57700000000002,
+          "width": 4.5,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 17,
+          "ncs": "DeviceRGB",
+          "text": "2",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 678.523,
+          "bottom": 687.523,
+          "doctop": 12472.123000000003
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            292.68,
+            52.210000000000036
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 180.0,
+          "upright": true,
+          "x0": 292.68,
+          "y0": 50.95000000000004,
+          "x1": 301.68,
+          "y1": 59.95000000000004,
+          "width": 9.0,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 17,
+          "ncs": "DeviceRGB",
+          "text": "页",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 677.15,
+          "bottom": 686.15,
+          "doctop": 12470.750000000004
+        }
+      ]
+    }
+  ],
+  "review_status": "文字提取；题干经浏览核对，尺寸符号仍逐题核验"
+}

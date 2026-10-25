@@ -1,0 +1,2861 @@
+{
+  "pdf_page": 9,
+  "paper": 2,
+  "width_pt": 521.65,
+  "height_pt": 737.1,
+  "text": "四、在指定位置将主视图画成全剖视图。(12分)\n五、在指定位置画出移出断面图(键槽深3mm)。(8分)\n第 3 页 共 11页",
+  "chars": [
+    {
+      "text": "第",
+      "bbox": [
+        235.559,
+        677.15,
+        244.559,
+        686.15
+      ]
+    },
+    {
+      "text": "3",
+      "bbox": [
+        249.0,
+        678.523,
+        253.5,
+        687.523
+      ]
+    },
+    {
+      "text": "页",
+      "bbox": [
+        258.0,
+        677.15,
+        267.0,
+        686.15
+      ]
+    },
+    {
+      "text": "共",
+      "bbox": [
+        271.559,
+        677.15,
+        280.559,
+        686.15
+      ]
+    },
+    {
+      "text": "1",
+      "bbox": [
+        285.0,
+        678.523,
+        289.5,
+        687.523
+      ]
+    },
+    {
+      "text": "1",
+      "bbox": [
+        289.5594,
+        678.523,
+        294.0594,
+        687.523
+      ]
+    },
+    {
+      "text": "页",
+      "bbox": [
+        294.0,
+        677.15,
+        303.0,
+        686.15
+      ]
+    },
+    {
+      "text": "四",
+      "bbox": [
+        56.64,
+        64.13,
+        68.64,
+        76.13
+      ]
+    },
+    {
+      "text": "、",
+      "bbox": [
+        68.64,
+        64.13,
+        80.64,
+        76.13
+      ]
+    },
+    {
+      "text": "在",
+      "bbox": [
+        80.64,
+        64.13,
+        92.64,
+        76.13
+      ]
+    },
+    {
+      "text": "指",
+      "bbox": [
+        92.64,
+        64.13,
+        104.64,
+        76.13
+      ]
+    },
+    {
+      "text": "定",
+      "bbox": [
+        104.64,
+        64.13,
+        116.64,
+        76.13
+      ]
+    },
+    {
+      "text": "位",
+      "bbox": [
+        116.64,
+        64.13,
+        128.64,
+        76.13
+      ]
+    },
+    {
+      "text": "置",
+      "bbox": [
+        128.64,
+        64.13,
+        140.64,
+        76.13
+      ]
+    },
+    {
+      "text": "将",
+      "bbox": [
+        140.64,
+        64.13,
+        152.64,
+        76.13
+      ]
+    },
+    {
+      "text": "主",
+      "bbox": [
+        152.64,
+        64.13,
+        164.64,
+        76.13
+      ]
+    },
+    {
+      "text": "视",
+      "bbox": [
+        164.64,
+        64.13,
+        176.64,
+        76.13
+      ]
+    },
+    {
+      "text": "图",
+      "bbox": [
+        176.64,
+        64.13,
+        188.64,
+        76.13
+      ]
+    },
+    {
+      "text": "画",
+      "bbox": [
+        188.64,
+        64.13,
+        200.64,
+        76.13
+      ]
+    },
+    {
+      "text": "成",
+      "bbox": [
+        200.64,
+        64.13,
+        212.64,
+        76.13
+      ]
+    },
+    {
+      "text": "全",
+      "bbox": [
+        212.64,
+        64.13,
+        224.64,
+        76.13
+      ]
+    },
+    {
+      "text": "剖",
+      "bbox": [
+        224.64,
+        64.13,
+        236.64,
+        76.13
+      ]
+    },
+    {
+      "text": "视",
+      "bbox": [
+        236.64,
+        64.13,
+        248.64,
+        76.13
+      ]
+    },
+    {
+      "text": "图",
+      "bbox": [
+        248.64,
+        64.13,
+        260.64,
+        76.13
+      ]
+    },
+    {
+      "text": "。",
+      "bbox": [
+        260.64,
+        64.13,
+        272.64,
+        76.13
+      ]
+    },
+    {
+      "text": "(",
+      "bbox": [
+        272.64,
+        64.13,
+        278.64,
+        76.13
+      ]
+    },
+    {
+      "text": "1",
+      "bbox": [
+        278.64,
+        64.13,
+        284.64,
+        76.13
+      ]
+    },
+    {
+      "text": "2",
+      "bbox": [
+        284.64,
+        64.13,
+        290.64,
+        76.13
+      ]
+    },
+    {
+      "text": "分",
+      "bbox": [
+        293.64,
+        64.13,
+        305.64,
+        76.13
+      ]
+    },
+    {
+      "text": ")",
+      "bbox": [
+        305.64,
+        64.13,
+        311.64,
+        76.13
+      ]
+    },
+    {
+      "text": "五",
+      "bbox": [
+        56.64,
+        411.77,
+        68.64,
+        423.77
+      ]
+    },
+    {
+      "text": "、",
+      "bbox": [
+        68.64,
+        411.77,
+        80.64,
+        423.77
+      ]
+    },
+    {
+      "text": "在",
+      "bbox": [
+        80.64,
+        411.77,
+        92.64,
+        423.77
+      ]
+    },
+    {
+      "text": "指",
+      "bbox": [
+        92.64,
+        411.77,
+        104.64,
+        423.77
+      ]
+    },
+    {
+      "text": "定",
+      "bbox": [
+        104.64,
+        411.77,
+        116.64,
+        423.77
+      ]
+    },
+    {
+      "text": "位",
+      "bbox": [
+        116.64,
+        411.77,
+        128.64,
+        423.77
+      ]
+    },
+    {
+      "text": "置",
+      "bbox": [
+        128.64,
+        411.77,
+        140.64,
+        423.77
+      ]
+    },
+    {
+      "text": "画",
+      "bbox": [
+        140.64,
+        411.77,
+        152.64,
+        423.77
+      ]
+    },
+    {
+      "text": "出",
+      "bbox": [
+        152.64,
+        411.77,
+        164.64,
+        423.77
+      ]
+    },
+    {
+      "text": "移",
+      "bbox": [
+        164.64,
+        411.77,
+        176.64,
+        423.77
+      ]
+    },
+    {
+      "text": "出",
+      "bbox": [
+        176.64,
+        411.77,
+        188.64,
+        423.77
+      ]
+    },
+    {
+      "text": "断",
+      "bbox": [
+        188.64,
+        411.77,
+        200.64,
+        423.77
+      ]
+    },
+    {
+      "text": "面",
+      "bbox": [
+        200.64,
+        411.77,
+        212.64,
+        423.77
+      ]
+    },
+    {
+      "text": "图",
+      "bbox": [
+        212.64,
+        411.77,
+        224.64,
+        423.77
+      ]
+    },
+    {
+      "text": "(",
+      "bbox": [
+        224.64,
+        411.77,
+        230.64,
+        423.77
+      ]
+    },
+    {
+      "text": "键",
+      "bbox": [
+        230.64,
+        411.77,
+        242.64,
+        423.77
+      ]
+    },
+    {
+      "text": "槽",
+      "bbox": [
+        242.64,
+        411.77,
+        254.64,
+        423.77
+      ]
+    },
+    {
+      "text": "深",
+      "bbox": [
+        254.64,
+        411.77,
+        266.64,
+        423.77
+      ]
+    },
+    {
+      "text": "3",
+      "bbox": [
+        269.64,
+        411.77,
+        275.64,
+        423.77
+      ]
+    },
+    {
+      "text": "m",
+      "bbox": [
+        275.64,
+        411.77,
+        281.64,
+        423.77
+      ]
+    },
+    {
+      "text": "m",
+      "bbox": [
+        281.64,
+        411.77,
+        287.64,
+        423.77
+      ]
+    },
+    {
+      "text": ")",
+      "bbox": [
+        287.64,
+        411.77,
+        293.64,
+        423.77
+      ]
+    },
+    {
+      "text": "。",
+      "bbox": [
+        293.64,
+        411.77,
+        305.64,
+        423.77
+      ]
+    },
+    {
+      "text": "(",
+      "bbox": [
+        305.64,
+        411.77,
+        311.64,
+        423.77
+      ]
+    },
+    {
+      "text": "8",
+      "bbox": [
+        311.64,
+        411.77,
+        317.64,
+        423.77
+      ]
+    },
+    {
+      "text": "分",
+      "bbox": [
+        320.64,
+        411.77,
+        332.64,
+        423.77
+      ]
+    },
+    {
+      "text": ")",
+      "bbox": [
+        332.64,
+        411.77,
+        338.64,
+        423.77
+      ]
+    }
+  ],
+  "words": [
+    {
+      "text": "四、在指定位置将主视图画成全剖视图。(12分)",
+      "x0": 56.64,
+      "x1": 311.64,
+      "top": 64.13,
+      "doctop": 5960.930000000001,
+      "bottom": 76.13,
+      "upright": true,
+      "height": 12.0,
+      "width": 255.0,
+      "direction": "ltr"
+    },
+    {
+      "text": "五、在指定位置画出移出断面图(键槽深3mm)。(8分)",
+      "x0": 56.64,
+      "x1": 338.64,
+      "top": 411.77,
+      "doctop": 6308.5700000000015,
+      "bottom": 423.77,
+      "upright": true,
+      "height": 12.0,
+      "width": 282.0,
+      "direction": "ltr"
+    },
+    {
+      "text": "第",
+      "x0": 235.559,
+      "x1": 244.559,
+      "top": 677.15,
+      "doctop": 6573.950000000001,
+      "bottom": 686.15,
+      "upright": true,
+      "height": 9.0,
+      "width": 9.0,
+      "direction": "ltr"
+    },
+    {
+      "text": "3",
+      "x0": 249.0,
+      "x1": 253.5,
+      "top": 678.523,
+      "doctop": 6575.323000000001,
+      "bottom": 687.523,
+      "upright": true,
+      "height": 9.0,
+      "width": 4.5,
+      "direction": "ltr"
+    },
+    {
+      "text": "页",
+      "x0": 258.0,
+      "x1": 267.0,
+      "top": 677.15,
+      "doctop": 6573.950000000001,
+      "bottom": 686.15,
+      "upright": true,
+      "height": 9.0,
+      "width": 9.0,
+      "direction": "ltr"
+    },
+    {
+      "text": "共",
+      "x0": 271.559,
+      "x1": 280.559,
+      "top": 677.15,
+      "doctop": 6573.950000000001,
+      "bottom": 686.15,
+      "upright": true,
+      "height": 9.0,
+      "width": 9.0,
+      "direction": "ltr"
+    },
+    {
+      "text": "11页",
+      "x0": 285.0,
+      "x1": 303.0,
+      "top": 677.15,
+      "doctop": 6573.950000000001,
+      "bottom": 687.523,
+      "upright": true,
+      "height": 10.373000000000047,
+      "width": 18.0,
+      "direction": "ltr"
+    }
+  ],
+  "lines": [
+    {
+      "text": "四、在指定位置将主视图画成全剖视图。(12分)",
+      "x0": 56.64,
+      "top": 64.13,
+      "x1": 311.64,
+      "bottom": 76.13,
+      "chars": [
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            56.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 56.64,
+          "y0": 660.97,
+          "x1": 68.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "四",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            68.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 68.64,
+          "y0": 660.97,
+          "x1": 80.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "、",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            80.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 80.64,
+          "y0": 660.97,
+          "x1": 92.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "在",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            92.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 92.64,
+          "y0": 660.97,
+          "x1": 104.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "指",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            104.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 104.64,
+          "y0": 660.97,
+          "x1": 116.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "定",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            116.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 116.64,
+          "y0": 660.97,
+          "x1": 128.64,
+          "y1": 672.97,
+          "width": 11.999999999999986,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "位",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            128.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 128.64,
+          "y0": 660.97,
+          "x1": 140.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "置",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            140.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 140.64,
+          "y0": 660.97,
+          "x1": 152.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "将",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            152.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 152.64,
+          "y0": 660.97,
+          "x1": 164.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "主",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            164.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 164.64,
+          "y0": 660.97,
+          "x1": 176.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "视",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            176.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 176.64,
+          "y0": 660.97,
+          "x1": 188.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "图",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            188.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 188.64,
+          "y0": 660.97,
+          "x1": 200.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "画",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            200.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 200.64,
+          "y0": 660.97,
+          "x1": 212.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "成",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            212.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 212.64,
+          "y0": 660.97,
+          "x1": 224.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "全",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            224.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 224.64,
+          "y0": 660.97,
+          "x1": 236.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "剖",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            236.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 236.64,
+          "y0": 660.97,
+          "x1": 248.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "视",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            248.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 248.64,
+          "y0": 660.97,
+          "x1": 260.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "图",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            260.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 260.64,
+          "y0": 660.97,
+          "x1": 272.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "。",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            272.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 272.64,
+          "y0": 660.97,
+          "x1": 278.64,
+          "y1": 672.97,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "(",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            278.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 278.64,
+          "y0": 660.97,
+          "x1": 284.64,
+          "y1": 672.97,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "1",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            284.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 284.64,
+          "y0": 660.97,
+          "x1": 290.64,
+          "y1": 672.97,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "2",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            293.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 293.64,
+          "y0": 660.97,
+          "x1": 305.64,
+          "y1": 672.97,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "分",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            305.64,
+            662.65
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 305.64,
+          "y0": 660.97,
+          "x1": 311.64,
+          "y1": 672.97,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": ")",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 64.13,
+          "bottom": 76.13,
+          "doctop": 5960.930000000001
+        }
+      ]
+    },
+    {
+      "text": "五、在指定位置画出移出断面图(键槽深3mm)。(8分)",
+      "x0": 56.64,
+      "top": 411.77,
+      "x1": 338.64,
+      "bottom": 423.77,
+      "chars": [
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            56.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 56.64,
+          "y0": 313.33000000000004,
+          "x1": 68.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "五",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            68.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 68.64,
+          "y0": 313.33000000000004,
+          "x1": 80.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "、",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            80.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 80.64,
+          "y0": 313.33000000000004,
+          "x1": 92.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "在",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            92.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 92.64,
+          "y0": 313.33000000000004,
+          "x1": 104.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "指",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            104.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 104.64,
+          "y0": 313.33000000000004,
+          "x1": 116.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "定",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            116.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 116.64,
+          "y0": 313.33000000000004,
+          "x1": 128.64,
+          "y1": 325.33000000000004,
+          "width": 11.999999999999986,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "位",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            128.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 128.64,
+          "y0": 313.33000000000004,
+          "x1": 140.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "置",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            140.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 140.64,
+          "y0": 313.33000000000004,
+          "x1": 152.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "画",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            152.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 152.64,
+          "y0": 313.33000000000004,
+          "x1": 164.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "出",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            164.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 164.64,
+          "y0": 313.33000000000004,
+          "x1": 176.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "移",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            176.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 176.64,
+          "y0": 313.33000000000004,
+          "x1": 188.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "出",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            188.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 188.64,
+          "y0": 313.33000000000004,
+          "x1": 200.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "断",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            200.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 200.64,
+          "y0": 313.33000000000004,
+          "x1": 212.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "面",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            212.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 212.64,
+          "y0": 313.33000000000004,
+          "x1": 224.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "图",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            224.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 224.64,
+          "y0": 313.33000000000004,
+          "x1": 230.64,
+          "y1": 325.33000000000004,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "(",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            230.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 230.64,
+          "y0": 313.33000000000004,
+          "x1": 242.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "键",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            242.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 242.64,
+          "y0": 313.33000000000004,
+          "x1": 254.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "槽",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            254.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 254.64,
+          "y0": 313.33000000000004,
+          "x1": 266.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "深",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            269.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 269.64,
+          "y0": 313.33000000000004,
+          "x1": 275.64,
+          "y1": 325.33000000000004,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "3",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            275.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 275.64,
+          "y0": 313.33000000000004,
+          "x1": 281.64,
+          "y1": 325.33000000000004,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "m",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            281.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 281.64,
+          "y0": 313.33000000000004,
+          "x1": 287.64,
+          "y1": 325.33000000000004,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "m",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            287.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 287.64,
+          "y0": 313.33000000000004,
+          "x1": 293.64,
+          "y1": 325.33000000000004,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": ")",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            293.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 293.64,
+          "y0": 313.33000000000004,
+          "x1": 305.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "。",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            305.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 305.64,
+          "y0": 313.33000000000004,
+          "x1": 311.64,
+          "y1": 325.33000000000004,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "(",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            311.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 311.64,
+          "y0": 313.33000000000004,
+          "x1": 317.64,
+          "y1": 325.33000000000004,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "8",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            320.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 240.0,
+          "upright": true,
+          "x0": 320.64,
+          "y0": 313.33000000000004,
+          "x1": 332.64,
+          "y1": 325.33000000000004,
+          "width": 12.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "分",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            332.64,
+            315.01000000000005
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 120.0,
+          "upright": true,
+          "x0": 332.64,
+          "y0": 313.33000000000004,
+          "x1": 338.64,
+          "y1": 325.33000000000004,
+          "width": 6.0,
+          "height": 12.0,
+          "size": 12.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": ")",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 411.77,
+          "bottom": 423.77,
+          "doctop": 6308.5700000000015
+        }
+      ]
+    },
+    {
+      "text": "第 3 页 共 11页",
+      "x0": 235.559,
+      "top": 677.15,
+      "x1": 303.0,
+      "bottom": 687.523,
+      "chars": [
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            235.559,
+            52.210000000000036
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 180.0,
+          "upright": true,
+          "x0": 235.559,
+          "y0": 50.95000000000004,
+          "x1": 244.559,
+          "y1": 59.95000000000004,
+          "width": 9.0,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "第",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 677.15,
+          "bottom": 686.15,
+          "doctop": 6573.950000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            249.0,
+            52.33100000000002
+          ],
+          "fontname": "AUWCNV+TimesNewRomanPSMT",
+          "adv": 90.0,
+          "upright": true,
+          "x0": 249.0,
+          "y0": 49.57700000000002,
+          "x1": 253.5,
+          "y1": 58.57700000000002,
+          "width": 4.5,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "3",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 678.523,
+          "bottom": 687.523,
+          "doctop": 6575.323000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            258.0,
+            52.210000000000036
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 180.0,
+          "upright": true,
+          "x0": 258.0,
+          "y0": 50.95000000000004,
+          "x1": 267.0,
+          "y1": 59.95000000000004,
+          "width": 9.0,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "页",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 677.15,
+          "bottom": 686.15,
+          "doctop": 6573.950000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            271.559,
+            52.210000000000036
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 180.0,
+          "upright": true,
+          "x0": 271.559,
+          "y0": 50.95000000000004,
+          "x1": 280.559,
+          "y1": 59.95000000000004,
+          "width": 9.0,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "共",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 677.15,
+          "bottom": 686.15,
+          "doctop": 6573.950000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            285.0,
+            52.33100000000002
+          ],
+          "fontname": "AUWCNV+TimesNewRomanPSMT",
+          "adv": 90.0,
+          "upright": true,
+          "x0": 285.0,
+          "y0": 49.57700000000002,
+          "x1": 289.5,
+          "y1": 58.57700000000002,
+          "width": 4.5,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "1",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 678.523,
+          "bottom": 687.523,
+          "doctop": 6575.323000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            289.5594,
+            52.33100000000002
+          ],
+          "fontname": "AUWCNV+TimesNewRomanPSMT",
+          "adv": 90.0,
+          "upright": true,
+          "x0": 289.5594,
+          "y0": 49.57700000000002,
+          "x1": 294.0594,
+          "y1": 58.57700000000002,
+          "width": 4.5,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "1",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 678.523,
+          "bottom": 687.523,
+          "doctop": 6575.323000000001
+        },
+        {
+          "matrix": [
+            0.05,
+            0.0,
+            0.0,
+            0.05,
+            294.0,
+            52.210000000000036
+          ],
+          "fontname": "LNUHNF+SimSun",
+          "adv": 180.0,
+          "upright": true,
+          "x0": 294.0,
+          "y0": 50.95000000000004,
+          "x1": 303.0,
+          "y1": 59.95000000000004,
+          "width": 9.0,
+          "height": 9.0,
+          "size": 9.0,
+          "mcid": null,
+          "tag": null,
+          "object_type": "char",
+          "page_number": 9,
+          "ncs": "DeviceRGB",
+          "text": "页",
+          "stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "non_stroking_color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "top": 677.15,
+          "bottom": 686.15,
+          "doctop": 6573.950000000001
+        }
+      ]
+    }
+  ],
+  "review_status": "文字提取；题干经浏览核对，尺寸符号仍逐题核验"
+}
