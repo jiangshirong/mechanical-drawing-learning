@@ -1,0 +1,681 @@
+[
+  {
+    "file": "beginner-intersection_solids_inner_both-surfaces-after-normal.png",
+    "observation": "公共点改选在可见的下方孔壁交接处；空间橙色点与三面投影相对应，能看见两条约束线在此相交。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/8ae38c0d108e-beginner-intersection_solids_inner_both-surfaces-after-normal.png",
+    "sha256": "8ae38c0d108e41f64cd41c5b7cd5798688d2943444cc4e229e40f7bdd852be56",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-section_half_cut-during-normal.png",
+    "observation": "自然动画中间态：真实四分之一沿对角方向移开，内部形状逐渐露出；已知投影保持。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/55f3e1ee0118-beginner-section_half_cut-during-normal.png",
+    "sha256": "55f3e1ee01181d66adc0e8bd6677bf593c4bf0e4c624e4d47f0f39773641adc3",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-section_half_outline-settled-normal.png",
+    "observation": "半剖结束：移去四分之一后的腔体可见，右侧只将侧视改为半外形半剖视，其余视图保持。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/42ab020e1cba-beginner-section_half_outline-settled-normal.png",
+    "sha256": "42ab020e1cbadeb8476201c8a010ed28bbe423bf66a17c3f8e5792de3c832fc2",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-basic_solids_cone_point-after-normal.png",
+    "observation": "圆锥的母线和同高度圆经过实际表面点，三维及三个投影中的位置对应。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/69727f3c88c5-beginner-basic_solids_cone_point-after-normal.png",
+    "sha256": "69727f3c88c5e018352a8e1b62bdf11f82ff0d588704202fd78d09c16a471d11",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-legacy_points_planes_names-settled-normal.png",
+    "observation": "命名解释出现在三个垂足均已画出后；A、a、a′、a″可逐一对应，正文不遮住对象。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/b90b947622b1-beginner-legacy_points_planes_names-settled-normal.png",
+    "sha256": "b90b947622b1a398f6bf7e69f9ea53e64b24d272e5890a302615f687219cfd72",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-legacy_line_intersection_both-clue-settled-normal.png",
+    "observation": "CD 正面积聚点 c′(d′) 清晰突出；句子解释为什么所求线必须经过这里，3D 及三面已知图均保持。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/749f40eab31d-beginner-legacy_line_intersection_both-clue-settled-normal.png",
+    "sha256": "749f40eab31d4f6dce70191357ef5ba75bd32e8b5927bf0ab89250f6f80b91e8",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-legacy_plane_in-point_level-during-normal.png",
+    "observation": "连续作线中间态先建立高度及两边交点，再同步向水平投影传递；当前短句和高度括号保持稳定。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/17ea4b7fbc76-beginner-legacy_plane_in-point_level-during-normal.png",
+    "sha256": "17ea4b7fbc76745f412751ebfaa48cf6bf703834d7c12ee684fb624aeaf6b948",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-legacy_plane_in-point_level-settled-normal.png",
+    "observation": "连续动作完成后，两面辅助线与空间 MN 均保留，P 的承载线已完整建立，无中途文字停顿。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/fe2c817f87da-beginner-legacy_plane_in-point_level-settled-normal.png",
+    "sha256": "fe2c817f87da566a55ec5564fb9f3f30c04f4ed7f4eba40f9d61647ef8400c7d",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-sheet-points-1-minimum.jpg",
+    "observation": "目的、命名及相对位移三个新衔接的最小窗口排版均能容纳；需要进一步清理继承的多余指示圈。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/18822c1d0467-beginner-sheet-points-1-minimum.jpg",
+    "sha256": "18822c1d04672df604b23ed7378793e904ec0fab2a686fa284960fa9ca255622",
+    "pixels": [
+      1200,
+      796
+    ],
+    "status": "修订前发现截图；继承的平面圈及未来B点圈已清理，另附最终复看。",
+    "superseded": true
+  },
+  {
+    "file": "beginner-sheet-line-1-minimum.jpg",
+    "observation": "承接端点知识与复合约束线索两个入口，文字和对应积聚点各有位置。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/15bd220e1857-beginner-sheet-line-1-minimum.jpg",
+    "sha256": "15bd220e18575a36d9071f1a0048f2ffc157aa03f76f6f3f94a36e3b982cde53",
+    "pixels": [
+      1200,
+      398
+    ]
+  },
+  {
+    "file": "beginner-sheet-plane-1-minimum.jpg",
+    "observation": "两项条件问题卡、连续面内作线结果、对角线交点依据在最小窗口可对应。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/3faa16d2fae7-beginner-sheet-plane-1-minimum.jpg",
+    "sha256": "3faa16d2fae70ab3cc3f86a3dffa54fb8d681a4920f4096a17901ed6bdef3dcb",
+    "pixels": [
+      1200,
+      796
+    ]
+  },
+  {
+    "file": "beginner-sheet-basic_solids-1-minimum.jpg",
+    "observation": "棱柱、圆柱、圆锥均先交代对象和当前疑问，再用表面点及辅助线证明位置；分栏未被文字挤压。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/edbd55e92b10-beginner-sheet-basic_solids-1-minimum.jpg",
+    "sha256": "edbd55e92b1068a7241142f22597eba43241a74adae147b48a9ca7629ba0f208",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-basic_solids-2-minimum.jpg",
+    "observation": "球面借圆取点承接圆锥方法，并简短说明后续求交的用途。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/871df164f475-beginner-sheet-basic_solids-2-minimum.jpg",
+    "sha256": "871df164f4752ce849e9e5c29d7c1846445082a8ccc9145b102cd65a8de5a152",
+    "pixels": [
+      1200,
+      398
+    ]
+  },
+  {
+    "file": "beginner-sheet-intersection_plane-1-minimum.jpg",
+    "observation": "各例明确切割对象、给定视图和待补视图；结果体现切后轮廓及虚实线，圆锥台阶与棱柱切割均可辨认。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/b231fe49a480-beginner-sheet-intersection_plane-1-minimum.jpg",
+    "sha256": "b231fe49a4802d7ccb0ee3388175cc76e5def1428b91da45d80e4903f3e9562b",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-intersection_plane-2-minimum.jpg",
+    "observation": "球面开槽目标明确；三维与侧面曲线对应，水平投影保留。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/c7b9d4df06ed-beginner-sheet-intersection_plane-2-minimum.jpg",
+    "sha256": "c7b9d4df06ed94a76a179b5cc1998d983eeb65073225d488ab9149708c196c6e",
+    "pixels": [
+      1200,
+      398
+    ]
+  },
+  {
+    "file": "beginner-sheet-intersection_solids-1-minimum.jpg",
+    "observation": "先看两个贯通孔，再换有壁厚圆管；内外交线以实际表面及虚实线区分。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/f410ffba2d00-beginner-sheet-intersection_solids-1-minimum.jpg",
+    "sha256": "f410ffba2d0053f0dabc986086d18bff2aaff1965b09c26a1ce5d8671e7edf85",
+    "pixels": [
+      1200,
+      796
+    ]
+  },
+  {
+    "file": "beginner-sheet-combination-1-minimum.jpg",
+    "observation": "三个模型转换均交代已知与待补视图；按主体、孔槽等结构分批，完成图形保留。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/a7356652b348-beginner-sheet-combination-1-minimum.jpg",
+    "sha256": "a7356652b3485bb4ddd25a8e83c085961e1724ab64b867599b38d4b74d7be678",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-combination-2-minimum.jpg",
+    "observation": "补缺线任务先给已有图，再补能在另两视图追溯的孔台阶线。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/9c4ff58aaad3-beginner-sheet-combination-2-minimum.jpg",
+    "sha256": "9c4ff58aaad3f8786514810e67fdb68ba683a8ea7cdf69b331d64f4721f6e7df",
+    "pixels": [
+      1200,
+      398
+    ]
+  },
+  {
+    "file": "beginner-sheet-section-1-minimum.jpg",
+    "observation": "全剖、半剖、局部剖分别说明选用情境；半剖实际露出四分之一剖开区；局部剖保留外围。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/58cec3e303ec-beginner-sheet-section-1-minimum.jpg",
+    "sha256": "58cec3e303ece3532ef860249c89f52e1d2823852a0fe70ac05cc57c7f7c045e",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-section-2-minimum.jpg",
+    "observation": "阶梯、旋转和综合剖切均先说明孔位关系；不同取材路径与结果可对应。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/4f04371c4fbe-beginner-sheet-section-2-minimum.jpg",
+    "sha256": "4f04371c4fbeff13346cbc5db54b45fa04ac6f1ab905722bd0a055ff280d36c5",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-section-3-minimum.jpg",
+    "observation": "剖视补线先显示缺线已知图，答案边界区别于已有剖面线。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/59892f7e2dcf-beginner-sheet-section-3-minimum.jpg",
+    "sha256": "59892f7e2dcfcf8e34c8d31dd96b248ae3499a84cb66039b707686051a67caae",
+    "pixels": [
+      1200,
+      398
+    ]
+  },
+  {
+    "file": "beginner-sheet-removed_section-1-minimum.jpg",
+    "observation": "断面先与剖视图区分；答案区初始为空，键槽/钻孔的不同截面保留真实孔槽区域。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/7bed92e1d8ce-beginner-sheet-removed_section-1-minimum.jpg",
+    "sha256": "7bed92e1d8ce3a225820dadafd5364d51c436833beccb2f73f30279c90ba1126",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-dimensions-1-minimum.jpg",
+    "observation": "先简单孔板说明尺寸作用，再回原零件；基准讲解时放大相关尺寸，不在全图上指模糊位置。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/66d1a626344c-beginner-sheet-dimensions-1-minimum.jpg",
+    "sha256": "66d1a626344c32d34111250b4360c5e0ed654516f45bdb81c97233c546ec0c85",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-dimensions-2-minimum.jpg",
+    "observation": "同一盖盘衔接位置尺寸；实物尺寸与显示比例的区别明确。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/439322639ee6-beginner-sheet-dimensions-2-minimum.jpg",
+    "sha256": "439322639ee650f6c03d7c4356a7867c563c1beb6d0053af8b12db2b907ae124",
+    "pixels": [
+      1200,
+      398
+    ]
+  },
+  {
+    "file": "beginner-sheet-threads-1-minimum.jpg",
+    "observation": "先牙顶/牙底/螺距，再用螺旋实体解释外内牙及规定图线；正文位于图形外。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/e1e63d39e879-beginner-sheet-threads-1-minimum.jpg",
+    "sha256": "e1e63d39e879f88bea5ab09cf0416f8e96ec98f23b6546dd6e93c051d3b62155",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-threads-2-minimum.jpg",
+    "observation": "通孔与螺纹孔作为两种连接情境分别提出；剖面线与不剖紧固件的界线可辨。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/86f1cd01c03a-beginner-sheet-threads-2-minimum.jpg",
+    "sha256": "86f1cd01c03af0130579d476d65e357c8b0b7253c19e0413995642a908beccab",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-threads-3-minimum.jpg",
+    "observation": "M、细牙、公差带与 G 标记各有具体指向；明确公差概念将在后章展开，不要求此时凭空掌握。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/9743ecd6f94e-beginner-sheet-threads-3-minimum.jpg",
+    "sha256": "9743ecd6f94e066db8e7a1f887dcfb4cef6c794ddaa6c3dd65321781c28f2e92",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-gears-1-minimum.jpg",
+    "observation": "先明确模数、齿数和求图目标；齿轮圆与实体位置对应，成对齿轮增加中心距和比例解释。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/265b8e8ce452-beginner-sheet-gears-1-minimum.jpg",
+    "sha256": "265b8e8ce452baddf6e4abcb63f904328f019f7667b96d7b50c335996d5c0e7d",
+    "pixels": [
+      1200,
+      796
+    ]
+  },
+  {
+    "file": "beginner-sheet-bearings-1-minimum.jpg",
+    "observation": "支承作用引入部件；尺寸括号有对应轮廓及孔线，轴向宽度与代号不再重叠。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/ba1549b5ede6-beginner-sheet-bearings-1-minimum.jpg",
+    "sha256": "ba1549b5ede6a990709b036b54dad02bfaddfca1a9730510c717c8b9583bae09",
+    "pixels": [
+      1200,
+      796
+    ]
+  },
+  {
+    "file": "beginner-sheet-requirements-1-minimum.jpg",
+    "observation": "从制造误差到零线/允许尺寸范围，再换成孔轴线方向要求；有一处实际越界反例，框格和示意域分开。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/a5a5e9db2273-beginner-sheet-requirements-1-minimum.jpg",
+    "sha256": "a5a5e9db2273d662a84f146e2fbb58bcc0c7cc11dc32e72eefaea38c134c4274",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-requirements-2-minimum.jpg",
+    "observation": "区分被测轴线与整个表面，再区分垂直和平行；三维域和二维图表达同一约束。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/769e0fd156e6-beginner-sheet-requirements-2-minimum.jpg",
+    "sha256": "769e0fd156e6253335d9804737368e5d36c8ae15faa3e24fa8c6a5b64365fc49",
+    "pixels": [
+      1200,
+      796
+    ]
+  },
+  {
+    "file": "beginner-sheet-roughness-1-minimum.jpg",
+    "observation": "微观起伏先解释控制对象，再解释符号；在原图上同时对应表面和粗糙度数字，旧框不累积。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/d7e13a32329c-beginner-sheet-roughness-1-minimum.jpg",
+    "sha256": "d7e13a32329cd0cbdfba4e0006bbb5f45bf5bc5e38c70b88080bf0f794f1a70d",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-roughness-2-minimum.jpg",
+    "observation": "改错与质量比较分别有明确任务；原图细节放大后可辨，正确标记用独立图层显示。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/253a9044acc0-beginner-sheet-roughness-2-minimum.jpg",
+    "sha256": "253a9044acc0144eed5e168e340df74e5d481ce854b23cea646e724a22ca89e1",
+    "pixels": [
+      1200,
+      796
+    ]
+  },
+  {
+    "file": "beginner-sheet-part_drawing-1-minimum.jpg",
+    "observation": "先建立读图顺序，再恢复外形；换轴类零件明确提示，局部放大与断面位置对应。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/a24aa878be7e-beginner-sheet-part_drawing-1-minimum.jpg",
+    "sha256": "a24aa878be7e5df7275016f658fa9634354d491e56883918b3a9f922c27c4305",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-part_drawing-2-minimum.jpg",
+    "observation": "盖盘的结构、数量/深度、材料连续衔接，清楚标明仍看同一零件；不重复讲基础公差。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/9d8cf40dd74f-beginner-sheet-part_drawing-2-minimum.jpg",
+    "sha256": "9d8cf40dd74f322f3a3c37a3a5730668e48366340c191623c09914e22ff50b7b",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-part_drawing-3-minimum.jpg",
+    "observation": "把已学断面法用于轴上键槽，截面与对应剖切位置并排。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/5ea4a7bb8cc8-beginner-sheet-part_drawing-3-minimum.jpg",
+    "sha256": "5ea4a7bb8cc8ff630ca26fe48ac664b1d021259c48bc624183590452ca8458a8",
+    "pixels": [
+      1200,
+      398
+    ]
+  },
+  {
+    "file": "beginner-bearings_structure_size-settled-minimum.png",
+    "observation": "1060×720原图：外径、内径及宽度均有对应轮廓与界线；20 mm 文字独立于52/15 mm，未与代号重叠。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/bfcd64f87bbf-beginner-bearings_structure_size-settled-minimum.png",
+    "sha256": "bfcd64f87bbf62c603d5966a36c63f0020aee528542783119fd981a2aadfd32a",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "beginner-roughness_errors_correct-settled-minimum.png",
+    "observation": "1060×720原图：两处橙色数字完成方向改正，所指表面和原图其余内容保持。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/f13dc08cf4de-beginner-roughness_errors_correct-settled-minimum.png",
+    "sha256": "f13dc08cf4dedf869c56ad6fb5989dbb3130bac70b89d024c48f31433a2da44e",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "beginner-requirements_hole_grade-after-minimum.png",
+    "observation": "1060×720原图：H7的零线、范围宽度、标签互不遮挡；注明偏差放大示意不能读成公差数值。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/fd3e115e90eb-beginner-requirements_hole_grade-after-minimum.png",
+    "sha256": "fd3e115e90eb8008d3df4d9405957fd3acbf375a105f4402b78eb69d4f631a6e",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "beginner-requirements_perpendicular_units-after-minimum.png",
+    "observation": "1060×720原图：实际折线有一段越出圆柱域，二维亦越过边界；公差框不压住示意图。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/cd39eac7b221-beginner-requirements_perpendicular_units-after-minimum.png",
+    "sha256": "cd39eac7b221b1bc0f99a8b261a42772c8437c910505cc1ce844c556db645f5a",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "beginner-bearings_structure_rings-during-normal.png",
+    "observation": "轴承分解自然中间态：两圈沿同一轴线分开，未直接换图；文字明确这是教学分解示意。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/f3d7d51ab06b-beginner-bearings_structure_rings-during-normal.png",
+    "sha256": "f3d7d51ab06baff7e211b0e068adef346fad4c258f755e22e8558d9d81fdd959",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-bearings_structure_rings-after-normal.png",
+    "observation": "分解终态：较小内圈和较大外圈可区分，准备在后续解释中间滚动体。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/b21f9184f742-beginner-bearings_structure_rings-after-normal.png",
+    "sha256": "b21f9184f742aaabcfa62f66a2665391b7599034bfbbc9e9e666ae271379e234",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-bearings_assembly_shaft-during-normal.png",
+    "observation": "装入中间态：轴从内圈孔方向接近，孔仍可见；二维轴轮廓同步显示。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/cf834a0f57d3-beginner-bearings_assembly_shaft-during-normal.png",
+    "sha256": "cf834a0f57d3d66c22b777694435f00a318b69a8d06db1100f185082cded518d",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-bearings_assembly_shaft-after-normal.png",
+    "observation": "装入终态：轴占据内孔，轴肩在内圈后定位；外圈及滚动体保持。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/38679ba755e9-beginner-bearings_assembly_shaft-after-normal.png",
+    "sha256": "38679ba755e9167e9b0d0fd0810e13bf6f9cf888b124f0cc98317a4f670f97f6",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-threads_meaning_pitch-after-normal.png",
+    "observation": "放大轴向牙形先明确牙顶、牙底，螺距括号对应相邻牙的位置；图示与正文分别占据空间。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/a78509b64cd9-beginner-threads_meaning_pitch-after-normal.png",
+    "sha256": "a78509b64cd94e85ce114fbd15cf66515a8d10cb8833cd91ee08c41c248434d7",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-threads_external_context-settled-normal.png",
+    "observation": "可见螺旋牙形替代光圆柱；右侧按规定画法逐步形成，不把全部实体细节投成图线。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/40d749be69aa-beginner-threads_external_context-settled-normal.png",
+    "sha256": "40d749be69aa87fa5363d5e2695857f321c5daeb044cc9ad2c36b98b0b34b4c4",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-roughness_surface_III-settled-normal.png",
+    "observation": "表面 III 的指向和另一视图的25标注同时框出，旧 I/II 高亮已清除。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/0f73bcacf673-beginner-roughness_surface_III-settled-normal.png",
+    "sha256": "0f73bcacf673dc877fc474d03aeab8d6dc5fdea2abcab7869bcf18169159483c",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-part_drawing_note_slots-settled-normal.png",
+    "observation": "6处槽宽及锪平44标注在放大原图内清晰可读，正文保持原卷事实区别。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/d03c025fa4ac-beginner-part_drawing_note_slots-settled-normal.png",
+    "sha256": "d03c025fa4acd66498462c4cd76495934bf1baf1eafc4a01c09b25572b4859d0",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-intersection_solids_inner_both-surfaces-after-minimum.png",
+    "observation": "最小窗口原图：下方公共点确实能看见，两条约束线及三面投影同一位置对应，不需凭空想象隐藏的点。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/e3ff9a9e73a4-beginner-intersection_solids_inner_both-surfaces-after-minimum.png",
+    "sha256": "e3ff9a9e73a46ac9a92e70aae7c37e514f27fc2e2664b87a81c03330582dfae3",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "beginner-section_half_outline-settled-minimum.png",
+    "observation": "最小窗口原图：真实四分之一剖开后的内腔清楚，侧面以中心线区分半外形和半剖视，正文未遮挡。",
+    "inspection": "原尺寸截图",
+    "archive": "beginner-reviewed/28525dc90eaa-beginner-section_half_outline-settled-minimum.png",
+    "sha256": "28525dc90eaa3c5344846e8ff4d52e5fd7660b05ce81f32c22ea27250916565c",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "beginner-sheet-points-1-minimum.jpg",
+    "observation": "点章节前半三节：先交代位置表达目标，面距与投影垂足分别有可见依据；命名时全部垂足已存在。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/46a9ac9219aa-beginner-sheet-points-1-minimum.jpg",
+    "sha256": "46a9ac9219aa123d81330dfc3e23669718ea1c011b94d3e74d0783a9ae7603e6",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-points-2-minimum.jpg",
+    "observation": "展开/对应/相对位置的入口结果已查看；由此发现展开距离括号错误，列为修正前诊断证据。",
+    "inspection": "实际截图拼版",
+    "superseded": true,
+    "status": "括号错误诊断截图；最终复看另附",
+    "archive": "beginner-reviewed/f429950041a9-beginner-sheet-points-2-minimum.jpg",
+    "sha256": "f429950041a980630fa84d66d8f710770db0ef2e393ecfee1279b87da4d3fb79",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-line-1-minimum.jpg",
+    "observation": "端点连线、平行面和垂直面三节的入口/结果有连续对象；积聚点没有虚假的短线。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/ebb5681d8a43-beginner-sheet-line-1-minimum.jpg",
+    "sha256": "ebb5681d8a435ad42a7e2d14e7b41c6829e215552c62a23a96f39a3e291ebb5e",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-line-2-minimum.jpg",
+    "observation": "线上取点两种条件明确；平行反例由第二面投影证明，复合相交有积聚线索。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/8afc8131f9e0-beginner-sheet-line-2-minimum.jpg",
+    "sha256": "8afc8131f9e050b3be9a7675e80e815c550883507aae3148944f07ab80b65c91",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-line-3-minimum.jpg",
+    "observation": "复合相交最终线穿过两交点并平行指定线，三面与空间对应。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/7c06f90ebf20-beginner-sheet-line-3-minimum.jpg",
+    "sha256": "7c06f90ebf2000fdf5b159fd671df72ed94e1f2abf74dea9809b063857c96a53",
+    "pixels": [
+      1200,
+      398
+    ]
+  },
+  {
+    "file": "beginner-sheet-plane-1-minimum.jpg",
+    "observation": "面边界到积聚、面内作线到两面距取点，各节的目标和新增条件明确。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/6a3d0f070b28-beginner-sheet-plane-1-minimum.jpg",
+    "sha256": "6a3d0f070b2874638a9c74a54df05c8fe6d0408043b20fa075533c0c03b13b75",
+    "pixels": [
+      1200,
+      1194
+    ]
+  },
+  {
+    "file": "beginner-sheet-plane-2-minimum.jpg",
+    "observation": "面内点清理后保留结果；补普通四边形借对角线，平行四边形按额外条件补边，互不混用。",
+    "inspection": "实际截图拼版",
+    "archive": "beginner-reviewed/b30713b5bae5-beginner-sheet-plane-2-minimum.jpg",
+    "sha256": "b30713b5bae5ab76d4aa03ae7699ff7e446f4d3637bd2b4cd2595d937fac6473",
+    "pixels": [
+      1200,
+      796
+    ]
+  },
+  {
+    "file": "beginner-legacy_points_unfold_distance-settled-normal.png",
+    "observation": "最终正常窗口：a到X、a″到Z的两个括号均为15 mm；不再量取a′到a的27 mm总间距。",
+    "inspection": "原尺寸截图",
+    "status": "最终专项复看",
+    "archive": "beginner-reviewed/ecf5a4236497-beginner-legacy_points_unfold_distance-settled-normal.png",
+    "sha256": "ecf5a4236497822ec5c13cd314a36c3a26b24aab4c99fecd6e4112aed90533a9",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-legacy_points_unfold_distance-settled-minimum.png",
+    "observation": "最终最小窗口：展开距离两处括号接到各自转轴，正文与点名、数值均不重叠。",
+    "inspection": "原尺寸截图",
+    "status": "最终专项复看",
+    "archive": "beginner-reviewed/449fcc2b5696-beginner-legacy_points_unfold_distance-settled-minimum.png",
+    "sha256": "449fcc2b56961e97847ec3f868bded32007e7a9e505b60bac2d979220e615519",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "beginner-legacy_points_alignment_depth-settled-normal.png",
+    "observation": "最终正常窗口：对应关系使用正确轴上垂足，竖直/水平两段共同表达实际前后面距。",
+    "inspection": "原尺寸截图",
+    "status": "最终专项复看",
+    "archive": "beginner-reviewed/f67e40bf6b5c-beginner-legacy_points_alignment_depth-settled-normal.png",
+    "sha256": "f67e40bf6b5cd5592163053ec195ec740beab84b4b1fff557c58d72f968218d3",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "beginner-legacy_points_alignment_depth-settled-minimum.png",
+    "observation": "最终最小窗口：两处15 mm与正文对应，保留原字号且未遮挡对齐线与投影点。",
+    "inspection": "原尺寸截图",
+    "status": "最终专项复看",
+    "archive": "beginner-reviewed/03e7db4e1759-beginner-legacy_points_alignment_depth-settled-minimum.png",
+    "sha256": "03e7db4e17597f2ba42da99656d678d0e71d6281561df24955ddb1fdeb34a0f0",
+    "pixels": [
+      1060,
+      720
+    ]
+  }
+]

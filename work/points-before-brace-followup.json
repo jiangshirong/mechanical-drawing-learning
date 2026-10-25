@@ -1,0 +1,1746 @@
+{
+  "schema_version": 2,
+  "chapter_id": "points",
+  "question_id": "t01-q01",
+  "parameter_source": "assets/examples/points/data.json#parameters.points_mm",
+  "capabilities": [
+    "practice",
+    "concept"
+  ],
+  "statement": "点 A 距 H 面 12 mm、V 面 15 mm、W 面 10 mm；点 B 在 A 左方 5 mm、后方 10 mm、上方 8 mm。作出 A、B 的三面投影。",
+  "coordinate_note": "归档原题右、下方向的 Y 标签与答案不同；练习采用展开几何一致的 Y_W 向右、Y_H 向下。原图未修改。",
+  "concept": [
+    {
+      "id": "planes",
+      "title": "认识三个投影面",
+      "text": "怎样把空间点的位置画在纸上？先认识从三个方向接收投影的平面。从上向下投影的平面是水平面 H。从前向后投影的平面是正面 V。从左向右投影的平面是侧面 W。A 在 H 面上方、V 面前方、W 面左方。V 与 H 的交线是 X 轴；展开后用它分开正面和水平投影。H 与 W 的交线是 Y 轴。展开后分成向下的 Y_H 和向右的 Y_W。V 与 W 的交线是 Z 轴，三条轴交于 O。",
+      "state": "planes",
+      "beats": [
+        {
+          "id": "planes:purpose",
+          "text": "怎样把空间点的位置画在纸上？先认识从三个方向接收投影的平面。",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "A"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "planes:H",
+          "text": "从上向下投影的平面是水平面 H。",
+          "action": {
+            "type": "focus",
+            "plane": "H"
+          },
+          "anchor": [
+            "H"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "H"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "planes:V",
+          "text": "从前向后投影的平面是正面 V。",
+          "action": {
+            "type": "focus",
+            "plane": "V"
+          },
+          "anchor": [
+            "V"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "V"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "planes:W",
+          "text": "从左向右投影的平面是侧面 W。",
+          "action": {
+            "type": "focus",
+            "plane": "W"
+          },
+          "anchor": [
+            "W"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "W"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "planes:A",
+          "text": "A 在 H 面上方、V 面前方、W 面左方。",
+          "action": {
+            "type": "focus",
+            "plane": ""
+          },
+          "anchor": [
+            "A"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "planes:X",
+          "text": "V 与 H 的交线是 X 轴；展开后用它分开正面和水平投影。",
+          "anchor": [
+            "X"
+          ],
+          "focus": [
+            "X"
+          ],
+          "action": {
+            "type": "focus"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ],
+          "label_focus": [
+            "X"
+          ]
+        },
+        {
+          "id": "planes:Y",
+          "text": "H 与 W 的交线是 Y 轴。展开后分成向下的 Y_H 和向右的 Y_W。",
+          "anchor": [
+            "Y"
+          ],
+          "focus": [
+            "Y"
+          ],
+          "action": {
+            "type": "focus"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ],
+          "label_focus": [
+            "Y"
+          ]
+        },
+        {
+          "id": "planes:Z",
+          "text": "V 与 W 的交线是 Z 轴，三条轴交于 O。",
+          "anchor": [
+            "Z"
+          ],
+          "focus": [
+            "Z"
+          ],
+          "action": {
+            "type": "focus"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ],
+          "label_focus": [
+            "Z",
+            "O"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "distances",
+      "title": "距离表达位置",
+      "text": "只说在前、在上还不够；到三个面的距离共同确定 A 的位置。距 H 是高度：{A_z} mm。距 V 表达前后：{A_y} mm。距 W 表达左右：{A_x} mm。",
+      "state": "distances",
+      "beats": [
+        {
+          "id": "distances:coordinates",
+          "text": "只说在前、在上还不够；到三个面的距离共同确定 A 的位置。",
+          "anchor": [
+            "A"
+          ],
+          "focus": [
+            "A"
+          ],
+          "action": {
+            "type": "focus"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "distances:H",
+          "text": "距 H 是高度：{A_z} mm。",
+          "action": {
+            "type": "ray",
+            "plane": "H"
+          },
+          "anchor": [
+            "A",
+            "foot_H"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "focus": [
+            "A",
+            "foot_H"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "distances:V",
+          "text": "距 V 表达前后：{A_y} mm。",
+          "action": {
+            "type": "ray",
+            "plane": "V"
+          },
+          "anchor": [
+            "A",
+            "foot_V"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "focus": [
+            "A",
+            "foot_V"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "distances:W",
+          "text": "距 W 表达左右：{A_x} mm。",
+          "action": {
+            "type": "ray",
+            "plane": "W"
+          },
+          "anchor": [
+            "A",
+            "foot_W"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "focus": [
+            "A",
+            "foot_W"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feet",
+      "title": "垂直投影",
+      "text": "从 A 向 V 面作垂线，垂足 a′ 就是它的正面投影。正面投影反映左右和高度，不能反映前后。向 H 面作垂线，垂足是 a。水平投影反映左右和前后。向 W 面作垂线，垂足是 a″。侧面投影反映前后和高度。空间点用大写 A；水平、正面、侧面投影分别记作 a、a′、a″。",
+      "state": "feet",
+      "beats": [
+        {
+          "id": "feet:V",
+          "text": "从 A 向 V 面作垂线，垂足 a′ 就是它的正面投影。",
+          "action": {
+            "type": "foot",
+            "plane": "V"
+          },
+          "anchor": [
+            "A",
+            "foot_V"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A",
+            "foot_V"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "feet:V-keep",
+          "text": "正面投影反映左右和高度，不能反映前后。",
+          "action": {
+            "type": "focus",
+            "plane": "V"
+          },
+          "anchor": [
+            "foot_V",
+            "V"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "foot_V",
+            "V"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "feet:H",
+          "text": "向 H 面作垂线，垂足是 a。",
+          "action": {
+            "type": "foot",
+            "plane": "H"
+          },
+          "anchor": [
+            "A",
+            "foot_H"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A",
+            "foot_H"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "feet:H-keep",
+          "text": "水平投影反映左右和前后。",
+          "action": {
+            "type": "focus",
+            "plane": "H"
+          },
+          "anchor": [
+            "foot_H",
+            "H"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "foot_H",
+            "H"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "feet:W",
+          "text": "向 W 面作垂线，垂足是 a″。",
+          "action": {
+            "type": "foot",
+            "plane": "W"
+          },
+          "anchor": [
+            "A",
+            "foot_W"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A",
+            "foot_W"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "feet:W-keep",
+          "text": "侧面投影反映前后和高度。",
+          "action": {
+            "type": "focus",
+            "plane": "W"
+          },
+          "anchor": [
+            "foot_W",
+            "W"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "foot_W",
+            "W"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "planes:names",
+          "text": "空间点用大写 A；水平、正面、侧面投影分别记作 a、a′、a″。",
+          "anchor": [
+            "A"
+          ],
+          "focus": [
+            "A"
+          ],
+          "action": {
+            "type": "focus"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ],
+          "label_focus": [
+            "A",
+            "a",
+            "a′",
+            "a″"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unfold",
+      "title": "展开到同一平面",
+      "text": "三个面还在空间中。要把投影放到同一张纸上，先固定 V 面。H 面绕 X 轴向下展开。W 面绕 Z 轴向右展开。展开只转动投影面，点到交线的垂直距离保持不变。",
+      "state": "unfold",
+      "beats": [
+        {
+          "id": "unfold:V",
+          "text": "三个面还在空间中。要把投影放到同一张纸上，先固定 V 面。",
+          "action": {
+            "type": "focus",
+            "plane": "V"
+          },
+          "anchor": [
+            "V"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "V"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "unfold:H",
+          "text": "H 面绕 X 轴向下展开。",
+          "action": {
+            "type": "unfold",
+            "plane": "H"
+          },
+          "anchor": [
+            "H"
+          ],
+          "indicators": [
+            "arc"
+          ],
+          "focus": [
+            "H"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "unfold:W",
+          "text": "W 面绕 Z 轴向右展开。",
+          "action": {
+            "type": "unfold",
+            "plane": "W"
+          },
+          "anchor": [
+            "W"
+          ],
+          "indicators": [
+            "arc"
+          ],
+          "focus": [
+            "W"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "unfold:distance",
+          "text": "展开只转动投影面，点到交线的垂直距离保持不变。",
+          "action": {
+            "type": "focus",
+            "plane": ""
+          },
+          "anchor": [
+            "A_front",
+            "A_top",
+            "A_left"
+          ],
+          "indicators": [
+            "equal"
+          ],
+          "focus": [
+            "A_front",
+            "A_top",
+            "A_left"
+          ],
+          "scene": "relations",
+          "show_sheet": true,
+          "known": [
+            "front",
+            "top",
+            "left"
+          ],
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "title": "投影规律与二求三",
+      "text": "正面、水平投影的左右位置相同，连线垂直 X。正面、侧面投影的高度相同，连线水平。a 到 X、a″ 到 Z 的距离，都等于 A 距 V 的距离。已知 a、a′，求 a″。从 a 水平引线至 45°线。45°线上的点到两轴等距，可把前后距离转到侧面。过交点作竖线。过 a′ 作水平线。交点就是 a″。两个投影给出左右、前后和高度，可确定第三个投影。",
+      "beats": [
+        {
+          "id": "alignment:vertical",
+          "text": "正面、水平投影的左右位置相同，连线垂直 X。",
+          "anchor": [
+            "A_front",
+            "A_top"
+          ],
+          "focus": [
+            "A_front",
+            "A_top"
+          ],
+          "action": {
+            "type": "line",
+            "a": "A_front",
+            "b": "A_top"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "relations",
+          "show_sheet": true,
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "alignment:height",
+          "text": "正面、侧面投影的高度相同，连线水平。",
+          "anchor": [
+            "A_front",
+            "A_left"
+          ],
+          "focus": [
+            "A_front",
+            "A_left"
+          ],
+          "action": {
+            "type": "line",
+            "a": "A_front",
+            "b": "A_left"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "relations",
+          "show_sheet": true,
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "alignment:depth",
+          "text": "a 到 X、a″ 到 Z 的距离，都等于 A 距 V 的距离。",
+          "anchor": [
+            "A_top_axis",
+            "A_top",
+            "A_side_axis",
+            "A_left"
+          ],
+          "focus": [
+            "A_top_axis",
+            "A_top",
+            "A_side_axis",
+            "A_left"
+          ],
+          "action": {
+            "type": "focus"
+          },
+          "indicators": [
+            "equal"
+          ],
+          "scene": "relations",
+          "show_sheet": true,
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "alignment:given",
+          "text": "已知 a、a′，求 a″。",
+          "anchor": [
+            "A_front",
+            "A_top"
+          ],
+          "focus": [
+            "A_front",
+            "A_top"
+          ],
+          "action": {
+            "type": "focus"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "third_side",
+          "show_sheet": true,
+          "known": [
+            "front",
+            "top"
+          ],
+          "show_space": false,
+          "source_questions": [
+            "t01-q01"
+          ],
+          "callout_kind": "problem"
+        },
+        {
+          "id": "alignment:transfer",
+          "text": "从 a 水平引线至 45°线。",
+          "anchor": [
+            "A_top",
+            "A_turn"
+          ],
+          "focus": [
+            "A_top",
+            "A_turn"
+          ],
+          "action": {
+            "type": "line",
+            "a": "A_top",
+            "b": "A_turn"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "third_side",
+          "show_sheet": true,
+          "known": [
+            "front",
+            "top"
+          ],
+          "show_space": false,
+          "source_questions": [
+            "t01-q01"
+          ]
+        },
+        {
+          "id": "alignment:45-distance",
+          "text": "45°线上的点到两轴等距，可把前后距离转到侧面。",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "O",
+            "A_top_axis",
+            "A_top_axis",
+            "A_turn"
+          ],
+          "focus": [
+            "O",
+            "A_top_axis",
+            "A_turn"
+          ],
+          "indicators": [
+            "equal"
+          ],
+          "scene": "third_side",
+          "show_sheet": true,
+          "show_space": false,
+          "known": [
+            "front",
+            "top"
+          ],
+          "source_questions": [
+            "t01-q01"
+          ]
+        },
+        {
+          "id": "alignment:turn",
+          "text": "过交点作竖线。",
+          "anchor": [
+            "A_turn",
+            "A_side_upper"
+          ],
+          "focus": [
+            "A_turn",
+            "A_side_upper"
+          ],
+          "action": {
+            "type": "line",
+            "a": "A_turn",
+            "b": "A_side_upper"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "third_side",
+          "show_sheet": true,
+          "known": [
+            "front",
+            "top"
+          ],
+          "show_space": false,
+          "source_questions": [
+            "t01-q01"
+          ]
+        },
+        {
+          "id": "alignment:level",
+          "text": "过 a′ 作水平线。",
+          "anchor": [
+            "A_front",
+            "A_level_end"
+          ],
+          "focus": [
+            "A_front",
+            "A_level_end"
+          ],
+          "action": {
+            "type": "line",
+            "a": "A_front",
+            "b": "A_level_end"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "third_side",
+          "show_sheet": true,
+          "known": [
+            "front",
+            "top"
+          ],
+          "show_space": false,
+          "source_questions": [
+            "t01-q01"
+          ]
+        },
+        {
+          "id": "alignment:point",
+          "text": "交点就是 a″。",
+          "anchor": [
+            "A_left"
+          ],
+          "focus": [
+            "A_left"
+          ],
+          "action": {
+            "type": "point",
+            "p": "A_left",
+            "name": "a″"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "third_side",
+          "show_sheet": true,
+          "known": [
+            "front",
+            "top"
+          ],
+          "show_space": false,
+          "source_questions": [
+            "t01-q01"
+          ]
+        },
+        {
+          "id": "alignment:summary",
+          "text": "两个投影给出左右、前后和高度，可确定第三个投影。",
+          "anchor": [
+            "A_front",
+            "A_top",
+            "A_left"
+          ],
+          "focus": [
+            "A_front",
+            "A_top",
+            "A_left"
+          ],
+          "action": {
+            "type": "focus"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "third_side",
+          "show_sheet": true,
+          "known": [
+            "front",
+            "top"
+          ],
+          "show_space": false,
+          "source_questions": [
+            "t01-q01"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "relative",
+      "title": "两点的相对位置",
+      "text": "现在已知 A，要按左右、上下、前后的相对位置作出 B。B 在 A 左方 {dx} mm。B 在 A 上方 {dz} mm。B 在 A 后方 {dy} mm。若条件改为“B 在 A 前方 18 mm”，从 A 向前量取。从同名投影的间距，读出两点的相对位置。",
+      "beats": [
+        {
+          "id": "relative:purpose",
+          "text": "现在已知 A，要按左右、上下、前后的相对位置作出 B。",
+          "anchor": [
+            "A_front"
+          ],
+          "focus": [
+            "A_front"
+          ],
+          "action": {
+            "type": "focus"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "relative",
+          "show_sheet": true,
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "relative:left",
+          "text": "B 在 A 左方 {dx} mm。",
+          "anchor": [
+            "A_front",
+            "B_front"
+          ],
+          "focus": [
+            "A_front",
+            "B_front"
+          ],
+          "action": {
+            "type": "move",
+            "point": "B",
+            "to": [
+              "B.x",
+              "A.y",
+              "A.z"
+            ],
+            "show_point": true
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "relative",
+          "show_sheet": true,
+          "setup": {
+            "A": [
+              "A.x",
+              "A.y",
+              "A.z"
+            ],
+            "B": [
+              "A.x",
+              "A.y",
+              "A.z"
+            ],
+            "B_visible": false,
+            "unfolded": false
+          },
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "relative:up",
+          "text": "B 在 A 上方 {dz} mm。",
+          "anchor": [
+            "A_front",
+            "B_front"
+          ],
+          "focus": [
+            "A_front",
+            "B_front"
+          ],
+          "action": {
+            "type": "move",
+            "point": "B",
+            "to": [
+              "B.x",
+              "A.y",
+              "B.z"
+            ]
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "relative",
+          "show_sheet": true,
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ]
+        },
+        {
+          "id": "relative:back",
+          "text": "B 在 A 后方 {dy} mm。",
+          "anchor": [
+            "A_top",
+            "B_top"
+          ],
+          "focus": [
+            "A_top",
+            "B_top"
+          ],
+          "action": {
+            "type": "move",
+            "point": "B",
+            "to": [
+              "B.x",
+              "B.y",
+              "B.z"
+            ]
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "relative",
+          "show_sheet": true,
+          "source_questions": [
+            "t01-q01"
+          ]
+        },
+        {
+          "id": "relative8:front",
+          "text": "若条件改为“B 在 A 前方 18 mm”，从 A 向前量取。",
+          "anchor": [
+            "A_top",
+            "B_top"
+          ],
+          "focus": [
+            "A_top",
+            "B_top"
+          ],
+          "action": {
+            "type": "move",
+            "point": "B",
+            "to": [
+              "B.x",
+              "shift:A.y:-18",
+              "B.z"
+            ],
+            "show_point": true
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "source_questions": [
+            "t08-q01"
+          ],
+          "scene": "relative8",
+          "show_sheet": true,
+          "show_space": false,
+          "paper_extent": [
+            760,
+            760
+          ],
+          "setup": {
+            "A": [
+              "A.x",
+              "A.y",
+              "A.z"
+            ],
+            "B": [
+              "B.x",
+              "A.y",
+              "B.z"
+            ],
+            "B_visible": true,
+            "unfolded": true
+          }
+        },
+        {
+          "id": "relative:read",
+          "text": "从同名投影的间距，读出两点的相对位置。",
+          "anchor": [
+            "A_front",
+            "B_front",
+            "A_top",
+            "B_top"
+          ],
+          "focus": [
+            "A_front",
+            "B_front",
+            "A_top",
+            "B_top"
+          ],
+          "action": {
+            "type": "focus"
+          },
+          "indicators": [
+            "highlight"
+          ],
+          "scene": "relative8",
+          "show_sheet": true,
+          "source_questions": [
+            "t01-q01",
+            "t08-q01"
+          ],
+          "show_space": false,
+          "paper_extent": [
+            760,
+            760
+          ]
+        }
+      ]
+    }
+  ],
+  "solution": [
+    {
+      "id": "a-front",
+      "title": "定位 a′",
+      "text": "A 距 H 面 {A_z} mm。A 距 W 面 {A_x} mm。标出a′。",
+      "action": "A_front",
+      "beats": [
+        {
+          "id": "a-front:z",
+          "text": "A 距 H 面 {A_z} mm。",
+          "action": {
+            "type": "line",
+            "id": "A_height_guide",
+            "a": "A_height_start",
+            "b": "A_height",
+            "dashed": true
+          },
+          "anchor": [
+            "O",
+            "A_height"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "focus": [
+            "A_height_start",
+            "A_height"
+          ]
+        },
+        {
+          "id": "a-front:x",
+          "text": "A 距 W 面 {A_x} mm。",
+          "action": {
+            "type": "line",
+            "id": "A_x_guide",
+            "a": "A_x_upper",
+            "b": "A_x_lower",
+            "dashed": true
+          },
+          "anchor": [
+            "O",
+            "A_x"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "focus": [
+            "A_x_upper",
+            "A_x_lower"
+          ]
+        },
+        {
+          "id": "a-front:point",
+          "text": "标出a′。",
+          "action": {
+            "type": "point",
+            "p": "A_front",
+            "name": "a′"
+          },
+          "anchor": [
+            "A_front"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A_front"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-top",
+      "title": "定位 a",
+      "text": "A 距 V 面 {A_y} mm。标出a。擦去临时虚线。",
+      "action": "A_top",
+      "beats": [
+        {
+          "id": "a-top:depth",
+          "text": "A 距 V 面 {A_y} mm。",
+          "action": {
+            "type": "line",
+            "id": "A_depth_guide",
+            "a": "A_depth_start",
+            "b": "A_top_axis",
+            "dashed": true
+          },
+          "anchor": [
+            "O",
+            "A_top_axis"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "focus": [
+            "A_depth_start",
+            "A_top_axis"
+          ]
+        },
+        {
+          "id": "a-top:point",
+          "text": "标出a。",
+          "action": {
+            "type": "point",
+            "p": "A_top",
+            "name": "a"
+          },
+          "anchor": [
+            "A_top"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A_top"
+          ]
+        },
+        {
+          "id": "a-top:erase",
+          "text": "擦去临时虚线。",
+          "action": {
+            "type": "erase",
+            "targets": [
+              "A_height_guide",
+              "A_x_guide",
+              "A_depth_guide"
+            ]
+          },
+          "anchor": [
+            "A_front",
+            "A_top"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A_front",
+            "A_top"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-side",
+      "title": "定位 a″",
+      "text": "从 a 水平引线至 45°线。过交点作竖线。过 a′ 作水平线。标出a″。擦去临时虚线。",
+      "action": "A_left",
+      "beats": [
+        {
+          "id": "a-side:transfer",
+          "text": "从 a 水平引线至 45°线。",
+          "action": {
+            "type": "line",
+            "id": "A_transfer",
+            "a": "A_top",
+            "b": "A_turn",
+            "dashed": true
+          },
+          "anchor": [
+            "A_top",
+            "A_turn"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A_top",
+            "A_turn"
+          ]
+        },
+        {
+          "id": "a-side:turn",
+          "text": "过交点作竖线。",
+          "action": {
+            "type": "line",
+            "id": "A_turn_line",
+            "a": "A_turn",
+            "b": "A_side_upper",
+            "dashed": true
+          },
+          "anchor": [
+            "A_turn",
+            "A_side_upper"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A_turn",
+            "A_side_upper"
+          ]
+        },
+        {
+          "id": "a-side:height",
+          "text": "过 a′ 作水平线。",
+          "action": {
+            "type": "line",
+            "id": "A_level",
+            "a": "A_front",
+            "b": "A_level_end",
+            "dashed": true
+          },
+          "anchor": [
+            "A_front",
+            "A_level_end"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A_front",
+            "A_level_end"
+          ]
+        },
+        {
+          "id": "a-side:point",
+          "text": "标出a″。",
+          "action": {
+            "type": "point",
+            "p": "A_left",
+            "name": "a″"
+          },
+          "anchor": [
+            "A_left"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A_left"
+          ]
+        },
+        {
+          "id": "a-side:erase",
+          "text": "擦去临时虚线。",
+          "action": {
+            "type": "erase",
+            "targets": [
+              "A_transfer",
+              "A_turn_line",
+              "A_level"
+            ]
+          },
+          "anchor": [
+            "A_front",
+            "A_top",
+            "A_left"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A_front",
+            "A_top",
+            "A_left"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-distance",
+      "title": "由 A 定位 B 的左右",
+      "text": "B 在 A 左方 {dx} mm。",
+      "action": "relative",
+      "beats": [
+        {
+          "id": "b-distance:x",
+          "text": "B 在 A 左方 {dx} mm。",
+          "action": {
+            "type": "line",
+            "id": "B_x_guide",
+            "a": "B_x_upper",
+            "b": "B_x_lower",
+            "dashed": true,
+            "measure_from": "A_front",
+            "measure_to": "B_left_offset"
+          },
+          "anchor": [
+            "A_front",
+            "B_left_offset"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "focus": [
+            "B_x_upper",
+            "B_x_lower"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-front",
+      "title": "定位 b′",
+      "text": "B 在 A 上方 {dz} mm。标出b′。",
+      "action": "B_front",
+      "beats": [
+        {
+          "id": "b-front:z",
+          "text": "B 在 A 上方 {dz} mm。",
+          "action": {
+            "type": "line",
+            "id": "B_height_guide",
+            "a": "B_height_start",
+            "b": "B_height",
+            "dashed": true,
+            "measure_from": "B_left_offset",
+            "measure_to": "B_front"
+          },
+          "anchor": [
+            "B_left_offset",
+            "B_front"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "focus": [
+            "B_height_start",
+            "B_height"
+          ]
+        },
+        {
+          "id": "b-front:point",
+          "text": "标出b′。",
+          "action": {
+            "type": "point",
+            "p": "B_front",
+            "name": "b′"
+          },
+          "anchor": [
+            "B_front"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "B_front"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-top",
+      "title": "定位 b",
+      "text": "B 在 A 后方 {dy} mm。标出b。擦去临时虚线。",
+      "action": "B_top",
+      "beats": [
+        {
+          "id": "b-top:depth",
+          "text": "B 在 A 后方 {dy} mm。",
+          "action": {
+            "type": "line",
+            "id": "B_depth_guide",
+            "a": "B_depth_start",
+            "b": "B_top_axis",
+            "dashed": true,
+            "measure_from": "A_top",
+            "measure_to": "B_back_offset"
+          },
+          "anchor": [
+            "A_top",
+            "B_back_offset"
+          ],
+          "indicators": [
+            "brace"
+          ],
+          "focus": [
+            "B_depth_start",
+            "B_top_axis"
+          ]
+        },
+        {
+          "id": "b-top:point",
+          "text": "标出b。",
+          "action": {
+            "type": "point",
+            "p": "B_top",
+            "name": "b"
+          },
+          "anchor": [
+            "B_top"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "B_top"
+          ]
+        },
+        {
+          "id": "b-top:erase",
+          "text": "擦去临时虚线。",
+          "action": {
+            "type": "erase",
+            "targets": [
+              "B_height_guide",
+              "B_x_guide",
+              "B_depth_guide"
+            ]
+          },
+          "anchor": [
+            "B_front",
+            "B_top"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "B_front",
+            "B_top"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b-side",
+      "title": "定位 b″",
+      "text": "从 b 水平引线至 45°线。过交点作竖线。过 b′ 作水平线。标出b″。擦去临时虚线。",
+      "action": "B_left",
+      "beats": [
+        {
+          "id": "b-side:transfer",
+          "text": "从 b 水平引线至 45°线。",
+          "action": {
+            "type": "line",
+            "id": "B_transfer",
+            "a": "B_top",
+            "b": "B_turn",
+            "dashed": true
+          },
+          "anchor": [
+            "B_top",
+            "B_turn"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "B_top",
+            "B_turn"
+          ]
+        },
+        {
+          "id": "b-side:turn",
+          "text": "过交点作竖线。",
+          "action": {
+            "type": "line",
+            "id": "B_turn_line",
+            "a": "B_turn",
+            "b": "B_side_upper",
+            "dashed": true
+          },
+          "anchor": [
+            "B_turn",
+            "B_side_upper"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "B_turn",
+            "B_side_upper"
+          ]
+        },
+        {
+          "id": "b-side:height",
+          "text": "过 b′ 作水平线。",
+          "action": {
+            "type": "line",
+            "id": "B_level",
+            "a": "B_front",
+            "b": "B_level_end",
+            "dashed": true
+          },
+          "anchor": [
+            "B_front",
+            "B_level_end"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "B_front",
+            "B_level_end"
+          ]
+        },
+        {
+          "id": "b-side:point",
+          "text": "标出b″。",
+          "action": {
+            "type": "point",
+            "p": "B_left",
+            "name": "b″"
+          },
+          "anchor": [
+            "B_left"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "B_left"
+          ]
+        },
+        {
+          "id": "b-side:erase",
+          "text": "擦去临时虚线。",
+          "action": {
+            "type": "erase",
+            "targets": [
+              "B_transfer",
+              "B_turn_line",
+              "B_level"
+            ]
+          },
+          "anchor": [
+            "B_front",
+            "B_top",
+            "B_left"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "B_front",
+            "B_top",
+            "B_left"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "check",
+      "title": "核对对应关系",
+      "text": "A、B 的三面投影完成。",
+      "action": "check",
+      "beats": [
+        {
+          "id": "check:complete",
+          "text": "A、B 的三面投影完成。",
+          "action": {
+            "type": "focus"
+          },
+          "anchor": [
+            "A_front",
+            "A_top",
+            "A_left",
+            "B_front",
+            "B_top",
+            "B_left"
+          ],
+          "indicators": [
+            "highlight"
+          ],
+          "focus": [
+            "A_front",
+            "A_top",
+            "A_left",
+            "B_front",
+            "B_top",
+            "B_left"
+          ]
+        }
+      ]
+    }
+  ],
+  "presentation": {
+    "characters_per_second": 16,
+    "punctuation_pause": 0.18,
+    "busy_navigation": "complete_current_then_wait",
+    "chapter_navigation": "restore_first_beat_before_action"
+  },
+  "design_reference": "https://www.figma.com/design/adCrPAUZLtg0EjhtK6gGWZ",
+  "construction_note": "先完成A的三个投影，再从A的投影量取B的相对距离；不显示坐标算式。临时作图线只在教学副本中绘制和擦除。",
+  "knowledge_scope": {
+    "basis": "仅合订卷纯点题 t01-q01 与 t08-q01；含直线的题属于线的投影，面内取点属于平面章节。",
+    "index_source": "学习资料/题集识别/题集索引.json",
+    "compilation_sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c",
+    "questions_scanned": 69,
+    "direct_questions": [
+      {
+        "id": "t01-q01",
+        "pdf_page": 1,
+        "image": "题图/t01-q01-p01.png",
+        "facts": {
+          "A_distances_mm": {
+            "H": 12,
+            "V": 15,
+            "W": 10
+          },
+          "B_relative_mm": {
+            "left": 5,
+            "back": 10,
+            "up": 8
+          }
+        }
+      },
+      {
+        "id": "t08-q01",
+        "pdf_page": 38,
+        "image": "题图/t08-q01-p38.png",
+        "facts": {
+          "A_given": "三面投影；图中没有绝对坐标尺寸",
+          "B_relative_mm": {
+            "left": 20,
+            "front": 18,
+            "up": 16
+          }
+        }
+      }
+    ],
+    "question_to_content": {
+      "t01-q01": [
+        "H/V/W和投影标记",
+        "三项面距到二维轴距",
+        "正投影保留的坐标",
+        "展开与对应关系",
+        "45度转移求侧面投影",
+        "左/上/后的位移及距V减小"
+      ],
+      "t08-q01": [
+        "从已知A同名投影出发",
+        "每个方向影响哪两个投影",
+        "左20/上16/前18的图上量取",
+        "前方使距V增大",
+        "对应关系检查"
+      ]
+    },
+    "line_questions_excluded": [
+      "t02-q01",
+      "t02-q02",
+      "t03-q02",
+      "t04-q02",
+      "t05-q01",
+      "t06-q01",
+      "t07-q01",
+      "t07-q02",
+      "t08-q02"
+    ],
+    "plane_questions_excluded": [
+      "t01-q02",
+      "t03-q01",
+      "t04-q01",
+      "t05-q02",
+      "t06-q02",
+      "t08-q03"
+    ],
+    "removed_unexamined_topics": [
+      "特殊位置点",
+      "负坐标",
+      "无轴投影",
+      "重影点及可见性",
+      "非本两题所需的反向二求三分支"
+    ],
+    "examples": "知识按方法合并：左右与上下只演示一次，后方和前方分别演示。前方示意沿用原模型A/B的左右及高度，只以18毫米改变前后距离；原题20/16/18仍在来源事实中保留。不新增练习或评分。",
+    "extraction_note": "投影体系、正投影、展开和对应规律是完成原题所需的方法，不是题干逐字列出的条件。"
+  },
+  "knowledge_resume_aliases": {
+    "relative8": "relative:left",
+    "relative8:given": "relative:left",
+    "relative8:left": "relative:left",
+    "relative8:up": "relative:left"
+  },
+  "beginner_review": {
+    "date": "2026-10-25",
+    "chapter": "points",
+    "scope": "concept"
+  }
+}

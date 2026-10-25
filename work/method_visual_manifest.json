@@ -1,0 +1,266 @@
+[
+  {
+    "file": "method-plane_projection_other-first-ray-normal.png",
+    "archive": "method-reviewed/8aeca5ae548e-method-plane_projection_other-first-ray-normal.png",
+    "sha256": "8aeca5ae548e4ba6b2fb3d5da3d81de18fd4871f3aafc9cff38a59067912f431",
+    "pixels": [
+      1440,
+      900
+    ],
+    "observation": "初次实际复看发现：文字落在H面垂足附近，投影虚线过暗；随后修正，不作为最终效果。",
+    "status": "诊断截图",
+    "superseded": true
+  },
+  {
+    "file": "method-plane_projection_other-more-vertices-normal.png",
+    "archive": "method-reviewed/93677ba3c6b7-method-plane_projection_other-more-vertices-normal.png",
+    "sha256": "93677ba3c6b7210c187a66d9c8603a431a00e6d036e1cceb922ad44840db7f3b",
+    "pixels": [
+      1440,
+      900
+    ],
+    "observation": "初次实际复看发现：文字落在H面垂足附近，投影虚线过暗；随后修正，不作为最终效果。",
+    "status": "诊断截图",
+    "superseded": true
+  },
+  {
+    "file": "method-sheet-plane-1-minimum.jpg",
+    "observation": "已知空间平面；V面逐顶点投影后才连边；H面初始无未来边。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/e8ca7d6582ca-method-sheet-plane-1-minimum.jpg",
+    "sha256": "e8ca7d6582ca8a6533d9628842c15166fe53709b004d8a63fd5f811a5d4dbae1",
+    "pixels": [
+      1200,
+      1230
+    ]
+  },
+  {
+    "file": "method-sheet-plane-2-minimum.jpg",
+    "observation": "H/W分别取垂足与连边；反向45°先演示a，再连续求其余点。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/5be18a076ce4-method-sheet-plane-2-minimum.jpg",
+    "sha256": "5be18a076ce4e0740dc2f9d65c94e7a8366f9efebb6c3a3ee443f2a2cdec9852",
+    "pixels": [
+      1200,
+      1230
+    ]
+  },
+  {
+    "file": "method-sheet-plane-3-minimum.jpg",
+    "observation": "正平条件先求c，两条平行辅助线分别作出再确定b，最后清理。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/5747f9caf26e-method-sheet-plane-3-minimum.jpg",
+    "sha256": "5747f9caf26eac7ddcdac673b5c00bdc073ab7330c00d7e3e13b69cf3ae31019",
+    "pixels": [
+      1200,
+      1230
+    ]
+  },
+  {
+    "file": "method-sheet-basic_solids-1-minimum.jpg",
+    "observation": "圆柱已知水平位置及高度、圆锥已知母线先出现，再求交点。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/3299ab353de8-method-sheet-basic_solids-1-minimum.jpg",
+    "sha256": "3299ab353de8ff5e3031fe38002cfe36068b7af6535ca6f864145fe717934386",
+    "pixels": [
+      1200,
+      1230
+    ]
+  },
+  {
+    "file": "method-sheet-basic_solids-2-minimum.jpg",
+    "observation": "球面先说明前半球与已知正面投影，水平圆配合对应线取点。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/24581c971191-method-sheet-basic_solids-2-minimum.jpg",
+    "sha256": "24581c97119167b6e7368e0e7a2448aaa4391526df6de3d58fcc7d240d003048",
+    "pixels": [
+      1200,
+      410
+    ]
+  },
+  {
+    "file": "method-sheet-intersection_solids-1-minimum.jpg",
+    "observation": "内外表面的公共点分别可见，先点后曲线，不直接给出两条答案曲线。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/c466bb20e1a8-method-sheet-intersection_solids-1-minimum.jpg",
+    "sha256": "c466bb20e1a84bb65775cd88949b9a899d3fd40e75ab037deb4e5f3b727d1c02",
+    "pixels": [
+      1200,
+      1230
+    ]
+  },
+  {
+    "file": "method-sheet-combination-1-minimum.jpg",
+    "observation": "先由一个角点的高度和前后距离求侧面点，再推广到其余轮廓。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/11bcbbbbb1de-method-sheet-combination-1-minimum.jpg",
+    "sha256": "11bcbbbbb1def6f191510f6689a75e51dc98c5d35017f365fa88845217f83d28",
+    "pixels": [
+      1200,
+      820
+    ]
+  },
+  {
+    "file": "method-sheet-line-1-minimum.jpg",
+    "observation": "空间五等分先出现，二维投影刻度随后出现；未增加第二种比例。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/5dbe804d4128-method-sheet-line-1-minimum.jpg",
+    "sha256": "5dbe804d4128dd61d4e86de13c222be5aed23a4911fda1076625f0a53dda5701",
+    "pixels": [
+      1200,
+      410
+    ]
+  },
+  {
+    "file": "method-line_division_parts-space-first-normal.png",
+    "observation": "自然中间态：先有空间等分刻度，纸面尚无刻度。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/39d0a006a360-method-line_division_parts-space-first-normal.png",
+    "sha256": "39d0a006a360d09733ea8857571f0b851e29abcc210d896f0b0d4b2b64b65616",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "method-line_division_parts-projections-normal.png",
+    "observation": "最终空间四个刻度与三面对应刻度清晰可见。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/2fdb10f2b830-method-line_division_parts-projections-normal.png",
+    "sha256": "2fdb10f2b830e3d60e2e88efc650f65371979d7a50df19cc018c94d0ece2243b",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "method-plane_projection_other-more-vertices-minimum.png",
+    "observation": "H面投影自然中间态：当前仅两顶点，未连边；文字处于上方，未挡垂足。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/e62a1bbf3aef-method-plane_projection_other-more-vertices-minimum.png",
+    "sha256": "e62a1bbf3aef822154def7a1365f77583cf87b594906973a16500263f7c46e47",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "method-plane_projection_other-more-vertices-normal.png",
+    "observation": "正常窗口H面中间态：先A/B垂足，无后续顶点及边界；暖色投影虚线可辨。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/53826b928461-method-plane_projection_other-more-vertices-normal.png",
+    "sha256": "53826b9284619043ae1ad548093560f47a844c0a2a16838aaa0ec4bb0a07cdba",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "method-plane_projection_side-points-after-normal.png",
+    "observation": "W面四个垂足已到达，尚无侧面连边；文字和投影点分离。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/6db4d5c2c5d4-method-plane_projection_side-points-after-normal.png",
+    "sha256": "6db4d5c2c5d44879bc7b94aff30701188ece61122d78a6dc41d0fbf604ea4566",
+    "pixels": [
+      1440,
+      900
+    ]
+  },
+  {
+    "file": "method-plane_complete_third-endpoints-during-minimum.png",
+    "observation": "反向45°转移自然中间态，先从a″向45°线，再与a′对应，未提前显示b/c答案。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/786dcaa054b4-method-plane_complete_third-endpoints-during-minimum.png",
+    "sha256": "786dcaa054b4f02d608084529cbc88979373a8af325f0cb16c435132cd0e8152",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "method-plane_complete_parallel-b-during-minimum.png",
+    "observation": "两条平行辅助线交于b，c的已完成投影保持，点名可辨。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/25c53fe09fda-method-plane_complete_parallel-b-during-minimum.png",
+    "sha256": "25c53fe09fda3a9eafcdad1f498d110dbb04475ec3f6edae96b8e7d3b72639a7",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "method-basic_solids_sphere_point-after-minimum.png",
+    "observation": "球面前半球交点在水平圆前侧；正面已知点和两候选位置关系可见。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/8ed75d3fd76e-method-basic_solids_sphere_point-after-minimum.png",
+    "sha256": "8ed75d3fd76ed428a8f1e156be0b29658b84aa23e05bc4d62e64316e0b018124",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "method-intersection_solids_shell_inner-points-after-minimum.png",
+    "observation": "内孔一组公共点在两视图及剖开实体可辨，外组点继续保留。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/fce984d5ce3b-method-intersection_solids_shell_inner-points-after-minimum.png",
+    "sha256": "fce984d5ce3b7ec59d4676315bf44b221e1ab18af4fa503040e0becbe8b80465",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "method-combination_slope_point-depth-after-minimum.png",
+    "observation": "一个p″由等高与等前后距离两辅助线相交得到，未提前绘出整个侧轮廓。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/fd6d86318d11-method-combination_slope_point-depth-after-minimum.png",
+    "sha256": "fd6d86318d11614c6c31e3e6e2b8b710b97f1eee6e90e544620ff80d3bbf2cd3",
+    "pixels": [
+      1060,
+      720
+    ]
+  },
+  {
+    "file": "method-sheet-plane-3-normal.jpg",
+    "observation": "正常窗口六个平行四边形小段：已知准备、c的条件、c的定位、两条平行线、连边清理；文字均能容纳。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/4b510174d54c-method-sheet-plane-3-normal.jpg",
+    "sha256": "4b510174d54cae637113d70332b43e15a6bb5e92175bc52431c734c754883d64",
+    "pixels": [
+      1200,
+      1230
+    ]
+  },
+  {
+    "file": "method-sheet-basic_solids-1-normal.jpg",
+    "observation": "正常窗口圆柱/圆锥给定条件先于求交，球面前半球条件先于画高度圆。",
+    "status": "最终查看",
+    "superseded": false,
+    "archive": "method-reviewed/e8388a29e49c-method-sheet-basic_solids-1-normal.jpg",
+    "sha256": "e8388a29e49c982dcaf59a979d14bc03fb5c3adb5d9b7b06a8898760880607ce",
+    "pixels": [
+      1200,
+      1230
+    ]
+  }
+]

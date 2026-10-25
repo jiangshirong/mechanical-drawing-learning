@@ -1,0 +1,44 @@
+[
+  {
+    "id": "points",
+    "title": "两点的三面投影",
+    "data": "assets/examples/points/data.json",
+    "model": "assets/examples/points/model.glb"
+  },
+  {
+    "id": "line",
+    "title": "水平线的三面投影",
+    "data": "assets/examples/line/data.json",
+    "model": "assets/examples/line/model.glb"
+  },
+  {
+    "id": "plane",
+    "title": "平行四边形补投影",
+    "data": "assets/examples/plane/data.json",
+    "model": "assets/examples/plane/model.glb"
+  },
+  {
+    "id": "slope",
+    "title": "斜面开槽组合体",
+    "data": "assets/examples/slope/data.json",
+    "model": "assets/examples/slope/model.glb"
+  },
+  {
+    "id": "base",
+    "title": "带孔底座组合体",
+    "data": "assets/examples/base/data.json",
+    "model": "assets/examples/base/model.glb"
+  },
+  {
+    "id": "bracket",
+    "title": "主左视图补俯视图",
+    "data": "assets/examples/bracket/data.json",
+    "model": "assets/examples/bracket/model.glb"
+  },
+  {
+    "id": "section",
+    "title": "全剖视：双孔连接件",
+    "data": "assets/examples/section/data.json",
+    "model": "assets/examples/section/model.glb"
+  }
+]

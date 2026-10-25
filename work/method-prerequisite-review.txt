@@ -1,0 +1,516 @@
+
+## points 点的三面投影
+[planes]
+planes:purpose | 怎样把空间点的位置画在纸上？先认识从三个方向接收投影的平面。 | focus | False
+planes:H | 从上向下投影的平面是水平面 H。 | focus | False
+planes:V | 从前向后投影的平面是正面 V。 | focus | False
+planes:W | 从左向右投影的平面是侧面 W。 | focus | False
+planes:A | A 在 H 面上方、V 面前方、W 面左方。 | focus | False
+planes:X | V 与 H 的交线是 X 轴；展开后用它分开正面和水平投影。 | focus | False
+planes:Y | H 与 W 的交线是 Y 轴。展开后分成向下的 Y_H 和向右的 Y_W。 | focus | False
+planes:Z | V 与 W 的交线是 Z 轴，三条轴交于 O。 | focus | False
+[distances]
+distances:coordinates | 只说在前、在上还不够；到三个面的距离共同确定 A 的位置。 | focus | False
+distances:H | 距 H 是高度：{A_z} mm。 | ray | False
+distances:V | 距 V 表达前后：{A_y} mm。 | ray | False
+distances:W | 距 W 表达左右：{A_x} mm。 | ray | False
+[feet]
+feet:V | 从 A 向 V 面作垂线，垂足 a′ 就是它的正面投影。 | foot | False
+feet:V-keep | 正面投影反映左右和高度，不能反映前后。 | focus | False
+feet:H | 向 H 面作垂线，垂足是 a。 | foot | False
+feet:H-keep | 水平投影反映左右和前后。 | focus | False
+feet:W | 向 W 面作垂线，垂足是 a″。 | foot | False
+feet:W-keep | 侧面投影反映前后和高度。 | focus | False
+planes:names | 空间点用大写 A；水平、正面、侧面投影分别记作 a、a′、a″。 | focus | False
+[unfold]
+unfold:V | 三个面还在空间中。要把投影放到同一张纸上，先固定 V 面。 | focus | False
+unfold:H | H 面绕 X 轴向下展开。 | unfold | False
+unfold:W | W 面绕 Z 轴向右展开。 | unfold | False
+unfold:distance | 展开不改变投影点到转轴的距离。 | focus | False
+[alignment]
+alignment:vertical | 正面、水平投影的左右位置相同，连线垂直 X。 | line | False
+alignment:height | 正面、侧面投影的高度相同，连线水平。 | line | False
+alignment:depth | a 到 X、a″ 到 Z 的距离，都等于 A 距 V 的距离。 | focus | False
+alignment:given | 已知 a、a′，求 a″。 | focus | False
+alignment:transfer | 从 a 水平引线至 45°线。 | line | False
+alignment:45-distance | 45°线上的点到两轴等距，可把前后距离转到侧面。 | focus | False
+alignment:turn | 过交点作竖线。 | line | False
+alignment:level | 过 a′ 作水平线。 | line | False
+alignment:point | 交点就是 a″。 | point | False
+alignment:summary | 两个投影给出左右、前后和高度，可确定第三个投影。 | focus | False
+[relative]
+relative:purpose | 现在已知 A，要按左右、上下、前后的相对位置作出 B。 | focus | False
+relative:left | B 在 A 左方 {dx} mm。 | move | False
+relative:up | B 在 A 上方 {dz} mm。 | move | False
+relative:back | B 在 A 后方 {dy} mm。 | move | False
+relative8:front | 若条件改为“B 在 A 前方 18 mm”，从 A 向前量取。 | move | False
+relative:read | 从同名投影的间距，读出两点的相对位置。 | focus | False
+
+## line 直线的投影
+[projection]
+projection:purpose | 已经会定位点；给出 A、B 两端点，就能确定线段及其投影。 | focus | False
+projection:connect | 连接 A、B，得到空间线段 AB。 | line | False
+projection:connect-front | 连接 a′、b′，得到正面投影。 | line | False
+projection:connect-top | 连接 a、b，得到水平投影。 | line | False
+projection:connect-left | 连接 a″、b″，得到侧面投影。 | line | False
+projection:third-A-context | 只给正面、水平投影，怎样补侧面投影？ | scene | False
+projection:third-A | 由 a、a′ 求 a″。 | side_point | False
+projection:third-B | 同样由 b、b′ 求 b″。 | side_point | False
+projection:third-line | 连接 a″、b″。 | line | False
+projection:method | 步骤是先画出端点的投影，再将端点连线。 | focus | False
+[parallel_plane]
+parallel_plane:H-context | 将 AB 转到平行 H 面的位置，此时称为水平线。 | scene | False
+parallel_plane:H-length | A、B 距 H 面相同。 | focus | False
+parallel_plane:H-angle | 水平投影与 X 的夹角，反映直线与 V 面的夹角。 | focus | False
+parallel_plane:H-others | 正面、侧面投影均为水平线。 | focus | False
+parallel_plane:V-context | 将 AB 转到平行 V 面的位置，此时称为正平线。 | scene | False
+parallel_plane:V-length | 两端距 V 面相同，水平投影平行 X。 | focus | False
+[normal_plane]
+normal_plane:H-context | 将 AB 转到垂直 H 面的位置，此时称为铅垂线。 | scene | False
+normal_plane:V-context | 将 AB 转到垂直 V 面的位置，此时称为正垂线。 | scene | False
+[point_on_line]
+point_on_line:height-guide-context | 给出线段 AB，要求确定线上点 C。
+可能通过两种方式给出点C的位置信息：
+  1. 给定点C离某面的距离
+  2. 给定AC和CB的长度比例 | scene | False
+point_on_line:height-guide | C 距 H 面 25 mm。 | line | False
+point_on_line:height-point | C 在线段 AB 上，等高辅助线与 a′b′ 的交点就是 c′。 | points | False
+point_on_line:height-transfer | C 仍须在线上：由 c′ 对应到 ab，再补侧面投影。 | points | False
+division:parts-context | 同一条线上改用比例条件：AC∶CB＝2∶3。 | scene | False
+division:parts | 2 份加 3 份共 5 份，把线段投影五等分。 | ticks | False
+division:2-3 | 取从 A 起的第二个分点 C。 | points | False
+[parallel]
+parallel:through-context | 另给点 A 和直线 EF，
+过 A 作 EF 的平行线。 | scene | False
+parallel:through | 过 a′ 画 e′f′ 的平行线。 | construct | False
+parallel:through-top | 过 a 画 ef 的平行线。 | construct | False
+parallel:through-result | 选取同名端点对应的位置，再补空间线段和侧面投影。 | construct | False
+parallel:rule | 空间平行，同名投影也平行。 | focus | False
+parallel:complete-lines-context | 已知平行四边形的 A、C、D，
+补出顶点 B。 | scene | False
+parallel:complete-lines | 利用对边平行，补出两条线。 | construct | False
+parallel:complete-point | 交点确定第四个顶点。 | points | False
+parallel:one-view-context | 换一组直线，比较一面投影平行与空间平行的区别。 | scene | False
+parallel:one-view | 只看一面，不能判断空间平行。 | focus | False
+parallel:compare | 看水平投影：方向不同，因此这组空间直线并不平行。 | construct | False
+[intersection]
+intersection:lines-context | 两条直线怎样才算在空间相交？ | scene | False
+intersection:lines | 画出第二条直线，找它们的共同点。 | line | False
+intersection:common | 同一个交点，在各面一一对应。 | points | False
+intersection:apparent-context | 只在正面投影相交，空间中一定相交吗？ | scene | False
+intersection:apparent | 这个正面交点，对应两条线上各自的空间点。 | points | False
+intersection:check | 前后位置不同，空间中没有共同点。 | points | False
+intersection:distance-context | 另给 A 和 EF，过 A 作相交线；
+交点 B 的面距已知。 | scene | False
+intersection:distance | 交点 B 距 V 面 10 mm。 | line | False
+intersection:target | 在 EF 上确定交点 B。 | points | False
+intersection:through | 连接 A、B，得到过 A 的相交线。 | line | False
+intersection:both-front-context | 已知 AB、CD、EF，
+作平行 AB 且与 CD、EF 相交的线。 | scene | False
+intersection:both-clue | CD 垂直 V 面，在正面积聚成一点；所求线必须经过这个投影点。 | focus | False
+intersection:both-front | 过 c′d′ 作 a′b′ 的平行线，与 e′f′ 相交，确定另一个交点。 | construct | False
+intersection:both-top | 向水平投影对应，在 cd、ef 上分别确定两个交点。 | construct | False
+intersection:both-space | 连接两个交点，得到同时平行 AB、并与 CD 和 EF 相交的线。 | construct | False
+
+## plane 平面的投影
+[projection]
+projection:surface | 已经会投影点和线；平面 ABCD 的范围，用顶点和边界表达。 | none | False
+projection:front | 各顶点投到V面，连成正面投影。 | outline | False
+projection:other | 同样作出水平、侧面投影。 | outline | False
+projection:edge-on | 转到垂直V面的位置，正面投影积聚成线。 | prepare | False
+projection:vertices | 积聚后顶点仍各自对应；这条线不表示原平面只剩一条边。 | none | False
+[in-line]
+in-line:problem | 给出平面 ABC，要求在面内作一条距 H 面 10 mm 的线。 | prepare | False
+in-line:level | 线上各点高度都为 10 mm，先画正面水平辅助线。 | line | False
+in-line:intersections | 辅助线与两条边的交点，同时属于这个平面。 | points | False
+in-line:other-points | 求两交点的另一面投影。 | project_points | False
+in-line:joined | 连接面内两点，得到所求面内直线。 | line | False
+in-line:erase-level | 擦去辅助线。 | erase | False
+in-line:frontal | 若改为距 V 面 15 mm，就从水平投影画等距线；求交点的方法相同。 | outline | False
+[in-point]
+in-point:problem | 平面内的点 P 距 H 面 15 mm、距 V 面 12 mm，怎样同时满足？ | prepare | False
+in-point:level | 先用高度 15 mm 作面内水平线，P 必须在这条线上。 | sequence | False
+in-point:depth | 再从水平投影按距 V 面 12 mm 画辅助线。 | line | False
+in-point:P-top | 两条条件线的交点 p，同时满足两个面距。 | points | False
+in-point:P-front | 求p′。 | project_points | False
+in-point:erase-level-joined-depth | 擦去辅助线。 | erase | False
+[complete]
+complete:third-problem | 只给正面、侧面投影，补出水平投影。 | prepare | False
+complete:third-endpoints | 转移各顶点的水平投影。 | project_points | False
+complete:third-boundary | 连接顶点，补出边界。 | outline | False
+complete:problem | 普通四边形 ABCD 缺顶点 c 的水平投影，怎样借已知顶点求它？ | prepare | False
+complete:AC-front | 连接 a′、c′，借对角线建立一条面内辅助线。 | line | False
+complete:BD-front | 画对角线b′d′。 | line | False
+complete:E-front | 两条对角线交于同一空间点 E，先确定 e′。 | points | False
+complete:BD-top | 连接b、d，作为辅助线。 | line | False
+complete:E-top | E 也在 BD 上；由 e′ 对应到 bd，确定 e。 | project_points | False
+complete:AC-top | A、E、C 共线，所以 c 必须在 ae 的延长线上。 | line | False
+complete:C-top | 再用 c′ 的左右位置，与 ae 相交确定 c。 | project_points | False
+complete:close | 连接b、c、d。 | outline | False
+complete:erase-AC-front-BD-front-BD-top-AC-top | 擦去辅助线。 | erase | False
+complete:parallel-context | 只有题目明确给出平行四边形时，才可用对边平行补点。 | prepare | False
+complete:parallel-complete | 利用正平线和对边平行，补出顶点。 | outline | False
+
+## basic_solids 基本体的投影
+[prism]
+basic_solids:prism:context | 点、线、面组成了立体。先看棱柱：怎样用投影说明它的形状？ | ['body', 'body_front', 'body_top', 'body_left', 'generators', 'level', 'point'] | True
+basic_solids:prism:edges | 棱柱相邻平面的交线是棱；同一条棱对应各面的线段。 | ['generators'] | False
+basic_solids:prism:locate | 已知点在这条棱上，可在线的投影上定位它。 | ['point'] | False
+[cylinder]
+basic_solids:cylinder:context | 换成圆柱：侧面是曲面，图中的两条直线还是棱吗？ | ['body', 'body_front', 'body_top', 'body_left', 'generators', 'level', 'point'] | True
+basic_solids:cylinder:silhouette | 圆柱侧面没有这两条棱；它们是从当前方向看见的曲面边界。 | ['generators'] | False
+basic_solids:cylinder:circle | 沿轴线看，圆柱轮廓是圆；侧面上的点都投影在圆周上。 | ['level'] | False
+basic_solids:cylinder:point | 先在圆周上确定前后、左右位置，再用高度确定空间点。 | ['point'] | False
+[cone]
+basic_solids:cone:context | 圆锥越靠近顶点越细。怎样确定它表面上的点？ | ['body', 'body_front', 'body_top', 'body_left', 'generators', 'level', 'point', 'point_generator'] | True
+basic_solids:cone:generator | 从顶点连到底面圆周的直线叫母线，整条线都在锥面上。 | ['generators'] | False
+basic_solids:cone:level | 指定高度处的横截面是圆；高度不同，圆的大小也不同。 | ['level'] | False
+basic_solids:cone:point | 选定这条母线，再与同高度的圆相交，确定表面点。 | ['point', 'point_generator'] | False
+[sphere]
+basic_solids:sphere:context | 球面没有棱和顶点。确定表面点时，可以借一个圆吗？ | ['body', 'body_front', 'body_top', 'body_left', 'generators', 'level', 'point'] | True
+basic_solids:sphere:silhouette | 球的投影轮廓是圆，但轮廓内的点也可能在球面上。 | ['generators'] | False
+basic_solids:sphere:level | 用水平面截球，得到同一高度的圆。 | ['level'] | False
+basic_solids:sphere:point | 先在这个圆上确定点的位置，再求其他投影；后面求交线也会用到它。 | ['point'] | False
+
+## intersection_plane 截交线
+[prism]
+intersection_plane:prism:context | 已知棱柱的切割位置，怎样补出截切后的侧面投影？ | ['retained', 'removed', 'result_front', 'result_top', 'result_left', 'guides', 'intersection', 'common_points'] | True
+intersection_plane:prism:meaning | 前面学过表面取点；截交线就是截平面与立体表面的公共点连成的边界。 | [] | False
+intersection_plane:prism:remove | 移开被切去的材料，辨认截平面与原表面的公共边界。 | ['removed'] | False
+intersection_plane:prism:guides | 斜切面与各条棱相交，先求这些交点。 | ['guides'] | False
+intersection_plane:prism:points | 标出同时在截平面和原表面上的点。 | ['common_points'] | False
+intersection_plane:prism:curve | 同一平面上的两点直线相连，依次围成截交线。 | ['intersection'] | False
+intersection_plane:prism:answer | 从所求视图的方向看：可见边界画实线，被挡住的边界画虚线。 | ['result_left', 'guides', 'intersection', 'common_points'] | False
+intersection_plane:prism:check | 切掉部分的旧轮廓不再保留；最后核对剩余外形。 | [] | False
+[cylinder]
+intersection_plane:cylinder:context | 圆柱上方削去两侧，下方开槽，怎样补出侧面投影？ | ['retained', 'removed', 'result_front', 'result_top', 'result_left', 'guides', 'intersection', 'common_points'] | True
+intersection_plane:cylinder:remove | 移开被切去的材料，辨认截平面与原表面的公共边界。 | ['removed'] | False
+intersection_plane:cylinder:guides | 先找槽壁与圆柱的交点；俯视圆给出它们的前后位置。 | ['guides'] | False
+intersection_plane:cylinder:points | 标出同时在截平面和原表面上的点。 | ['common_points'] | False
+intersection_plane:cylinder:curve | 水平截面上的交线是圆弧；竖直槽壁上的交线沿母线。 | ['intersection'] | False
+intersection_plane:cylinder:answer | 从所求视图的方向看：可见边界画实线，被挡住的边界画虚线。 | ['result_left', 'guides', 'intersection', 'common_points'] | False
+[cone]
+intersection_plane:cone:context | 横放的圆锥与两段圆柱被水平面截切，怎样补水平投影？ | ['retained', 'removed', 'result_front', 'result_top', 'result_left', 'guides', 'intersection', 'common_points'] | True
+intersection_plane:cone:remove | 移开被切去的材料，辨认截平面与原表面的公共边界。 | ['removed'] | False
+intersection_plane:cone:guides | 在圆锥上取几个垂直轴线的圆，分别求它们与截平面的交点。 | ['guides'] | False
+intersection_plane:cone:points | 标出同时在截平面和原表面上的点。 | ['common_points'] | False
+intersection_plane:cone:curve | 锥面上的公共点连成曲线；圆柱部分的交线沿轴向。 | ['intersection'] | False
+intersection_plane:cone:answer | 从所求视图的方向看：可见边界画实线，被挡住的边界画虚线。 | ['result_top', 'guides', 'intersection', 'common_points'] | False
+[sphere]
+intersection_plane:sphere:context | 半球上开一个槽，怎样求槽壁与球面的交线？ | ['retained', 'removed', 'result_front', 'result_top', 'result_left', 'known_top', 'guides', 'intersection', 'common_points'] | True
+intersection_plane:sphere:remove | 移开被切去的材料，辨认截平面与原表面的公共边界。 | ['removed'] | False
+intersection_plane:sphere:guides | 槽底、两侧槽壁分别与球面相交，先找它们交接处的点。 | ['guides'] | False
+intersection_plane:sphere:points | 标出同时在截平面和原表面上的点。 | ['common_points'] | False
+intersection_plane:sphere:curve | 每个平面都从球上截出圆；只保留属于槽口边界的圆弧。 | ['intersection'] | False
+intersection_plane:sphere:answer | 从所求视图的方向看：可见边界画实线，被挡住的边界画虚线。 | ['result_top', 'result_left', 'guides', 'intersection', 'known_top', 'common_points'] | False
+
+## intersection_solids 相贯线
+[inner]
+intersection_solids:inner:context | 两个圆柱孔贯通后，孔壁在哪里相交？求这条相贯线。 | ['body', 'body_front', 'body_top', 'body_left', 'cutaway', 'intersection', 'guides', 'special', 'intermediate', 'point_vertical', 'point_horizontal', 'common_point'] | True
+intersection_solids:inner:surfaces | 这里参与相交的是两处孔壁，都是圆柱面，不是平面。 | ['cutaway', 'body'] | False
+intersection_solids:inner:one-point | 先取竖孔圆周上的一个位置，它限定了一条竖直母线。 | ['point_vertical'] | False
+intersection_solids:inner:both-surfaces | 再与横孔壁相交，这个点就同时属于两处孔壁。 | ['point_horizontal', 'common_point'] | False
+intersection_solids:inner:special | 先取轮廓处和对称位置的点，它们限定曲线的范围。 | ['guides', 'special'] | False
+intersection_solids:inner:middle | 范围确定后，在中间补点，判断曲线怎样弯曲。 | ['intermediate'] | False
+intersection_solids:inner:connect | 按孔壁上的相邻次序连接公共点，得到上下两处交线。 | ['intersection'] | False
+intersection_solids:inner:visible | 从正面看，孔内交线被外壁遮挡，画成虚线。 | ['body', 'guides', 'special', 'intermediate', 'cutaway', 'point_vertical', 'point_horizontal', 'common_point'] | False
+[shell]
+intersection_solids:shell:context | 换成两根有壁厚的圆管：外表面相接，内孔也贯通。 | ['body', 'body_front', 'body_top', 'body_left', 'cutaway', 'intersection', 'guides', 'special', 'intermediate', 'point_vertical', 'point_horizontal', 'common_point'] | True
+intersection_solids:shell:surfaces | 外表面和内孔各有一条交线，必须分别求点。 | ['cutaway', 'body'] | False
+intersection_solids:shell:connect | 用两组公共点分别连出外表面交线和孔内交线。 | ['intersection'] | False
+intersection_solids:shell:visible | 可见的外表面交线用实线；被材料挡住的孔内交线用虚线。 | ['body', 'guides', 'special', 'intermediate', 'cutaway', 'point_vertical', 'point_horizontal', 'common_point'] | False
+
+## combination 组合体分析与补视图
+[slope]
+combination:slope:context | 已知正面、水平投影，补侧面投影。先把这个组合体看成主体和切去的槽。 | ['model', 'front_body_visible', 'front_body_hidden', 'front_slot_visible', 'front_slot_hidden', 'front_slope_visible', 'front_slope_hidden', 'top_body_visible', 'top_body_hidden', 'top_slot_visible', 'top_slope_visible', 'top_slot_hidden', 'left_body_visible', 'left_body_hidden', 'left_slot_hidden', 'left_slot_visible', 'left_slope_visible', 'left_slope_hidden', 'feature_slot', 'feature_slope'] | True
+combination:slope:parts | 先认出主体、斜面和槽，再分别找它们在两个已知视图中的位置。 | ['feature_slope', 'feature_slot'] | True
+combination:slope:outer | 由正面取高度、水平投影取前后位置，补主体轮廓。 | ['left_body_visible', 'left_body_hidden'] | False
+combination:slope:detail | 再补槽口和斜面的边界；每一条线都要对应实际表面。 | ['left_slot_hidden', 'left_slot_visible', 'left_slope_visible', 'left_slope_hidden'] | False
+combination:slope:visibility | 槽内被挡住的边界画虚线；外面看得见的边界画实线。 | [] | False
+combination:slope:check | 相接处没有折角或外轮廓变化，就不另加一条线。 | [] | False
+[base]
+combination:base:context | 这次的圆弧、孔和槽不便分块。仍补侧面投影，改为逐线、逐面追踪。 | ['model', 'front_bore_visible', 'front_bore_hidden', 'front_round_visible', 'front_round_hidden', 'front_body_visible', 'front_body_hidden', 'front_slot_hidden', 'top_bore_hidden', 'top_round_visible', 'top_body_hidden', 'top_body_visible', 'top_slot_hidden', 'top_slot_visible', 'left_bore_hidden', 'left_round_hidden', 'left_round_visible', 'left_body_hidden', 'left_body_visible', 'left_slot_hidden', 'left_slot_visible', 'feature_slot', 'feature_bore', 'feature_round'] | True
+combination:base:planes | 先认出同一圆弧面，再在另一个视图中找到它的范围。 | ['feature_round'] | True
+combination:base:outer | 把圆弧轮廓的高度和前后位置配对，补侧面外轮廓。 | ['left_round_hidden', 'left_round_visible', 'left_body_hidden', 'left_body_visible'] | False
+combination:base:detail | 再追踪孔壁和槽面，补出它们在侧面的边界。 | ['left_bore_hidden', 'left_slot_hidden', 'left_slot_visible'] | False
+[bracket]
+combination:bracket:context | 现在已知正面、侧面投影，补水平投影。还是先外形、后孔槽。 | ['model', 'front_upright_hole_visible', 'front_round_visible', 'front_upright_hole_hidden', 'front_round_hidden', 'front_base_hole_hidden', 'front_body_visible', 'front_body_hidden', 'top_upright_hole_hidden', 'top_round_visible', 'top_base_hole_hidden', 'top_round_hidden', 'top_body_hidden', 'top_body_visible', 'left_upright_hole_hidden', 'left_round_hidden', 'left_round_visible', 'left_base_hole_visible', 'left_base_hole_hidden', 'left_body_visible', 'left_body_hidden', 'feature_round', 'feature_upright_hole', 'feature_base_hole'] | True
+combination:bracket:known | 正面给左右位置，侧面给前后位置，两者共同定位俯视轮廓。 | ['feature_base_hole', 'feature_upright_hole'] | True
+combination:bracket:outer | 先补底座和立板的俯视轮廓。 | ['top_body_hidden', 'top_body_visible'] | False
+combination:bracket:detail | 再补底座孔与立板孔；从上面被挡住的孔边画虚线。 | ['top_upright_hole_hidden', 'top_round_visible', 'top_base_hole_hidden', 'top_round_hidden'] | False
+[missing]
+combination:missing:context | 三个视图都在，但有缺线。怎样从其他视图找出漏掉的结构？ | ['body', 'body_front', 'body_top', 'body_left', 'known_top', 'known_left'] | True
+combination:missing:missing | 先看台阶孔和上下槽口，逐个核对它们在其他视图中的边界。 | [] | False
+combination:missing:outer | 俯视图已有两个孔圆，还需补槽边及隐藏的轮廓。 | ['body_top', 'known_top'] | False
+combination:missing:detail | 左视图已有外形，还需补孔壁和孔径变化处的台阶。 | ['body_left', 'known_left'] | False
+
+## section 剖视图
+[full]
+section:full:context | 外形投影能说明形状，但内部孔槽常被虚线遮住。怎样把内部画清楚？ | ['model', 'front_body_visible', 'front_body_hidden', 'front_bore_hidden', 'front_bore_visible', 'top_body_visible', 'top_body_hidden', 'top_bore_visible', 'top_bore_hidden', 'left_body_visible', 'left_body_hidden', 'left_bore_hidden', 'left_bore_visible', 'cut_model', 'removed', 'cutting_plane', 'section_outline', 'hatching'] | True
+section:full:cut | 让假想剖切平面穿过两个孔的轴线，剖开内部。 | ['cutting_plane'] | False
+section:full:remove | 从正面看，移去挡在剖切平面前面的部分。 | ['model', 'cut_model', 'removed', 'cutting_plane'] | False
+section:full:imagined | 这是假想剖开，其他视图仍按完整零件表达。 | [] | False
+section:full:outline | 把剩下部分向正面投影，剖切面后可见的轮廓也要画。 | ['section_outline', 'front_body_visible', 'front_body_hidden', 'front_bore_hidden', 'front_bore_visible'] | False
+section:full:hatch | 切到材料的区域画剖面线；孔是空的，留白。 | ['hatching'] | False
+section:full:rib | 这块薄板是肋板。沿它的长度方向剖切，不画剖面线。 | [] | False
+section:full:reason | 否则容易把肋板和底座、凸台看成一整块厚实材料。 | [] | False
+section:full:rib_cross | 留白不代表孔洞；横向切断肋板时仍要画剖面线。 | [] | False
+[half]
+section:half:context | 这个零件的侧面投影对称，怎样在侧视图中同时表达内外形状？ | ['body', 'body_front', 'body_top', 'body_left', 'section_outline', 'hatching', 'centre_line', 'cut', 'half_cut', 'half_removed', 'half_outline', 'half_hatching'] | True
+section:half:cut | 只移去面向观察者的四分之一，让另一半外形留下。 | ['body', 'half_cut', 'half_removed'] | False
+section:half:outline | 以对称中心线分界，一半画外形，一半画剖视，称为半剖。 | ['half_outline', 'half_hatching', 'centre_line', 'body_left'] | False
+[local]
+section:local:context | 只想说明这一处孔槽，外形还要保留，采用局部剖。 | ['figure', 'local_region', 'break_boundary'] | True
+section:local:region | 仅在需要说明内部的区域假想剖开。 | ['local_region', 'break_boundary'] | True
+section:local:boundary | 波浪线区分剖开和未剖开的区域，它不是零件上的棱。 | ['break_boundary', 'local_region'] | True
+section:local:material | 剖面线说明被切到的材料；未剖开处仍按外形表达。 | ['local_region', 'break_boundary'] | True
+[stepped]
+section:stepped:context | 几个孔错开了，一个平面切不到全部孔，怎样一起表达？ | ['body', 'body_front', 'body_top', 'body_left', 'cut', 'section_outline', 'hatching', 'cutting_path', 'cutting_planes'] | True
+section:stepped:path | 用几个互相平行的剖切平面分别经过各孔轴线，路径连成阶梯。 | ['cutting_path', 'cutting_planes'] | False
+section:stepped:cut | 按各段路径移去前面的材料，留下需要表达的孔。 | ['cut', 'body'] | False
+section:stepped:outline | 沿同一方向投影，得到阶梯剖；路径转折不是实体边界，不画分界线。 | ['section_outline', 'hatching', 'body_front', 'cutting_planes'] | False
+[rotated]
+section:rotated:context | 两个孔在倾斜相接的部分上，用相交的剖切平面分别经过它们。 | ['body', 'body_front', 'body_top', 'body_left', 'rotating_arm', 'cut', 'section_outline', 'hatching', 'cutting_path', 'cutting_planes'] | True
+section:rotated:path | 剖切路径相交，不是阶梯剖的平行错开。 | ['cutting_path', 'cutting_planes'] | False
+section:rotated:cut | 剖开两个部分，保留孔和被切材料。 | ['cut', 'rotating_arm', 'body'] | False
+section:rotated:unfold | 绕两剖切平面的交线转正倾斜部分，使两部分能在一面表达。 | ['rotating_arm'] | False
+section:rotated:outline | 按转正后的位置画旋转剖视图。 | ['section_outline', 'hatching', 'body_front', 'cutting_planes'] | False
+section:rotated:no_distortion | 旋转的是剖切部分的表达关系，不把所有结构一起拉长。 | [] | False
+[combined]
+section:combined:context | 这个零件一侧倾斜、一侧孔位错开，需要组合两种剖切方法。 | ['body', 'body_front', 'body_top', 'body_left', 'rotating_arm', 'cut', 'section_outline', 'hatching', 'cutting_path', 'cutting_planes'] | True
+section:combined:path | 倾斜处用旋转剖切，错开的孔用阶梯剖切。 | ['cutting_path', 'cutting_planes'] | False
+section:combined:cut | 先按各自路径剖开，辨认肋板和孔。 | ['cut', 'rotating_arm', 'body'] | False
+section:combined:unfold | 只转正倾斜的部分，平行错开的部分保持方向。 | ['rotating_arm'] | False
+section:combined:outline | 合成剖视轮廓；肋板纵向剖切仍留白，不能当成孔。 | ['section_outline', 'hatching', 'body_front', 'cutting_planes'] | False
+section:combined:no_distortion | 检查孔位、台阶和肋板，不能把整个零件一起拉伸。 | [] | False
+[missing]
+section:missing:context | 给出的剖视图漏了线。除切到的截面，还应补哪些轮廓？ | ['figure', 'top_edge', 'base_edge', 'bore_step', 'back_top', 'back_inner'] | True
+section:missing:outside | 先补仍然可见的顶边和底座上边。 | ['top_edge', 'base_edge'] | False
+section:missing:bore | 孔径发生变化的台阶，也有可见边界。 | ['bore_step'] | False
+section:missing:behind | 再补槽后仍然存在的轮廓，不能只画切到的截面。 | ['back_top', 'back_inner'] | False
+
+## removed_section 移出断面图
+[key]
+removed_section:key:context | 剖视还画后方轮廓；若只想说明轴在此处的形状，改画断面。 | ['body', 'body_front', 'body_top', 'body_left', 'outline', 'hatching', 'cutting_plane', 'cut_location', 'direction'] | True
+removed_section:key:plane | 在键槽中部横切这根轴，并按箭头方向观察。 | ['cutting_plane', 'cut_location', 'direction'] | False
+removed_section:key:range | 只把切到的截面移到图外，称为移出断面。 | [] | False
+removed_section:key:outline | 横切得到圆形外边界；键槽与外部连通，槽口留开。 | ['outline', 'body_left'] | False
+removed_section:key:depth | 键槽深3 mm，从轴的外圆表面向内量。 | [] | False
+removed_section:key:hatch | 实体区域画剖面线，孔槽区域留空。 | ['hatching', 'cutting_plane'] | False
+[hole]
+removed_section:hole:context | 换到带孔槽的位置：仍画断面，重点辨认孔槽与实体。 | ['body', 'body_front', 'body_top', 'body_left', 'outline', 'hatching', 'cutting_plane', 'cut_location', 'direction'] | True
+removed_section:hole:plane | 按指定位置切过孔槽，并确认观察方向。 | ['cutting_plane', 'cut_location', 'direction'] | False
+removed_section:hole:outline | 先画轴的外圆，再画孔槽切出的边界。 | ['outline', 'body_left'] | False
+removed_section:hole:through | 若剖切平面经过回转孔槽轴线，孔槽按剖视画法表达。 | [] | False
+removed_section:hole:hatch | 实体区域画剖面线，孔槽区域留空。 | ['hatching', 'cutting_plane'] | False
+[compare]
+removed_section:compare:context | 这根轴有两侧槽和钻孔。比较断面，哪些线把结构画错了？ | ['body', 'body_front', 'body_top', 'body_left', 'correct', 'hatching', 'wrong_slots', 'rear_arc'] | True
+removed_section:compare:shape | 两侧槽通向外部；图中的封口线会把槽误画成孔。 | ['correct', 'hatching', 'wrong_slots', 'body_left'] | False
+removed_section:compare:notches | 删去把槽口封住的两条线。 | ['wrong_slots'] | False
+removed_section:compare:drill | 剖切经过钻孔轴线，按剖视画法补出孔后可见圆弧。 | ['rear_arc'] | False
+
+## dimensions 尺寸与基准
+[meaning]
+dimensions:meaning:context | 前面解决形状怎样表达；尺寸还要说明结构有多大、放在哪里。 | ['outline', 'centre', 'base', 'size', 'position', 'overall', 'scale_note'] | True
+dimensions:meaning:size | 这个直径决定孔有多大，属于定形尺寸。 | ['size'] | False
+dimensions:meaning:datum | 要说孔有多高，先选起点：这里从底面量起，底面就是基准。 | ['base', 'position', 'size'] | False
+dimensions:meaning:overall | 整体有多高由总体尺寸给出，不能与孔的位置尺寸混淆。 | ['overall', 'position'] | False
+[block]
+dimensions:block:context | 回到完整零件图：沿长、宽、高三个方向，分别找尺寸从哪里量起。 | ['figure', 'front_region', 'side_region', 'top_region', 'base', 'axis_front', 'axis_side', 'end_face', 'cut_side', 'cut_front', 'cut_top'] | True
+dimensions:block:length | 左右位置从对称中心向两侧确定，主要基准是左右对称面。 | ['axis_front', 'front_region', 'side_region', 'top_region', 'base', 'axis_side', 'end_face'] | True
+dimensions:block:height | 竖直尺寸从底面量起，高度主要基准是底面。 | ['base', 'axis_front', 'front_region', 'side_region', 'top_region', 'axis_side', 'end_face'] | True
+dimensions:block:width | 前后位置相对对称中心确定，宽度主要基准是前后对称面。 | ['axis_side', 'base', 'front_region', 'side_region', 'top_region', 'axis_front', 'end_face'] | True
+[datum]
+dimensions:datum:context | 换成回转零件：怎样找到它的三个方向基准？ | ['figure', 'front', 'holes', 'slots', 'title', 'quality'] | True
+dimensions:datum:reason | 沿尺寸线找共同起点，不能只凭外形猜基准。 | ['front', 'holes', 'slots', 'title', 'quality'] | True
+dimensions:datum:height | 高度从底面量；两个径向方向都从回转轴线确定位置。 | ['front', 'holes', 'slots', 'title', 'quality'] | True
+[location]
+dimensions:location:context | 看同一釜盖的俯视图，区分孔槽的大小和分布位置。 | ['figure', 'datum_axes', 'thread_holes', 'slot'] | True
+dimensions:location:shape | 孔径、槽宽是定形尺寸，只决定大小。 | ['slot', 'datum_axes', 'thread_holes'] | True
+dimensions:location:position | 分布圆直径确定孔离中心多远，均布要求确定各孔的位置。 | ['thread_holes', 'datum_axes', 'slot'] | True
+dimensions:location:axes | 定位从轴线量起，所以轴线是径向基准。 | ['datum_axes', 'thread_holes', 'slot'] | True
+dimensions:location:scale | 尺寸数字表示实际大小，不能用屏幕上的长度代替。 | ['datum_axes', 'thread_holes', 'slot'] | True
+
+## threads 螺纹及螺纹连接
+[meaning]
+threads:meaning:context | 有些零件靠螺纹连接。先看放大的轴向牙形，再学图纸的简化画法。 | ['profile', 'crest', 'root', 'crest_name', 'root_name', 'pitch', 'scale_note'] | True
+threads:meaning:crest | 牙最凸出的部分叫牙顶，凹下去的部分叫牙底。 | ['crest', 'root', 'crest_name', 'root_name'] | False
+threads:meaning:pitch | 沿轴向，相邻两牙对应点的距离叫螺距。 | ['pitch'] | False
+[external]
+threads:external:context | 螺纹做在杆的外表面，叫外螺纹；它的大径经过牙顶，小径经过牙底。 | ['model', 'major', 'minor', 'end_major', 'end_minor', 'axis', 'termination', 'helix'] | True
+threads:external:real | 牙沿杆表面连续绕成螺旋；工程图用几条规定图线代替逐牙描画。 | ['helix'] | False
+threads:external:major | 外螺纹牙顶的大径画粗实线，牙底的小径画细实线。 | ['major', 'minor', 'helix'] | False
+threads:external:end | 端面投影中，细实线圆只画约四分之三圈。 | ['end_major', 'end_minor'] | False
+threads:external:termination | 有效螺纹的终止位置，用粗实线表示。 | ['termination'] | False
+[internal]
+threads:internal:context | 螺纹做在孔内，叫内螺纹；牙向孔内凸出，因此牙顶对应小径。 | ['model', 'outline', 'minor', 'major', 'end_minor', 'end_major', 'axis', 'termination', 'helix'] | True
+threads:internal:major | 内螺纹小径画粗实线，大径画细实线；与外螺纹的粗细位置相反。 | ['major', 'minor', 'helix'] | False
+threads:internal:end | 从孔口看，小径是完整粗圆，大径是约四分之三细圆。 | ['end_major', 'end_minor'] | False
+[engaged]
+threads:engaged:context | 外螺纹旋入内螺纹后，两者重合的连接段怎样画？ | ['female', 'male', 'body', 'female_free', 'axis', 'male_major', 'male_minor', 'female_major', 'female_minor', 'boundary', 'hatching', 'end', 'end_minor'] | True
+threads:engaged:outer | 重合的旋合段只按外螺纹画法，避免叠出两套线。 | ['male_major', 'male_minor'] | False
+threads:engaged:female | 孔内尚未旋合的一段，继续按内螺纹画法。 | ['female_major', 'female_minor', 'boundary'] | False
+threads:engaged:end | 端面只保留大径粗圆和小径四分之三细圆。 | ['end', 'end_minor'] | False
+threads:engaged:material | 剖面线画到实际材料的粗实线边界。 | ['hatching'] | False
+[bolt]
+threads:bolt:context | 这两块零件都有通孔。用螺栓穿过它们，再用螺母夹紧。 | ['lower', 'upper', 'washer', 'nut', 'shank', 'plates_front', 'axis_front', 'plates_left', 'axis_left', 'clearance', 'shank_ink', 'head_ink', 'nut_ink', 'thread_minor', 'engagement', 'lower_hatch', 'upper_hatch', 'top'] | True
+threads:bolt:parts | 杆与头是一件螺栓；另一侧依次放垫圈和螺母。 | [] | False
+threads:bolt:hole | 两块零件的孔都留间隙，螺纹与螺母旋合，不与板孔旋合。 | ['clearance'] | False
+threads:bolt:shank | 画出杆部和头部。 | ['shank_ink', 'head_ink'] | False
+threads:bolt:nut | 补螺母、垫圈及露出的螺纹。 | ['nut_ink', 'thread_minor', 'engagement'] | False
+threads:bolt:hatch | 相邻零件用不同方向或间距的剖面线区分。 | ['lower_hatch', 'upper_hatch'] | False
+threads:bolt:rule | 沿紧固件轴线剖切时，杆、头和螺母按不剖处理。 | ['top'] | False
+[stud]
+threads:stud:context | 下面零件改成螺纹孔，不能穿入螺栓头，改用双头螺柱。 | ['lower', 'upper', 'washer', 'nut', 'shank', 'plates_front', 'axis_front', 'plates_left', 'axis_left', 'clearance', 'shank_ink', 'head_ink', 'nut_ink', 'thread_minor', 'engagement', 'lower_hatch', 'upper_hatch', 'top'] | True
+threads:stud:parts | 螺柱没有头，两端有螺纹：一端旋入基体，另一端装螺母。 | [] | False
+threads:stud:hole | 下端与螺纹孔旋合；上方通孔留间隙，供螺柱穿过。 | ['clearance'] | False
+threads:stud:shank | 先确定旋入端、伸出端，再按旋合规则画图。 | ['shank_ink', 'head_ink'] | False
+threads:stud:nut | 补螺母、垫圈及露出的螺纹。 | ['nut_ink', 'thread_minor', 'engagement', 'lower_hatch', 'upper_hatch', 'top'] | False
+[mark_coarse]
+threads:mark_coarse:context | 规定图线不逐牙画，直径和牙型要从标记读出。先看 M8—7H。 | ['box0', 'token0', 'box1', 'token1', 'box2', 'token2'] | True
+threads:mark_coarse:token0 | M表示普通螺纹。 | [] | False
+threads:mark_coarse:token1 | 8是公称直径，单位为毫米。 | [] | False
+threads:mark_coarse:token2 | 7H 是内螺纹的公差带代号；粗牙螺距省略。公差带的作用后面再讲。 | [] | False
+[mark_fine]
+threads:mark_fine:context | 再看 M12×1.5—6g：多出的 1.5 是什么？ | ['box0', 'token0', 'box1', 'token1', 'box2', 'token2', 'internal_compare'] | True
+threads:mark_fine:token0 | M12表示公称直径12 mm的普通螺纹。 | [] | False
+threads:mark_fine:token1 | 1.5 mm 是螺距；这里用细牙，所以需要标出。 | [] | False
+threads:mark_fine:token2 | 6g是外螺纹公差带，小写字母用于外螺纹。 | [] | False
+threads:mark_fine:internal | 若公差带写成6H，大写字母说明它是内螺纹。 | ['internal_compare'] | True
+[mark_pipe]
+threads:mark_pipe:context | 孔旁标的是 G1/2，不是 M；这里改用管螺纹标记。 | ['box0', 'token0', 'box1', 'token1', 'internal_example'] | True
+threads:mark_pipe:token0 | G 是非螺纹密封管螺纹：连接的密封不靠螺纹本身保证。 | [] | False
+threads:mark_pipe:token1 | 1/2是管螺纹公称尺寸代号，不是实际外径的直接换算。 | [] | False
+threads:mark_pipe:internal | 这处标注指向孔内壁，所以是内螺纹。 | ['internal_example'] | True
+
+## gears 圆柱齿轮
+[single]
+gears:single:context | 齿轮靠轮齿啮合传递转动。已知模数 3、齿数 20，怎样简化画它？ | ['gear0', 'addendum0', 'pitch0', 'root0', 'bore0', 'axis0', 'side0', 'side_pitch0', 'side_root0', 'gear_hatch0', 'label_d0', 'label_da0', 'label_df0', 'tooth_tips0', 'tooth_roots0', 'reference0'] | True
+gears:single:meaning | 齿数 z 是一周的齿数；模数 m 规定齿的大小，用来计算主要圆。 | [] | False
+gears:single:scope | 这里采用标准直齿圆柱齿轮的尺寸关系。先认三个圆，再代入参数。 | [] | False
+gears:single:pitch0 | 分度圆是计算尺寸的基准圆，直径 d＝mz＝3×20＝60 mm。 | ['pitch0', 'label_d0', 'reference0', 'tooth_tips0', 'tooth_roots0'] | False
+gears:single:addendum0 | 齿顶圆经过齿的最外端：dₐ＝m(z＋2)＝66 mm。 | ['label_da0', 'addendum0', 'label_d0', 'tooth_tips0', 'reference0', 'tooth_roots0'] | False
+gears:single:root0 | 齿根圆经过齿槽底部：df＝m(z－2.5)＝52.5 mm。 | ['root0', 'label_df0', 'label_da0', 'tooth_roots0', 'reference0', 'tooth_tips0'] | False
+gears:single:convention | 不逐齿画投影：齿顶粗实线、分度圆细点画线、齿根细实线。 | ['side0', 'side_pitch0', 'label_df0'] | False
+gears:single:section | 轴向剖视中，轮齿不画剖面线，齿根线改画粗实线。 | ['side_root0', 'gear_hatch0'] | False
+[pair]
+gears:pair:context | 现在让两个齿轮啮合。已知共同模数 4、齿数 20 和 35，怎样确定轴距？ | ['gear0', 'addendum0', 'pitch0', 'root0', 'bore0', 'axis0', 'side0', 'side_pitch0', 'side_root0', 'gear_hatch0', 'label_d0', 'label_da0', 'label_df0', 'gear1', 'addendum1', 'pitch1', 'root1', 'bore1', 'axis1', 'side1', 'side_pitch1', 'side_root1', 'gear_hatch1', 'label_d1', 'label_da1', 'label_df1', 'centre_distance', 'centre_label', 'meshing_contours', 'contact_visible', 'contact_hidden', 'tooth_tips0', 'tooth_roots0', 'reference0', 'tooth_tips1', 'tooth_roots1', 'reference1'] | True
+gears:pair:meaning | 两轮沿用刚才的尺寸关系；新增的问题是两条轴线相距多少。 | [] | False
+gears:pair:pitch0 | 分度圆：d₁＝4×20＝80 mm，d₂＝4×35＝140 mm。 | ['pitch0', 'label_d0', 'pitch1', 'label_d1', 'label_df0', 'label_da0', 'label_da1', 'label_df1'] | False
+gears:pair:addendum0 | 齿顶圆：dₐ₁＝4×22＝88 mm，dₐ₂＝4×37＝148 mm。 | ['label_da0', 'addendum0', 'label_d0', 'label_da1', 'addendum1', 'label_d1', 'label_df0', 'label_df1'] | False
+gears:pair:root0 | 齿根圆：df₁＝4×17.5＝70 mm，df₂＝4×32.5＝130 mm。 | ['root0', 'label_df0', 'label_da0', 'root1', 'label_df1', 'label_da1', 'label_d0', 'label_d1'] | False
+gears:pair:centres | 两分度圆相切，中心距等于两半径之和：a＝(80＋140)/2＝110 mm。 | ['centre_distance', 'centre_label', 'label_df1', 'label_df0'] | False
+gears:pair:mesh | 两轮啮合处轮齿交错，按规定区分可见与被遮挡的边界。 | ['meshing_contours', 'contact_visible', 'contact_hidden', 'addendum0', 'addendum1', 'side0', 'side1', 'side_pitch0', 'side_pitch1', 'label_df1', 'side_root0', 'side_root1', 'gear_hatch0', 'gear_hatch1', 'label_df0'] | False
+gears:pair:scale | 按1∶2绘图，纸面长度减半；标注仍写实际尺寸。 | [] | False
+
+## bearings 滚动轴承
+[structure]
+bearings:structure:context | 轴需要转动，座孔要支承它。轴承放在两者之间，看看各部分怎样配合。 | ['inner', 'outer', 'ball0', 'ball1', 'ball2', 'ball3', 'ball4', 'ball5', 'ball6', 'ball7', 'cage', 'shaft', 'housing', 'outline', 'convention', 'shaft_ink', 'housing_ink', 'diameter', 'outside', 'width', 'code', 'dimension_outline', 'dimension_bore', 'diameter_witness', 'size_witness'] | True
+bearings:structure:rings | 分解示意这两只圈：内圈套在轴上，外圈装进座孔。 | ['inner', 'outer', 'cage', 'ball0', 'ball1', 'ball2', 'ball3', 'ball4', 'ball5', 'ball6', 'ball7'] | False
+bearings:structure:balls | 内外圈之间放滚动体，使相对运动通过滚动接触实现。 | ['ball0', 'ball1', 'ball2', 'ball3', 'ball4', 'ball5', 'ball6', 'ball7'] | False
+bearings:structure:cage | 保持架把滚动体分隔开；合起来看各部分的相对位置。 | ['inner', 'outer', 'cage'] | False
+bearings:structure:code | 这只轴承用旧式代号 304；先读内径，再查其外形尺寸。 | ['code', 'dimension_outline', 'dimension_bore'] | False
+bearings:structure:diameter | 末两位 04 对应内径 20 mm；3 表示这里的尺寸系列。 | ['diameter', 'diameter_witness'] | False
+bearings:structure:size | 外径 52 mm 决定座孔尺寸，宽 15 mm 决定轴向安装空间。 | ['outside', 'width', 'size_witness', 'code'] | False
+[assembly]
+bearings:assembly:context | 已经认出内外圈。现在把轴承放到轴和座孔之间，确定安装接触面。 | ['inner', 'outer', 'ball0', 'ball1', 'ball2', 'ball3', 'ball4', 'ball5', 'ball6', 'ball7', 'cage', 'shaft', 'housing', 'outline', 'convention', 'shaft_ink', 'housing_ink', 'diameter', 'outside', 'width', 'code', 'dimension_outline', 'dimension_bore', 'diameter_witness', 'size_witness'] | True
+bearings:assembly:shaft | 轴从内圈孔中穿入，轴肩限制内圈的轴向位置。 | ['shaft', 'shaft_ink'] | False
+bearings:assembly:housing | 外圈落在座孔中；轴和孔分别接触内圈、外圈。 | ['housing', 'housing_ink'] | False
+bearings:assembly:convention | 装配图用简化符号表达轴承占据的空间，不逐个画滚动体。 | ['convention'] | False
+
+## requirements 尺寸与几何公差
+[hole]
+requirements:hole:context | 尺寸给出理想大小，制造总会有误差。图纸怎样限定允许的大小范围？ | ['box0', 'token0', 'box1', 'token1', 'box2', 'token2', 'datum', 'nominal', 'zone', 'zero_label', 'zone_label', 'bounds', 'measured', 'scale_note'] | True
+requirements:hole:size | ⌀40 是基本尺寸；实际孔径允许在规定的上下限之间变化。 | [] | False
+requirements:hole:deviation | 用基本尺寸作零线。H 决定允许范围从零线开始，位于零线上方。 | ['nominal', 'zero_label', 'scale_note'] | False
+requirements:hole:grade | 在这个基本尺寸下，7 确定允许范围的宽度；H7 合起来才是公差带代号。 | ['zone', 'bounds', 'zone_label'] | False
+requirements:hole:distinction | 测得尺寸必须落在允许范围内；示意图放大了偏差，不能据图读数值。 | ['measured'] | False
+[shaft]
+requirements:shaft:context | 换看轴的 ⌀70d11：读法相同，但轴用小写字母。 | ['box0', 'token0', 'box1', 'token1', 'box2', 'token2', 'datum', 'nominal', 'zone', 'zero_label', 'zone_label', 'bounds', 'measured', 'scale_note'] | True
+requirements:shaft:deviation | d 使公差带位于零线下方；允许的轴径比基本尺寸小。 | ['nominal', 'zone', 'zero_label', 'zone_label', 'scale_note'] | False
+requirements:shaft:distinction | 11 是公差等级。字母确定位置、等级确定宽度，仍要一起读取。 | [] | False
+[perpendicular]
+requirements:perpendicular:context | 孔径合格，孔轴线仍可能歪斜。这个框格要求它垂直于基准 C。 | ['box0', 'token0', 'box1', 'token1', 'box2', 'token2', 'datum', 'zone', 'actual', 'datum_name', 'zone_name', 'outside', 'outside_name'] | True
+requirements:perpendicular:datum | 先认基准面 C；它提供判断垂直方向的依据。 | ['datum', 'datum_name'] | False
+requirements:perpendicular:zone | ⌀0.05 指定直径 0.05 mm 的圆柱形允许区域，其轴线垂直于 C。 | ['zone', 'zone_name'] | False
+requirements:perpendicular:actual | 实际孔轴线可略有弯斜，但必须整条留在圆柱内。 | ['actual'] | False
+requirements:perpendicular:units | 若局部越过界限，即使大部分在里面，也不符合要求。 | ['outside', 'outside_name', 'actual'] | False
+[plane]
+requirements:plane:context | 现在控制的是整个表面的垂直度，不是孔的轴线。 | ['box0', 'token0', 'box1', 'token1', 'box2', 'token2', 'datum', 'zone', 'actual', 'datum_name', 'zone_name', 'outside', 'outside_name'] | True
+requirements:plane:datum | A 指定基准面；被测表面的方向相对它确定。 | ['datum', 'datum_name'] | False
+requirements:plane:zone | 0.03 前没有直径符号，这里的允许区域是相距 0.03 mm 的两个平行平面。 | ['zone', 'zone_name'] | False
+requirements:plane:actual | 这两个界限平面垂直于 A；被测表面必须全部夹在它们之间。 | ['actual'] | False
+[parallel]
+requirements:parallel:context | 这个框格改为平行度：要求被测表面与基准 A 保持平行。 | ['box0', 'token0', 'box1', 'token1', 'box2', 'token2', 'datum', 'zone', 'actual', 'datum_name', 'zone_name', 'outside', 'outside_name'] | True
+requirements:parallel:datum | 仍先找到 A，再判断哪个表面受到控制。 | ['datum', 'datum_name'] | False
+requirements:parallel:zone | 两个界限平面平行于 A，相距 0.01 mm。 | ['zone', 'zone_name'] | False
+requirements:parallel:actual | 实际表面的全部起伏，都必须容纳在这两个界限之间。 | ['actual'] | False
+
+## roughness 表面粗糙度
+[meaning]
+roughness:meaning:context | 公差限制尺寸、形状和方向；表面还存在更细小的凹凸，由粗糙度要求控制。 | ['surface', 'surface_name', 'profile', 'smoother', 'profile_name', 'smoother_name'] | True
+roughness:meaning:profile | 图纸上的直线代表表面，放大后还能看见微小起伏。 | ['profile', 'profile_name'] | False
+roughness:meaning:compare | 相同尺度下，起伏较小的表面更光滑；粗糙度参数用来限定这种差别。 | ['smoother', 'smoother_name'] | False
+[symbol]
+roughness:symbol:context | 图纸不画这些微小凹凸，用符号、参数和数值标明要求。 | ['surface0', 'basic', 'surface1', 'removal', 'bar', 'surface2', 'retained', 'circle', 'value', 'remaining', 'compare'] | True
+roughness:symbol:basic | 符号的尖端指向被要求的表面；基本符号本身不限定加工方法。 | ['basic'] | False
+roughness:symbol:removal | 加横线，表示用去除材料的方法获得表面。 | ['removal', 'bar'] | False
+roughness:symbol:retained | 加圆圈，表示不去除材料。 | ['retained', 'circle'] | False
+roughness:symbol:value | Ra 表示轮廓算术平均偏差，以微米计；这里的要求值是 6.3 μm。 | ['value'] | True
+roughness:symbol:compare | 比较同一个参数时，允许值越小，要求越严格。 | ['compare'] | True
+roughness:symbol:rest | “其余”适用于未单独标注要求的表面。 | ['remaining'] | True
+[surface]
+roughness:surface:context | 回到零件图：Ⅰ、Ⅱ、Ⅲ处没有都写数值，怎样找各自的要求？ | ['figure', 'surface_I', 'surface_II', 'surface_III', 'surface_I_note', 'surface_II_note', 'surface_III_note'] | True
+roughness:surface:I | 先追踪Ⅰ所指表面；它没有单独标注，使用“其余”的不去除材料要求。 | ['surface_I', 'surface_I_note', 'surface_II', 'surface_III', 'surface_II_note', 'surface_III_note'] | True
+roughness:surface:II | Ⅱ的表面有单独标注 Ra 6.3，优先用这项要求。 | ['surface_II', 'surface_I', 'surface_II_note', 'surface_III', 'surface_I_note', 'surface_III_note'] | True
+roughness:surface:III | 沿投影对应找到Ⅲ的同一表面，再读出另一视图中的 Ra 25。 | ['surface_III', 'surface_II', 'surface_III_note', 'surface_I', 'surface_I_note', 'surface_II_note'] | True
+[errors]
+roughness:errors:context | 已知粗糙度标注，检查它指向哪里，以及数字从哪个方向阅读。 | ['figure', 'error_vertical', 'error_inverted', 'correct_example', 'correct_0', 'correct_1'] | True
+roughness:errors:end | 先看这处正确标注：尖端指向表面，数字从右方读。 | ['correct_example', 'error_vertical', 'error_inverted'] | False
+roughness:errors:direction | 这两处数字转向了左方，方向有误。 | ['error_vertical', 'error_inverted', 'correct_example'] | False
+roughness:errors:correct | 保持所指表面，改正两处数字的阅读方向。 | ['correct_0', 'correct_1', 'error_vertical', 'error_inverted', 'correct_example'] | False
+[quality]
+roughness:quality:context | 同一张图中要求不同，怎样找要求最严格的表面？ | ['figure', 'front', 'holes', 'slots', 'title', 'quality'] | True
+roughness:quality:value | 同为 Ra，6.3 小于“其余”的 12.5；Ra 6.3 对应的表面要求更严格。 | ['quality', 'front', 'holes', 'slots', 'title'] | True
+
+## part_drawing 综合读零件图
+[overview]
+part_drawing:overview:context | 现在把形状、尺寸和技术要求合起来读。先看这张图用了哪些视图与剖视。 | ['figure', 'front_region', 'side_region', 'top_region', 'base', 'axis_front', 'axis_side', 'end_face', 'cut_side', 'cut_front', 'cut_top'] | True
+part_drawing:overview:views | 先找主视图：波浪线只剖开局部，用来说明内部。 | ['front_region', 'side_region', 'top_region', 'base', 'axis_front', 'axis_side', 'end_face'] | True
+part_drawing:overview:side | 左视图一半外形、一半内部，是半剖。与主视图对照，还原左右结构。 | ['side_region', 'front_region', 'top_region', 'base', 'axis_front', 'axis_side', 'end_face'] | True
+part_drawing:overview:top | 俯视图是 A—A 全剖，补充前后方向的孔槽关系。 | ['top_region', 'side_region', 'front_region', 'base', 'axis_front', 'axis_side', 'end_face'] | True
+part_drawing:overview:cut | 要还原结构，先回到主视图，找到 A—A 切在什么高度。 | ['cut_top', 'top_region', 'front_region', 'side_region', 'base', 'axis_front', 'axis_side', 'end_face'] | True
+part_drawing:overview:cut_side | 再从俯视图确认：左视剖切经过左右对称面。 | ['cut_side', 'cut_top', 'front_region', 'side_region', 'top_region', 'base', 'axis_front', 'axis_side', 'end_face'] | True
+part_drawing:overview:cut_front | 主视的局部剖经过前后对称面；剖切位置决定能看见哪些内部结构。 | ['cut_front', 'cut_side', 'front_region', 'side_region', 'top_region', 'base', 'axis_front', 'axis_side', 'end_face'] | True
+part_drawing:overview:next | 形状辨清后，再按“大小和位置 → 公差与表面要求”读；不要先逐个背数字。 | ['front_region', 'side_region', 'top_region', 'base', 'axis_front', 'axis_side', 'end_face'] | True
+[restore]
+part_drawing:restore:context | 接着练习反向理解：图上画的是剖视，完整零件的主视外形是什么？ | ['body', 'cut', 'cut_outline', 'hatching', 'outer_front', 'holes', 'outer_top', 'outer_left', 'axis'] | True
+part_drawing:restore:whole | 把假想移去的材料放回去，孔槽仍然存在。 | ['body', 'cut'] | False
+part_drawing:restore:outer | 沿完整零件的可见边界画外形。 | ['outer_front', 'cut_outline', 'hatching'] | False
+part_drawing:restore:hidden | 外形图中的孔仍在内部，用必要的虚线表达。 | ['holes'] | False
+[details]
+part_drawing:details:context | 换看轴类零件，先把局部放大图对应回轴上的同一位置。 | ['figure', 'chamfer_left', 'chamfer_right', 'grooves', 'detail', 'section'] | True
+part_drawing:details:detail | 局部放大 2∶1 是为看清细节；尺寸数字仍表示实际大小。 | ['detail', 'chamfer_left', 'chamfer_right', 'grooves', 'section'] | True
+part_drawing:details:chamfer | 两端 C2、C1.5 表示 45°倒角，直角边尺寸分别为 2、1.5 mm。 | ['chamfer_left', 'chamfer_right', 'detail', 'grooves', 'section'] | True
+part_drawing:details:groove | 这处 2×2 是退刀槽，给刀具退出留空间，不能当成轴断开了。 | ['grooves', 'chamfer_left', 'chamfer_right', 'detail', 'section'] | True
+part_drawing:details:section | 这处标出的横切位置有键槽，后面用已学的断面方法表达。 | ['section', 'grooves', 'chamfer_left', 'chamfer_right', 'detail'] | True
+[lid]
+part_drawing:lid:context | 最后换一张釜盖图，按同一顺序读：先表达方法，再结构、尺寸和技术要求。 | ['figure', 'front', 'holes', 'slots', 'title', 'quality'] | True
+part_drawing:lid:front | 主视全剖给出厚度和内部台阶；俯视图给出孔槽的圆周分布。 | ['front', 'holes', 'slots', 'title', 'quality'] | True
+part_drawing:lid:holes | 先在俯视图数孔、找分布位置，再回主视图辨认孔的深度。 | ['holes', 'front', 'slots', 'title', 'quality'] | True
+part_drawing:lid:slots | 俯视图辨认开口槽，主视图核对槽上方的锪平结构。 | ['slots', 'front', 'holes', 'title', 'quality'] | True
+[note]
+part_drawing:note:context | 仍看这只釜盖，把孔槽旁的数量、深度和直径分别对应回结构。 | ['figure', 'hole_note', 'slot_note'] | True
+part_drawing:note:thread | 6 个 M12 螺孔均布。螺纹深 10 mm，钻孔深 18 mm，孔底比螺纹更深。 | ['hole_note', 'slot_note'] | True
+part_drawing:note:slots | 6 处开口槽宽 23 mm；上方锪平直径 44 mm，提供平整支承面。 | ['slot_note', 'hole_note'] | True
+[material]
+part_drawing:material:context | 形状与技术要求读完，最后查标题栏：釜盖材料标为 Q235-A。 | ['box0', 'token0', 'box1', 'token1', 'box2', 'token2'] | True
+part_drawing:material:Q | Q 表示以屈服强度命名，说明这是按强度等级选用的结构钢。 | [] | False
+part_drawing:material:strength | 235是牌号中的屈服强度等级数值，单位MPa。 | [] | False
+part_drawing:material:grade | A 是质量等级；不能把材料牌号当作尺寸或表面要求。 | [] | False
+[shaft_section]
+part_drawing:shaft_section:context | 回到带键槽的轴，用已学方法完成 A—A 断面，检验是否读懂结构。 | ['shaft', 'shaft_front', 'shaft_top', 'shaft_left', 'outer', 'notch', 'hatching', 'width', 'depth', 'cutting_plane'] | True
+part_drawing:shaft_section:location | 剖切位置在直径17 mm的轴段，观察方向由右向左。 | ['cutting_plane'] | False
+part_drawing:shaft_section:circle | 先画直径17 mm的圆。 | ['outer'] | False
+part_drawing:shaft_section:slot | 按由右向左的方向，键槽开口在左侧；槽宽 5 mm、深 2.9 mm。 | ['notch', 'width', 'depth', 'outer'] | False
+part_drawing:shaft_section:material | 实体材料画剖面线，槽内留空。 | ['hatching', 'cutting_plane', 'width', 'depth'] | False
