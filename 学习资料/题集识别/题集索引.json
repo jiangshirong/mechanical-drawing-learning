@@ -1,0 +1,5024 @@
+{
+  "schema_version": 1,
+  "source": {
+    "file": "D:\\桌面文件夹\\学习\\大学课程\\过考试\\未过）机械制图\\工程制图—试卷\\工程制图试卷合订本(AI处理).pdf",
+    "sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c",
+    "local_copy": "原题合订本.pdf",
+    "pages": 43,
+    "note": "用户已裁去答案，仅保留题目。印刷页码总数沿用原卷，不代表缺页。"
+  },
+  "sets": [
+    {
+      "paper": 1,
+      "pdf_pages": [
+        1,
+        6
+      ]
+    },
+    {
+      "paper": 2,
+      "pdf_pages": [
+        7,
+        11
+      ]
+    },
+    {
+      "paper": 3,
+      "pdf_pages": [
+        12,
+        17
+      ]
+    },
+    {
+      "paper": 4,
+      "pdf_pages": [
+        18,
+        22
+      ]
+    },
+    {
+      "paper": 5,
+      "pdf_pages": [
+        23,
+        27
+      ]
+    },
+    {
+      "paper": 6,
+      "pdf_pages": [
+        28,
+        32
+      ]
+    },
+    {
+      "paper": 7,
+      "pdf_pages": [
+        33,
+        37
+      ]
+    },
+    {
+      "paper": 8,
+      "pdf_pages": [
+        38,
+        43
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "paper": 1,
+      "page_image": "原页/p01.png",
+      "text": "文字定位/p01.txt",
+      "positions": "文字定位/p01.json",
+      "ocr": "ocr原始/p01.json"
+    },
+    {
+      "page": 2,
+      "paper": 1,
+      "page_image": "原页/p02.png",
+      "text": "文字定位/p02.txt",
+      "positions": "文字定位/p02.json",
+      "ocr": "ocr原始/p02.json"
+    },
+    {
+      "page": 3,
+      "paper": 1,
+      "page_image": "原页/p03.png",
+      "text": "文字定位/p03.txt",
+      "positions": "文字定位/p03.json",
+      "ocr": "ocr原始/p03.json"
+    },
+    {
+      "page": 4,
+      "paper": 1,
+      "page_image": "原页/p04.png",
+      "text": "文字定位/p04.txt",
+      "positions": "文字定位/p04.json",
+      "ocr": "ocr原始/p04.json"
+    },
+    {
+      "page": 5,
+      "paper": 1,
+      "page_image": "原页/p05.png",
+      "text": "文字定位/p05.txt",
+      "positions": "文字定位/p05.json",
+      "ocr": "ocr原始/p05.json"
+    },
+    {
+      "page": 6,
+      "paper": 1,
+      "page_image": "原页/p06.png",
+      "text": "文字定位/p06.txt",
+      "positions": "文字定位/p06.json",
+      "ocr": "ocr原始/p06.json"
+    },
+    {
+      "page": 7,
+      "paper": 2,
+      "page_image": "原页/p07.png",
+      "text": "文字定位/p07.txt",
+      "positions": "文字定位/p07.json",
+      "ocr": "ocr原始/p07.json"
+    },
+    {
+      "page": 8,
+      "paper": 2,
+      "page_image": "原页/p08.png",
+      "text": "文字定位/p08.txt",
+      "positions": "文字定位/p08.json",
+      "ocr": "ocr原始/p08.json"
+    },
+    {
+      "page": 9,
+      "paper": 2,
+      "page_image": "原页/p09.png",
+      "text": "文字定位/p09.txt",
+      "positions": "文字定位/p09.json",
+      "ocr": "ocr原始/p09.json"
+    },
+    {
+      "page": 10,
+      "paper": 2,
+      "page_image": "原页/p10.png",
+      "text": "文字定位/p10.txt",
+      "positions": "文字定位/p10.json",
+      "ocr": "ocr原始/p10.json"
+    },
+    {
+      "page": 11,
+      "paper": 2,
+      "page_image": "原页/p11.png",
+      "text": "文字定位/p11.txt",
+      "positions": "文字定位/p11.json",
+      "ocr": "ocr原始/p11.json"
+    },
+    {
+      "page": 12,
+      "paper": 3,
+      "page_image": "原页/p12.png",
+      "text": "文字定位/p12.txt",
+      "positions": "文字定位/p12.json",
+      "ocr": "ocr原始/p12.json"
+    },
+    {
+      "page": 13,
+      "paper": 3,
+      "page_image": "原页/p13.png",
+      "text": "文字定位/p13.txt",
+      "positions": "文字定位/p13.json",
+      "ocr": "ocr原始/p13.json"
+    },
+    {
+      "page": 14,
+      "paper": 3,
+      "page_image": "原页/p14.png",
+      "text": "文字定位/p14.txt",
+      "positions": "文字定位/p14.json",
+      "ocr": "ocr原始/p14.json"
+    },
+    {
+      "page": 15,
+      "paper": 3,
+      "page_image": "原页/p15.png",
+      "text": "文字定位/p15.txt",
+      "positions": "文字定位/p15.json",
+      "ocr": "ocr原始/p15.json"
+    },
+    {
+      "page": 16,
+      "paper": 3,
+      "page_image": "原页/p16.png",
+      "text": "文字定位/p16.txt",
+      "positions": "文字定位/p16.json",
+      "ocr": "ocr原始/p16.json"
+    },
+    {
+      "page": 17,
+      "paper": 3,
+      "page_image": "原页/p17.png",
+      "text": "文字定位/p17.txt",
+      "positions": "文字定位/p17.json",
+      "ocr": "ocr原始/p17.json"
+    },
+    {
+      "page": 18,
+      "paper": 4,
+      "page_image": "原页/p18.png",
+      "text": "文字定位/p18.txt",
+      "positions": "文字定位/p18.json",
+      "ocr": "ocr原始/p18.json"
+    },
+    {
+      "page": 19,
+      "paper": 4,
+      "page_image": "原页/p19.png",
+      "text": "文字定位/p19.txt",
+      "positions": "文字定位/p19.json",
+      "ocr": "ocr原始/p19.json"
+    },
+    {
+      "page": 20,
+      "paper": 4,
+      "page_image": "原页/p20.png",
+      "text": "文字定位/p20.txt",
+      "positions": "文字定位/p20.json",
+      "ocr": "ocr原始/p20.json"
+    },
+    {
+      "page": 21,
+      "paper": 4,
+      "page_image": "原页/p21.png",
+      "text": "文字定位/p21.txt",
+      "positions": "文字定位/p21.json",
+      "ocr": "ocr原始/p21.json"
+    },
+    {
+      "page": 22,
+      "paper": 4,
+      "page_image": "原页/p22.png",
+      "text": "文字定位/p22.txt",
+      "positions": "文字定位/p22.json",
+      "ocr": "ocr原始/p22.json"
+    },
+    {
+      "page": 23,
+      "paper": 5,
+      "page_image": "原页/p23.png",
+      "text": "文字定位/p23.txt",
+      "positions": "文字定位/p23.json",
+      "ocr": "ocr原始/p23.json"
+    },
+    {
+      "page": 24,
+      "paper": 5,
+      "page_image": "原页/p24.png",
+      "text": "文字定位/p24.txt",
+      "positions": "文字定位/p24.json",
+      "ocr": "ocr原始/p24.json"
+    },
+    {
+      "page": 25,
+      "paper": 5,
+      "page_image": "原页/p25.png",
+      "text": "文字定位/p25.txt",
+      "positions": "文字定位/p25.json",
+      "ocr": "ocr原始/p25.json"
+    },
+    {
+      "page": 26,
+      "paper": 5,
+      "page_image": "原页/p26.png",
+      "text": "文字定位/p26.txt",
+      "positions": "文字定位/p26.json",
+      "ocr": "ocr原始/p26.json"
+    },
+    {
+      "page": 27,
+      "paper": 5,
+      "page_image": "原页/p27.png",
+      "text": "文字定位/p27.txt",
+      "positions": "文字定位/p27.json",
+      "ocr": "ocr原始/p27.json"
+    },
+    {
+      "page": 28,
+      "paper": 6,
+      "page_image": "原页/p28.png",
+      "text": "文字定位/p28.txt",
+      "positions": "文字定位/p28.json",
+      "ocr": "ocr原始/p28.json"
+    },
+    {
+      "page": 29,
+      "paper": 6,
+      "page_image": "原页/p29.png",
+      "text": "文字定位/p29.txt",
+      "positions": "文字定位/p29.json",
+      "ocr": "ocr原始/p29.json"
+    },
+    {
+      "page": 30,
+      "paper": 6,
+      "page_image": "原页/p30.png",
+      "text": "文字定位/p30.txt",
+      "positions": "文字定位/p30.json",
+      "ocr": "ocr原始/p30.json"
+    },
+    {
+      "page": 31,
+      "paper": 6,
+      "page_image": "原页/p31.png",
+      "text": "文字定位/p31.txt",
+      "positions": "文字定位/p31.json",
+      "ocr": "ocr原始/p31.json"
+    },
+    {
+      "page": 32,
+      "paper": 6,
+      "page_image": "原页/p32.png",
+      "text": "文字定位/p32.txt",
+      "positions": "文字定位/p32.json",
+      "ocr": "ocr原始/p32.json"
+    },
+    {
+      "page": 33,
+      "paper": 7,
+      "page_image": "原页/p33.png",
+      "text": "文字定位/p33.txt",
+      "positions": "文字定位/p33.json",
+      "ocr": "ocr原始/p33.json"
+    },
+    {
+      "page": 34,
+      "paper": 7,
+      "page_image": "原页/p34.png",
+      "text": "文字定位/p34.txt",
+      "positions": "文字定位/p34.json",
+      "ocr": "ocr原始/p34.json"
+    },
+    {
+      "page": 35,
+      "paper": 7,
+      "page_image": "原页/p35.png",
+      "text": "文字定位/p35.txt",
+      "positions": "文字定位/p35.json",
+      "ocr": "ocr原始/p35.json"
+    },
+    {
+      "page": 36,
+      "paper": 7,
+      "page_image": "原页/p36.png",
+      "text": "文字定位/p36.txt",
+      "positions": "文字定位/p36.json",
+      "ocr": "ocr原始/p36.json"
+    },
+    {
+      "page": 37,
+      "paper": 7,
+      "page_image": "原页/p37.png",
+      "text": "文字定位/p37.txt",
+      "positions": "文字定位/p37.json",
+      "ocr": "ocr原始/p37.json"
+    },
+    {
+      "page": 38,
+      "paper": 8,
+      "page_image": "原页/p38.png",
+      "text": "文字定位/p38.txt",
+      "positions": "文字定位/p38.json",
+      "ocr": "ocr原始/p38.json"
+    },
+    {
+      "page": 39,
+      "paper": 8,
+      "page_image": "原页/p39.png",
+      "text": "文字定位/p39.txt",
+      "positions": "文字定位/p39.json",
+      "ocr": "ocr原始/p39.json"
+    },
+    {
+      "page": 40,
+      "paper": 8,
+      "page_image": "原页/p40.png",
+      "text": "文字定位/p40.txt",
+      "positions": "文字定位/p40.json",
+      "ocr": "ocr原始/p40.json"
+    },
+    {
+      "page": 41,
+      "paper": 8,
+      "page_image": "原页/p41.png",
+      "text": "文字定位/p41.txt",
+      "positions": "文字定位/p41.json",
+      "ocr": "ocr原始/p41.json"
+    },
+    {
+      "page": 42,
+      "paper": 8,
+      "page_image": "原页/p42.png",
+      "text": "文字定位/p42.txt",
+      "positions": "文字定位/p42.json",
+      "ocr": "ocr原始/p42.json"
+    },
+    {
+      "page": 43,
+      "paper": 8,
+      "page_image": "原页/p43.png",
+      "text": "文字定位/p43.txt",
+      "positions": "文字定位/p43.json",
+      "ocr": "ocr原始/p43.json"
+    }
+  ],
+  "questions": [
+    {
+      "id": "t01-q01",
+      "paper": 1,
+      "question": 1,
+      "task": "一、 已知点 A 距 H 面为 12，距 V 面为 15，距 W 面为 10，点 B 在点 A 的左方 5，\n后方10，上方8，试作A、B两点的三面投影。(10分)\nZ\nO\nX Y\nH\nY\nW",
+      "heading": "一、 已知点 A 距 H 面为 12，距 V 面为 15，距 W 面为 10，点 B 在点 A 的左方 5，",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        1
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 1,
+          "box_normalized": [
+            0.03,
+            0.19914828381495042,
+            0.97,
+            0.5305875729209063
+          ],
+          "image": "题图/t01-q01-p01.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "后方10，上方8，试作A、B两点的三面投影。(10分)"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 1,
+          "cache": "ocr原始/p01.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          1
+        ],
+        "question_number": 1,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t01-q02",
+      "paper": 1,
+      "question": 2,
+      "task": "二、作平面四边形ABCD的投影。(10分)\nb'\nc'\na'\nd'\nd\na\nb",
+      "heading": "二、作平面四边形ABCD的投影。(10分)",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        1
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 1,
+          "box_normalized": [
+            0.03,
+            0.5315875729209063,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t01-q02-p01.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "二、作平面四边形ABCD的投影。(10分)"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 1,
+          "cache": "ocr原始/p01.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          1
+        ],
+        "question_number": 2,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t01-q03",
+      "paper": 1,
+      "question": 3,
+      "task": "三、完成下列各形体的投影。(12分，每题6分)\n1． 2．",
+      "heading": "三、完成下列各形体的投影。(12分，每题6分)",
+      "points_candidates": [
+        "12",
+        "6"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        2
+      ],
+      "subparts": [
+        "1． 2．"
+      ],
+      "regions": [
+        {
+          "page": 2,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.4706771130104463
+          ],
+          "image": "题图/t01-q03-p02.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "三、完成下列各形体的投影。(12分，每题6分)"
+        },
+        {
+          "value": 6,
+          "context": "三、完成下列各形体的投影。(12分，每题6分)"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [
+        {
+          "id": "t01-q03-s01",
+          "number": 1,
+          "page": 2,
+          "marker_bbox_pt": [
+            68.64,
+            88.25,
+            86.64,
+            100.25
+          ],
+          "text_candidate": "1． 2．",
+          "figure_region": "题图/t01-q03-p02.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t01-q03-s02",
+          "number": 2,
+          "page": 2,
+          "marker_bbox_pt": [
+            308.64,
+            88.25,
+            326.64,
+            100.25
+          ],
+          "text_candidate": "2．",
+          "figure_region": "题图/t01-q03-p02.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 2,
+          "cache": "ocr原始/p02.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          2
+        ],
+        "question_number": 3,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t01-q04",
+      "paper": 1,
+      "question": 4,
+      "task": "四、根据给出的视图，补画第三视图（或视图所缺的图线）。(12分，每题6分)\n1．\n2．",
+      "heading": "四、根据给出的视图，补画第三视图（或视图所缺的图线）。(12分，每题6分)",
+      "points_candidates": [
+        "12",
+        "6"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        2,
+        3
+      ],
+      "subparts": [
+        "1．"
+      ],
+      "regions": [
+        {
+          "page": 2,
+          "box_normalized": [
+            0.03,
+            0.4716771130104463,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t01-q04-p02.png"
+        },
+        {
+          "page": 3,
+          "box_normalized": [
+            0.03,
+            0.025,
+            0.97,
+            0.42918491385158053
+          ],
+          "image": "题图/t01-q04-p03.png",
+          "continuation": true
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "四、根据给出的视图，补画第三视图（或视图所缺的图线）。(12分，每题6分)"
+        },
+        {
+          "value": 6,
+          "context": "四、根据给出的视图，补画第三视图（或视图所缺的图线）。(12分，每题6分)"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [
+        {
+          "id": "t01-q04-s01",
+          "number": 1,
+          "page": 2,
+          "marker_bbox_pt": [
+            68.64,
+            369.17,
+            86.64,
+            381.17
+          ],
+          "text_candidate": "1．",
+          "figure_region": "题图/t01-q04-p02.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t01-q04-s02",
+          "number": 2,
+          "page": 3,
+          "marker_bbox_pt": [
+            68.64,
+            72.64999999999998,
+            86.64,
+            84.64999999999998
+          ],
+          "text_candidate": "2．",
+          "figure_region": "题图/t01-q04-p03.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 2,
+          "cache": "ocr原始/p02.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        },
+        {
+          "page": 3,
+          "cache": "ocr原始/p03.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          2,
+          3
+        ],
+        "question_number": 4,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t01-q05",
+      "paper": 1,
+      "question": 5,
+      "task": "五、在指定位置将主视图画成全剖视图。(10分)",
+      "heading": "五、在指定位置将主视图画成全剖视图。(10分)",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "剖视",
+      "pages": [
+        3
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 3,
+          "box_normalized": [
+            0.03,
+            0.42918491385158053,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t01-q05-p03.png"
+        }
+      ],
+      "status": "题干与原图归档；全剖视代表样例已制作，尺寸为教学比例。",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "五、在指定位置将主视图画成全剖视图。(10分)"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 3,
+          "cache": "ocr原始/p03.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [
+        "原题未标注尺寸，参数按已知视图比例设定。",
+        "采用圆形凸台和圆孔；原DOC线图的圆弧存在折线近似。"
+      ],
+      "verified_facts": {
+        "pdf_pages": [
+          3
+        ],
+        "question_number": 5,
+        "answer_removed_by_user": true,
+        "learning_example": "section",
+        "answer_source": "08sd1.doc导出PDF第9页第五题",
+        "section_convention": "通过两孔轴纵向全剖，筋板不画剖面线；已与原始答案对照。"
+      }
+    },
+    {
+      "id": "t01-q06",
+      "paper": 1,
+      "question": 6,
+      "task": "六、在指定位置将主视图画成剖视图。(10分)",
+      "heading": "六、在指定位置将主视图画成剖视图。(10分)",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "剖视",
+      "pages": [
+        4
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 4,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.5340050196716863
+          ],
+          "image": "题图/t01-q06-p04.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "六、在指定位置将主视图画成剖视图。(10分)"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 4,
+          "cache": "ocr原始/p04.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          4
+        ],
+        "question_number": 6,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t01-q07",
+      "paper": 1,
+      "question": 7,
+      "task": "七、补全螺栓连接图中所缺的图线。(10分)",
+      "heading": "七、补全螺栓连接图中所缺的图线。(10分)",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "螺纹与连接",
+      "pages": [
+        4
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 4,
+          "box_normalized": [
+            0.03,
+            0.5350050196716863,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t01-q07-p04.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "七、补全螺栓连接图中所缺的图线。(10分)"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 4,
+          "cache": "ocr原始/p04.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          4
+        ],
+        "question_number": 7,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t01-q08",
+      "paper": 1,
+      "question": 8,
+      "task": "八、已知两平板齿轮啮合，m=m=4mm，z=20，z=35，分别计算其齿顶圆、分度圆、\n1 2 1 2\n齿根圆直径，并画出其啮合图（比例1：2）。(10分)",
+      "heading": "八、已知两平板齿轮啮合，m=m=4mm，z=20，z=35，分别计算其齿顶圆、分度圆、",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "齿轮",
+      "pages": [
+        5
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 5,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.6398251254917922
+          ],
+          "image": "题图/t01-q08-p05.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "齿根圆直径，并画出其啮合图（比例1：2）。(10分)"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 5,
+          "cache": "ocr原始/p05.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          5
+        ],
+        "question_number": 8,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t01-q09",
+      "paper": 1,
+      "question": 9,
+      "task": "九、读零件图，并回答问题。(16分)\n（1）该零件采用了哪些视图、剖视图或断面图？\n（2）指出该零件在长、宽、高三个方向的主要尺寸基准。\n（3）图中G1/2\"表示： 螺纹，1/2\"表示 ，是 螺纹（内、外）。\n（4）36H8表示：Φ36是 ，H8是 ，其中，H是 ，\n8是 。\n（5）说明符号 的含义。\n6.3\n（6）试画出主 视图的外形。",
+      "heading": "九、读零件图，并回答问题。(16分)",
+      "points_candidates": [
+        "16"
+      ],
+      "category": "螺纹与连接",
+      "pages": [
+        5,
+        6
+      ],
+      "subparts": [
+        "（1）该零件采用了哪些视图、剖视图或断面图？",
+        "（2）指出该零件在长、宽、高三个方向的主要尺寸基准。",
+        "（3）图中G1/2\"表示： 螺纹，1/2\"表示 ，是 螺纹（内、外）。",
+        "（4）36H8表示：Φ36是 ，H8是 ，其中，H是 ，",
+        "（5）说明符号 的含义。",
+        "6.3",
+        "（6）试画出主 视图的外形。"
+      ],
+      "regions": [
+        {
+          "page": 5,
+          "box_normalized": [
+            0.03,
+            0.6408251254917922,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t01-q09-p05.png"
+        },
+        {
+          "page": 6,
+          "box_normalized": [
+            0.03,
+            0.025,
+            0.97,
+            0.972
+          ],
+          "image": "题图/t01-q09-p06.png",
+          "continuation": true
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 16,
+          "context": "九、读零件图，并回答问题。(16分)"
+        }
+      ],
+      "total_points": 16,
+      "subquestions": [
+        {
+          "id": "t01-q09-s01",
+          "number": 1,
+          "page": 5,
+          "marker_bbox_pt": [
+            68.64,
+            493.849,
+            326.64,
+            505.849
+          ],
+          "text_candidate": "（1）该零件采用了哪些视图、剖视图或断面图？",
+          "figure_region": "题图/t01-q09-p05.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t01-q09-s02",
+          "number": 2,
+          "page": 5,
+          "marker_bbox_pt": [
+            68.64,
+            509.449,
+            374.64,
+            521.4490000000001
+          ],
+          "text_candidate": "（2）指出该零件在长、宽、高三个方向的主要尺寸基准。",
+          "figure_region": "题图/t01-q09-p05.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t01-q09-s03",
+          "number": 3,
+          "page": 5,
+          "marker_bbox_pt": [
+            68.64,
+            525.05,
+            190.08,
+            537.05
+          ],
+          "text_candidate": "（3）图中G1/2\"表示： 螺纹，1/2\"表示 ，是 螺纹（内、外）。",
+          "figure_region": "题图/t01-q09-p05.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t01-q09-s04",
+          "number": 4,
+          "page": 5,
+          "marker_bbox_pt": [
+            67.32,
+            540.6490000000001,
+            192.359,
+            552.6490000000001
+          ],
+          "text_candidate": "（4）36H8表示：Φ36是 ，H8是 ，其中，H是 ，",
+          "figure_region": "题图/t01-q09-p05.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t01-q09-s05",
+          "number": 5,
+          "page": 5,
+          "marker_bbox_pt": [
+            68.64,
+            587.4490000000001,
+            146.64,
+            599.4490000000001
+          ],
+          "text_candidate": "（5）说明符号 的含义。",
+          "figure_region": "题图/t01-q09-p05.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t01-q09-s06",
+          "number": 6,
+          "page": 5,
+          "marker_bbox_pt": [
+            68.64,
+            618.6490000000001,
+            146.64,
+            630.6490000000001
+          ],
+          "text_candidate": "（6）试画出主 视图的外形。",
+          "figure_region": "题图/t01-q09-p05.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 5,
+          "cache": "ocr原始/p05.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        },
+        {
+          "page": 6,
+          "cache": "ocr原始/p06.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          5,
+          6
+        ],
+        "question_number": 9,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t02-q01",
+      "paper": 2,
+      "question": 1,
+      "task": "一、作水平线AB的三面投影。已知点A距H面为15，距V面为5，距W面为10，\nAB与V面夹角为30°，实长为30，点B在点A的左前方。 (10分)\nZ\no\nX Y\nW\nY\nH",
+      "heading": "一、作水平线AB的三面投影。已知点A距H面为15，距V面为5，距W面为10，",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        7
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 7,
+          "box_normalized": [
+            0.03,
+            0.22991887125220442,
+            0.97,
+            0.5040511463844797
+          ],
+          "image": "题图/t02-q01-p07.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "AB与V面夹角为30°，实长为30，点B在点A的左前方。 (10分)"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 7,
+          "cache": "ocr原始/p07.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          7
+        ],
+        "question_number": 1,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t02-q02",
+      "paper": 2,
+      "question": 2,
+      "task": "二、已知直线为AC为正平线，试补全平行四边形ABCD的水平投影。(12分)",
+      "heading": "二、已知直线为AC为正平线，试补全平行四边形ABCD的水平投影。(12分)",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        7
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 7,
+          "box_normalized": [
+            0.03,
+            0.5050511463844797,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t02-q02-p07.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "二、已知直线为AC为正平线，试补全平行四边形ABCD的水平投影。(12分)"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 7,
+          "cache": "ocr原始/p07.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          7
+        ],
+        "question_number": 2,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t02-q03",
+      "paper": 2,
+      "question": 3,
+      "task": "三、根据已知视图补画第三视图或视图中所缺的图线。(16分，每题8分)\n1．\n2．",
+      "heading": "三、根据已知视图补画第三视图或视图中所缺的图线。(16分，每题8分)",
+      "points_candidates": [
+        "16",
+        "8"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        8
+      ],
+      "subparts": [
+        "1．",
+        "2．"
+      ],
+      "regions": [
+        {
+          "page": 8,
+          "box_normalized": [
+            0.03,
+            0.07900312033645365,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t02-q03-p08.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 16,
+          "context": "三、根据已知视图补画第三视图或视图中所缺的图线。(16分，每题8分)"
+        },
+        {
+          "value": 8,
+          "context": "三、根据已知视图补画第三视图或视图中所缺的图线。(16分，每题8分)"
+        }
+      ],
+      "total_points": 16,
+      "subquestions": [
+        {
+          "id": "t02-q03-s01",
+          "number": 1,
+          "page": 8,
+          "marker_bbox_pt": [
+            68.64,
+            79.7299999999999,
+            86.64,
+            91.7299999999999
+          ],
+          "text_candidate": "1．",
+          "figure_region": "题图/t02-q03-p08.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t02-q03-s02",
+          "number": 2,
+          "page": 8,
+          "marker_bbox_pt": [
+            56.64,
+            341.93,
+            74.64,
+            353.93
+          ],
+          "text_candidate": "2．",
+          "figure_region": "题图/t02-q03-p08.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 8,
+          "cache": "ocr原始/p08.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          8
+        ],
+        "question_number": 3,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t02-q04",
+      "paper": 2,
+      "question": 4,
+      "task": "四、在指定位置将主视图画成全剖视图。(12分)",
+      "heading": "四、在指定位置将主视图画成全剖视图。(12分)",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "剖视",
+      "pages": [
+        9
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 9,
+          "box_normalized": [
+            0.03,
+            0.07900312033645365,
+            0.97,
+            0.5496351919685253
+          ],
+          "image": "题图/t02-q04-p09.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "四、在指定位置将主视图画成全剖视图。(12分)"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 9,
+          "cache": "ocr原始/p09.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          9
+        ],
+        "question_number": 4,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t02-q05",
+      "paper": 2,
+      "question": 5,
+      "task": "五、在指定位置画出移出断面图(键槽深3mm)。(8分)",
+      "heading": "五、在指定位置画出移出断面图(键槽深3mm)。(8分)",
+      "points_candidates": [
+        "8"
+      ],
+      "category": "断面",
+      "pages": [
+        9
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 9,
+          "box_normalized": [
+            0.03,
+            0.5506351919685253,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t02-q05-p09.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 8,
+          "context": "五、在指定位置画出移出断面图(键槽深3mm)。(8分)"
+        }
+      ],
+      "total_points": 8,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 9,
+          "cache": "ocr原始/p09.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          9
+        ],
+        "question_number": 5,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t02-q06",
+      "paper": 2,
+      "question": 6,
+      "task": "六、改正双头螺柱连接中的错误画法。(12分)",
+      "heading": "六、改正双头螺柱连接中的错误画法。(12分)",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "螺纹与连接",
+      "pages": [
+        10
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 10,
+          "box_normalized": [
+            0.03,
+            0.07900312033645365,
+            0.97,
+            0.5753576176909511
+          ],
+          "image": "题图/t02-q06-p10.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "六、改正双头螺柱连接中的错误画法。(12分)"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 10,
+          "cache": "ocr原始/p10.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          10
+        ],
+        "question_number": 6,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t02-q07",
+      "paper": 2,
+      "question": 7,
+      "task": "七、画出齿轮的两个视图，已知m=3mm，z=20，写出主要计算式。(10分)",
+      "heading": "七、画出齿轮的两个视图，已知m=3mm，z=20，写出主要计算式。(10分)",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "齿轮",
+      "pages": [
+        10
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 10,
+          "box_normalized": [
+            0.03,
+            0.5763576176909511,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t02-q07-p10.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "七、画出齿轮的两个视图，已知m=3mm，z=20，写出主要计算式。(10分)"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 10,
+          "cache": "ocr原始/p10.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          10
+        ],
+        "question_number": 7,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t02-q08",
+      "paper": 2,
+      "question": 8,
+      "task": "八、读零件图并回答下列问题。(20分)\n（1）该零件采用了哪些视图、剖视图或断面图？\n（2）指出该零件在长、宽、高三个方向的主要尺寸基准。\n（3）说明Φ40H7的意义。\n（4）说明M8—7H的含义。\n（5）标出各剖视图的剖切平面位置。\n（6）说明符号 ⊥ Φ0.05 c 的含义。",
+      "heading": "八、读零件图并回答下列问题。(20分)",
+      "points_candidates": [
+        "20"
+      ],
+      "category": "零件图",
+      "pages": [
+        11
+      ],
+      "subparts": [
+        "（1）该零件采用了哪些视图、剖视图或断面图？",
+        "（2）指出该零件在长、宽、高三个方向的主要尺寸基准。",
+        "（3）说明Φ40H7的意义。",
+        "（4）说明M8—7H的含义。",
+        "（5）标出各剖视图的剖切平面位置。",
+        "（6）说明符号 ⊥ Φ0.05 c 的含义。"
+      ],
+      "regions": [
+        {
+          "page": 11,
+          "box_normalized": [
+            0.03,
+            0.07900312033645365,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t02-q08-p11.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 20,
+          "context": "八、读零件图并回答下列问题。(20分)"
+        }
+      ],
+      "total_points": 20,
+      "subquestions": [
+        {
+          "id": "t02-q08-s01",
+          "number": 1,
+          "page": 11,
+          "marker_bbox_pt": [
+            56.64,
+            79.7299999999999,
+            314.64,
+            91.7299999999999
+          ],
+          "text_candidate": "（1）该零件采用了哪些视图、剖视图或断面图？",
+          "figure_region": "题图/t02-q08-p11.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t02-q08-s02",
+          "number": 2,
+          "page": 11,
+          "marker_bbox_pt": [
+            56.64,
+            95.32999999999993,
+            362.64,
+            107.32999999999993
+          ],
+          "text_candidate": "（2）指出该零件在长、宽、高三个方向的主要尺寸基准。",
+          "figure_region": "题图/t02-q08-p11.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t02-q08-s03",
+          "number": 3,
+          "page": 11,
+          "marker_bbox_pt": [
+            56.64,
+            110.92999999999995,
+            197.64,
+            122.92999999999995
+          ],
+          "text_candidate": "（3）说明Φ40H7的意义。",
+          "figure_region": "题图/t02-q08-p11.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t02-q08-s04",
+          "number": 4,
+          "page": 11,
+          "marker_bbox_pt": [
+            56.64,
+            126.52999999999997,
+            200.64,
+            138.52999999999997
+          ],
+          "text_candidate": "（4）说明M8—7H的含义。",
+          "figure_region": "题图/t02-q08-p11.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t02-q08-s05",
+          "number": 5,
+          "page": 11,
+          "marker_bbox_pt": [
+            56.64,
+            142.12999999999988,
+            254.64,
+            154.12999999999988
+          ],
+          "text_candidate": "（5）标出各剖视图的剖切平面位置。",
+          "figure_region": "题图/t02-q08-p11.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t02-q08-s06",
+          "number": 6,
+          "page": 11,
+          "marker_bbox_pt": [
+            56.64,
+            173.32999999999993,
+            134.64,
+            185.32999999999993
+          ],
+          "text_candidate": "（6）说明符号 ⊥ Φ0.05 c 的含义。",
+          "figure_region": "题图/t02-q08-p11.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 11,
+          "cache": "ocr原始/p11.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          11
+        ],
+        "question_number": 8,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t03-q01",
+      "paper": 3,
+      "question": 1,
+      "task": "一、在平面ABC内作一条水平线，使其到H面的距离为10mm。(10分)",
+      "heading": "一、在平面ABC内作一条水平线，使其到H面的距离为10mm。(10分)",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        12
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 12,
+          "box_normalized": [
+            0.03,
+            0.2769857549857551,
+            0.97,
+            0.6146100936100936
+          ],
+          "image": "题图/t03-q01-p12.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "一、在平面ABC内作一条水平线，使其到H面的距离为10mm。(10分)"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 12,
+          "cache": "ocr原始/p12.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          12
+        ],
+        "question_number": 1,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t03-q02",
+      "paper": 3,
+      "question": 2,
+      "task": "二、作一直线MN，使MNL//AB,且与直线CD、EF相交。（10分）",
+      "heading": "二、作一直线MN，使MNL//AB,且与直线CD、EF相交。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        12
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 12,
+          "box_normalized": [
+            0.03,
+            0.6156100936100936,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t03-q02-p12.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "二、作一直线MN，使MNL//AB,且与直线CD、EF相交。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 12,
+          "cache": "ocr原始/p12.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          12
+        ],
+        "question_number": 2,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t03-q03",
+      "paper": 3,
+      "question": 3,
+      "task": "三、根据给出的视图，补画第三视图或视图中所缺的图线。(14分，每题7分)\n1.\n2.",
+      "heading": "三、根据给出的视图，补画第三视图或视图中所缺的图线。(14分，每题7分)",
+      "points_candidates": [
+        "14",
+        "7"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        13
+      ],
+      "subparts": [
+        "1.",
+        "2."
+      ],
+      "regions": [
+        {
+          "page": 13,
+          "box_normalized": [
+            0.03,
+            0.09171916971916977,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t03-q03-p13.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 14,
+          "context": "三、根据给出的视图，补画第三视图或视图中所缺的图线。(14分，每题7分)"
+        },
+        {
+          "value": 7,
+          "context": "三、根据给出的视图，补画第三视图或视图中所缺的图线。(14分，每题7分)"
+        }
+      ],
+      "total_points": 14,
+      "subquestions": [
+        {
+          "id": "t03-q03-s01",
+          "number": 1,
+          "page": 13,
+          "marker_bbox_pt": [
+            56.64,
+            106.65714999999989,
+            64.5322,
+            117.10714999999993
+          ],
+          "text_candidate": "1.",
+          "figure_region": "题图/t03-q03-p13.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t03-q03-s02",
+          "number": 2,
+          "page": 13,
+          "marker_bbox_pt": [
+            56.64,
+            410.85715,
+            64.5322,
+            421.30715
+          ],
+          "text_candidate": "2.",
+          "figure_region": "题图/t03-q03-p13.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 13,
+          "cache": "ocr原始/p13.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          13
+        ],
+        "question_number": 3,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t03-q04",
+      "paper": 3,
+      "question": 4,
+      "task": "四、在指定位置将主视图画成剖视图。(12分)",
+      "heading": "四、在指定位置将主视图画成剖视图。(12分)",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "剖视",
+      "pages": [
+        14
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 14,
+          "box_normalized": [
+            0.03,
+            0.09171916971916977,
+            0.97,
+            0.5774916564916565
+          ],
+          "image": "题图/t03-q04-p14.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "四、在指定位置将主视图画成剖视图。(12分)"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 14,
+          "cache": "ocr原始/p14.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          14
+        ],
+        "question_number": 4,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t03-q05",
+      "paper": 3,
+      "question": 5,
+      "task": "五、补画视图中的缺线。(12分)",
+      "heading": "五、补画视图中的缺线。(12分)",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        14
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 14,
+          "box_normalized": [
+            0.03,
+            0.5784916564916565,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t03-q05-p14.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "五、补画视图中的缺线。(12分)"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 14,
+          "cache": "ocr原始/p14.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          14
+        ],
+        "question_number": 5,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t03-q06",
+      "paper": 3,
+      "question": 6,
+      "task": "六、指出下列螺纹画法中的错误，并将正确的画在指定位置。(8分)",
+      "heading": "六、指出下列螺纹画法中的错误，并将正确的画在指定位置。(8分)",
+      "points_candidates": [
+        "8"
+      ],
+      "category": "螺纹与连接",
+      "pages": [
+        15
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 15,
+          "box_normalized": [
+            0.03,
+            0.09171916971916977,
+            0.97,
+            0.4791590014923348
+          ],
+          "image": "题图/t03-q06-p15.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 8,
+          "context": "六、指出下列螺纹画法中的错误，并将正确的画在指定位置。(8分)"
+        }
+      ],
+      "total_points": 8,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 15,
+          "cache": "ocr原始/p15.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          15
+        ],
+        "question_number": 6,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t03-q07",
+      "paper": 3,
+      "question": 7,
+      "task": "七、在指定位置画出移出断面图(键槽深为3mm)。(8分)",
+      "heading": "七、在指定位置画出移出断面图(键槽深为3mm)。(8分)",
+      "points_candidates": [
+        "8"
+      ],
+      "category": "断面",
+      "pages": [
+        15
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 15,
+          "box_normalized": [
+            0.03,
+            0.4801590014923348,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t03-q07-p15.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 8,
+          "context": "七、在指定位置画出移出断面图(键槽深为3mm)。(8分)"
+        }
+      ],
+      "total_points": 8,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 15,
+          "cache": "ocr原始/p15.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          15
+        ],
+        "question_number": 7,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t03-q08",
+      "paper": 3,
+      "question": 8,
+      "task": "八、解释轴承304的含义，并在图中画出其与孔和轴的装配结构。(8分)",
+      "heading": "八、解释轴承304的含义，并在图中画出其与孔和轴的装配结构。(8分)",
+      "points_candidates": [
+        "8"
+      ],
+      "category": "轴承",
+      "pages": [
+        16
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 16,
+          "box_normalized": [
+            0.03,
+            0.09171916971916977,
+            0.97,
+            0.513999592999593
+          ],
+          "image": "题图/t03-q08-p16.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 8,
+          "context": "八、解释轴承304的含义，并在图中画出其与孔和轴的装配结构。(8分)"
+        }
+      ],
+      "total_points": 8,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 16,
+          "cache": "ocr原始/p16.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          16
+        ],
+        "question_number": 8,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t03-q09",
+      "paper": 3,
+      "question": 9,
+      "task": "九、读零件图，并回答问题。(18分)\n（1）该零件采用了哪些视图、剖视图或其它表达方法？说明数量和名称。\n（2）指出该零件在长、宽、高三个方向的主要尺寸基准。\n（3）说明Φ40H7的意义。\n（4）说明M68╳2的含义。\n（5）画出左视图的外形。\n（6）说明符号 6.3 的含义。",
+      "heading": "九、读零件图，并回答问题。(18分)",
+      "points_candidates": [
+        "18"
+      ],
+      "category": "零件图",
+      "pages": [
+        16,
+        17
+      ],
+      "subparts": [
+        "（1）该零件采用了哪些视图、剖视图或其它表达方法？说明数量和名称。",
+        "（2）指出该零件在长、宽、高三个方向的主要尺寸基准。",
+        "（3）说明Φ40H7的意义。",
+        "（4）说明M68╳2的含义。",
+        "（5）画出左视图的外形。",
+        "（6）说明符号 6.3 的含义。"
+      ],
+      "regions": [
+        {
+          "page": 16,
+          "box_normalized": [
+            0.03,
+            0.514999592999593,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t03-q09-p16.png"
+        },
+        {
+          "page": 17,
+          "box_normalized": [
+            0.03,
+            0.025,
+            0.97,
+            0.972
+          ],
+          "image": "题图/t03-q09-p17.png",
+          "continuation": true
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 18,
+          "context": "九、读零件图，并回答问题。(18分)"
+        }
+      ],
+      "total_points": 18,
+      "subquestions": [
+        {
+          "id": "t03-q09-s01",
+          "number": 1,
+          "page": 16,
+          "marker_bbox_pt": [
+            72.48,
+            401.10299999999995,
+            413.6387499999998,
+            411.553
+          ],
+          "text_candidate": "（1）该零件采用了哪些视图、剖视图或其它表达方法？说明数量和名称。",
+          "figure_region": "题图/t03-q09-p16.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t03-q09-s02",
+          "number": 2,
+          "page": 16,
+          "marker_bbox_pt": [
+            72.48,
+            416.703,
+            340.0815999999999,
+            427.153
+          ],
+          "text_candidate": "（2）指出该零件在长、宽、高三个方向的主要尺寸基准。",
+          "figure_region": "题图/t03-q09-p16.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t03-q09-s03",
+          "number": 3,
+          "page": 16,
+          "marker_bbox_pt": [
+            72.48,
+            432.303,
+            195.72910000000002,
+            442.75300000000004
+          ],
+          "text_candidate": "（3）说明Φ40H7的意义。",
+          "figure_region": "题图/t03-q09-p16.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t03-q09-s04",
+          "number": 4,
+          "page": 16,
+          "marker_bbox_pt": [
+            72.48,
+            447.90299999999996,
+            195.3691,
+            458.353
+          ],
+          "text_candidate": "（4）说明M68╳2的含义。",
+          "figure_region": "题图/t03-q09-p16.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t03-q09-s05",
+          "number": 5,
+          "page": 16,
+          "marker_bbox_pt": [
+            72.48,
+            463.503,
+            193.08685000000003,
+            473.95300000000003
+          ],
+          "text_candidate": "（5）画出左视图的外形。",
+          "figure_region": "题图/t03-q09-p16.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t03-q09-s06",
+          "number": 6,
+          "page": 16,
+          "marker_bbox_pt": [
+            72.48,
+            479.10299999999995,
+            150.12865,
+            489.553
+          ],
+          "text_candidate": "（6）说明符号 6.3 的含义。",
+          "figure_region": "题图/t03-q09-p16.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 16,
+          "cache": "ocr原始/p16.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        },
+        {
+          "page": 17,
+          "cache": "ocr原始/p17.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          16,
+          17
+        ],
+        "question_number": 9,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t04-q01",
+      "paper": 4,
+      "question": 1,
+      "task": "一、在平面ABC内作一点，使其到H面的距离为15mm，到V面的距离为12mm。(10\n分)",
+      "heading": "一、在平面ABC内作一点，使其到H面的距离为15mm，到V面的距离为12mm。(10",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        18
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 18,
+          "box_normalized": [
+            0.03,
+            0.2203123049789716,
+            0.97,
+            0.5579366436033103
+          ],
+          "image": "题图/t04-q01-p18.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 18,
+          "cache": "ocr原始/p18.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          18
+        ],
+        "question_number": 1,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t04-q02",
+      "paper": 4,
+      "question": 2,
+      "task": "二、过已知点作直线。（10分）\n（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，交\n点B距V面为10。",
+      "heading": "二、过已知点作直线。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        18
+      ],
+      "subparts": [
+        "（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，交"
+      ],
+      "regions": [
+        {
+          "page": 18,
+          "box_normalized": [
+            0.03,
+            0.5589366436033103,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t04-q02-p18.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "二、过已知点作直线。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [
+        {
+          "id": "t04-q02-s01",
+          "number": 1,
+          "page": 18,
+          "marker_bbox_pt": [
+            56.64,
+            433.48900000000003,
+            259.91999999999996,
+            445.48900000000003
+          ],
+          "text_candidate": "（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，交",
+          "figure_region": "题图/t04-q02-p18.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t04-q02-s02",
+          "number": 2,
+          "page": 18,
+          "marker_bbox_pt": [
+            264.6,
+            433.48900000000003,
+            479.04,
+            445.48900000000003
+          ],
+          "text_candidate": "（2）过A点作一直线与直线EF相交，交",
+          "figure_region": "题图/t04-q02-p18.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 18,
+          "cache": "ocr原始/p18.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          18
+        ],
+        "question_number": 2,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t04-q03",
+      "paper": 4,
+      "question": 3,
+      "task": "三、根据给出的视图，补画第三视图或视图中所缺的图线。(24分，每题8分)\n1.\n2.\n3.",
+      "heading": "三、根据给出的视图，补画第三视图或视图中所缺的图线。(24分，每题8分)",
+      "points_candidates": [
+        "24",
+        "8"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        19,
+        20
+      ],
+      "subparts": [
+        "1.",
+        "2."
+      ],
+      "regions": [
+        {
+          "page": 19,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t04-q03-p19.png"
+        },
+        {
+          "page": 20,
+          "box_normalized": [
+            0.03,
+            0.025,
+            0.97,
+            0.45034893501560164
+          ],
+          "image": "题图/t04-q03-p20.png",
+          "continuation": true
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 24,
+          "context": "三、根据给出的视图，补画第三视图或视图中所缺的图线。(24分，每题8分)"
+        },
+        {
+          "value": 8,
+          "context": "三、根据给出的视图，补画第三视图或视图中所缺的图线。(24分，每题8分)"
+        }
+      ],
+      "total_points": 24,
+      "subquestions": [
+        {
+          "id": "t04-q03-s01",
+          "number": 1,
+          "page": 19,
+          "marker_bbox_pt": [
+            56.64,
+            88.25,
+            68.64,
+            100.25
+          ],
+          "text_candidate": "1.",
+          "figure_region": "题图/t04-q03-p19.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t04-q03-s02",
+          "number": 2,
+          "page": 19,
+          "marker_bbox_pt": [
+            56.64,
+            337.849,
+            68.64,
+            349.849
+          ],
+          "text_candidate": "2.",
+          "figure_region": "题图/t04-q03-p19.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t04-q03-s03",
+          "number": 3,
+          "page": 20,
+          "marker_bbox_pt": [
+            56.64,
+            72.64999999999998,
+            68.64,
+            84.64999999999998
+          ],
+          "text_candidate": "3.",
+          "figure_region": "题图/t04-q03-p20.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 19,
+          "cache": "ocr原始/p19.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        },
+        {
+          "page": 20,
+          "cache": "ocr原始/p20.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          19,
+          20
+        ],
+        "question_number": 3,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t04-q04",
+      "paper": 4,
+      "question": 4,
+      "task": "四、在指定位置将主视图画成全剖视图，左视图画成半剖视图。(12分)",
+      "heading": "四、在指定位置将主视图画成全剖视图，左视图画成半剖视图。(12分)",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "剖视",
+      "pages": [
+        20
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 20,
+          "box_normalized": [
+            0.03,
+            0.45034893501560164,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t04-q04-p20.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "四、在指定位置将主视图画成全剖视图，左视图画成半剖视图。(12分)"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 20,
+          "cache": "ocr原始/p20.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          20
+        ],
+        "question_number": 4,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t04-q05",
+      "paper": 4,
+      "question": 5,
+      "task": "五、补画视图中的缺线。(14分)",
+      "heading": "五、补画视图中的缺线。(14分)",
+      "points_candidates": [
+        "14"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        21
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 21,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.44934893501560164
+          ],
+          "image": "题图/t04-q05-p21.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 14,
+          "context": "五、补画视图中的缺线。(14分)"
+        }
+      ],
+      "total_points": 14,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 21,
+          "cache": "ocr原始/p21.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          21
+        ],
+        "question_number": 5,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t04-q06",
+      "paper": 4,
+      "question": 6,
+      "task": "六、指出螺柱连接画法中的错误，并将正确的画在指定位置。(10分)",
+      "heading": "六、指出螺柱连接画法中的错误，并将正确的画在指定位置。(10分)",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "螺纹与连接",
+      "pages": [
+        21
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 21,
+          "box_normalized": [
+            0.03,
+            0.45034893501560164,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t04-q06-p21.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "六、指出螺柱连接画法中的错误，并将正确的画在指定位置。(10分)"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 21,
+          "cache": "ocr原始/p21.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          21
+        ],
+        "question_number": 6,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t04-q07",
+      "paper": 4,
+      "question": 7,
+      "task": "七、读零件图，并回答问题。(20分)\n1．该零件采用了哪些视图、剖视图或其它表达方法？说明数量和名称。\n2．指出该零件在长、宽、高三个方向的主要尺寸基准。\n3．说明Φ58H7的意义。\n4．说明2-M10-7H的含义。\n5. 说 明 符 号 6.3 的含义。\n6. 说 明 符 号 的含义\n// 0.01 A",
+      "heading": "七、读零件图，并回答问题。(20分)",
+      "points_candidates": [
+        "20"
+      ],
+      "category": "零件图",
+      "pages": [
+        22
+      ],
+      "subparts": [
+        "1．该零件采用了哪些视图、剖视图或其它表达方法？说明数量和名称。",
+        "2．指出该零件在长、宽、高三个方向的主要尺寸基准。",
+        "3．说明Φ58H7的意义。",
+        "4．说明2-M10-7H的含义。",
+        "5. 说 明 符 号 6.3 的含义。",
+        "6. 说 明 符 号 的含义"
+      ],
+      "regions": [
+        {
+          "page": 22,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t04-q07-p22.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 20,
+          "context": "七、读零件图，并回答问题。(20分)"
+        }
+      ],
+      "total_points": 20,
+      "subquestions": [
+        {
+          "id": "t04-q07-s01",
+          "number": 1,
+          "page": 22,
+          "marker_bbox_pt": [
+            62.64,
+            88.25,
+            440.64,
+            100.25
+          ],
+          "text_candidate": "1．该零件采用了哪些视图、剖视图或其它表达方法？说明数量和名称。",
+          "figure_region": "题图/t04-q07-p22.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t04-q07-s02",
+          "number": 2,
+          "page": 22,
+          "marker_bbox_pt": [
+            62.64,
+            103.84999999999991,
+            356.64,
+            115.84999999999991
+          ],
+          "text_candidate": "2．指出该零件在长、宽、高三个方向的主要尺寸基准。",
+          "figure_region": "题图/t04-q07-p22.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t04-q07-s03",
+          "number": 3,
+          "page": 22,
+          "marker_bbox_pt": [
+            62.64,
+            119.44999999999993,
+            191.64,
+            131.44999999999993
+          ],
+          "text_candidate": "3．说明Φ58H7的意义。",
+          "figure_region": "题图/t04-q07-p22.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t04-q07-s04",
+          "number": 4,
+          "page": 22,
+          "marker_bbox_pt": [
+            62.64,
+            135.04999999999995,
+            206.64,
+            147.04999999999995
+          ],
+          "text_candidate": "4．说明2-M10-7H的含义。",
+          "figure_region": "题图/t04-q07-p22.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t04-q07-s05",
+          "number": 5,
+          "page": 22,
+          "marker_bbox_pt": [
+            61.92,
+            150.64999999999998,
+            73.92,
+            162.64999999999998
+          ],
+          "text_candidate": "5. 说 明 符 号 6.3 的含义。",
+          "figure_region": "题图/t04-q07-p22.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t04-q07-s06",
+          "number": 6,
+          "page": 22,
+          "marker_bbox_pt": [
+            61.92,
+            166.25,
+            73.92,
+            178.25
+          ],
+          "text_candidate": "6. 说 明 符 号 的含义 //",
+          "figure_region": "题图/t04-q07-p22.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 22,
+          "cache": "ocr原始/p22.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          22
+        ],
+        "question_number": 7,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t05-q01",
+      "paper": 5,
+      "question": 1,
+      "task": "一、已知直线AB的两面投影，设直线AB 上一点C将AB 分成2：3，求C 点\n的三面投影。（12分）",
+      "heading": "一、已知直线AB的两面投影，设直线AB 上一点C将AB 分成2：3，求C 点",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        23
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 23,
+          "box_normalized": [
+            0.03,
+            0.2203123049789716,
+            0.97,
+            0.5791006647673315
+          ],
+          "image": "题图/t05-q01-p23.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "的三面投影。（12分）"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 23,
+          "cache": "ocr原始/p23.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          23
+        ],
+        "question_number": 1,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t05-q02",
+      "paper": 5,
+      "question": 2,
+      "task": "二、已知平面的两面投影，完成其第三面投影。（10分）",
+      "heading": "二、已知平面的两面投影，完成其第三面投影。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        23
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 23,
+          "box_normalized": [
+            0.03,
+            0.5801006647673315,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t05-q02-p23.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "二、已知平面的两面投影，完成其第三面投影。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 23,
+          "cache": "ocr原始/p23.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          23
+        ],
+        "question_number": 2,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t05-q03",
+      "paper": 5,
+      "question": 3,
+      "task": "三、已知两视图，求作第三视图。（15分）",
+      "heading": "三、已知两视图，求作第三视图。（15分）",
+      "points_candidates": [
+        "15"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        24
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 24,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.5128409985076652
+          ],
+          "image": "题图/t05-q03-p24.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 15,
+          "context": "三、已知两视图，求作第三视图。（15分）"
+        }
+      ],
+      "total_points": 15,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 24,
+          "cache": "ocr原始/p24.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          24
+        ],
+        "question_number": 3,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t05-q04",
+      "paper": 5,
+      "question": 4,
+      "task": "四、求作立体的相贯线。（12分）",
+      "heading": "四、求作立体的相贯线。（12分）",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "相贯线",
+      "pages": [
+        24
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 24,
+          "box_normalized": [
+            0.03,
+            0.5138409985076652,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t05-q04-p24.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "四、求作立体的相贯线。（12分）"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 24,
+          "cache": "ocr原始/p24.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          24
+        ],
+        "question_number": 4,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t05-q05",
+      "paper": 5,
+      "question": 5,
+      "task": "五、根据两视图补画第三视图。（12分）",
+      "heading": "五、根据两视图补画第三视图。（12分）",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        25
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 25,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.47051431284764617
+          ],
+          "image": "题图/t05-q05-p25.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "五、根据两视图补画第三视图。（12分）"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 25,
+          "cache": "ocr原始/p25.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          25
+        ],
+        "question_number": 5,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t05-q06",
+      "paper": 5,
+      "question": 6,
+      "task": "六、分析下列螺纹画法的错误,正确的打“√”, 错误的打“×”。（8分）\n( ) ( ) ( ) ( )",
+      "heading": "六、分析下列螺纹画法的错误,正确的打“√”, 错误的打“×”。（8分）",
+      "points_candidates": [
+        "8"
+      ],
+      "category": "螺纹与连接",
+      "pages": [
+        25
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 25,
+          "box_normalized": [
+            0.03,
+            0.47151431284764617,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t05-q06-p25.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 8,
+          "context": "六、分析下列螺纹画法的错误,正确的打“√”, 错误的打“×”。（8分）"
+        }
+      ],
+      "total_points": 8,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 25,
+          "cache": "ocr原始/p25.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          25
+        ],
+        "question_number": 6,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t05-q07",
+      "paper": 5,
+      "question": 7,
+      "task": "七、在指定位置将主视图画成全剖视图。（16分）",
+      "heading": "七、在指定位置将主视图画成全剖视图。（16分）",
+      "points_candidates": [
+        "16"
+      ],
+      "category": "剖视",
+      "pages": [
+        26
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 26,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.7244812101478769
+          ],
+          "image": "题图/t05-q07-p26.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 16,
+          "context": "七、在指定位置将主视图画成全剖视图。（16分）"
+        }
+      ],
+      "total_points": 16,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 26,
+          "cache": "ocr原始/p26.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          26
+        ],
+        "question_number": 7,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t05-q08",
+      "paper": 5,
+      "question": 8,
+      "task": "八、读端盖零件图，回答下列问题。（15分）\n（1）表面Ⅰ的表面粗糙度代号为_______，表面Ⅱ的表面粗糙度代号为_______，\n表面Ⅲ的表面粗糙度代号为_______。\n（2）尺寸Φ70d11，其基本尺寸为_______ ，基本偏差代号为_______，标准公\n差等级为_______。\n其余\n铸造圆角\n制图\n端 盖\n图号\n校核\n（校名） 班 制图 数量1 比例1:2",
+      "heading": "八、读端盖零件图，回答下列问题。（15分）",
+      "points_candidates": [
+        "15"
+      ],
+      "category": "零件图",
+      "pages": [
+        26,
+        27
+      ],
+      "subparts": [
+        "（1）表面Ⅰ的表面粗糙度代号为_______，表面Ⅱ的表面粗糙度代号为_______，",
+        "（2）尺寸Φ70d11，其基本尺寸为_______ ，基本偏差代号为_______，标准公"
+      ],
+      "regions": [
+        {
+          "page": 26,
+          "box_normalized": [
+            0.03,
+            0.7254812101478769,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t05-q08-p26.png"
+        },
+        {
+          "page": 27,
+          "box_normalized": [
+            0.03,
+            0.025,
+            0.97,
+            0.972
+          ],
+          "image": "题图/t05-q08-p27.png",
+          "continuation": true
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 15,
+          "context": "八、读端盖零件图，回答下列问题。（15分）"
+        }
+      ],
+      "total_points": 15,
+      "subquestions": [
+        {
+          "id": "t05-q08-s01",
+          "number": 1,
+          "page": 26,
+          "marker_bbox_pt": [
+            56.64,
+            556.249,
+            471.0,
+            570.241
+          ],
+          "text_candidate": "（1）表面Ⅰ的表面粗糙度代号为_______，表面Ⅱ的表面粗糙度代号为_______，",
+          "figure_region": "题图/t05-q08-p26.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t05-q08-s02",
+          "number": 2,
+          "page": 26,
+          "marker_bbox_pt": [
+            56.64,
+            587.4490000000001,
+            275.64,
+            601.441
+          ],
+          "text_candidate": "（2）尺寸Φ70d11，其基本尺寸为_______ ，基本偏差代号为_______，标准公",
+          "figure_region": "题图/t05-q08-p26.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 26,
+          "cache": "ocr原始/p26.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        },
+        {
+          "page": 27,
+          "cache": "ocr原始/p27.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          26,
+          27
+        ],
+        "question_number": 8,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t06-q01",
+      "paper": 6,
+      "question": 1,
+      "task": "一、已知直线 AB 的两面投影，设直线 AB 上一点 C 将 AB 分成3：2，求 C 点的\n三面投影。（12分）",
+      "heading": "一、已知直线 AB 的两面投影，设直线 AB 上一点 C 将 AB 分成3：2，求 C 点的",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        28
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 28,
+          "box_normalized": [
+            0.03,
+            0.24147632614299266,
+            0.97,
+            0.5791006647673315
+          ],
+          "image": "题图/t06-q01-p28.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "三面投影。（12分）"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 28,
+          "cache": "ocr原始/p28.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          28
+        ],
+        "question_number": 1,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t06-q02",
+      "paper": 6,
+      "question": 2,
+      "task": "二、已知平面的两面投影，完成其第三面投影。（10分）",
+      "heading": "二、已知平面的两面投影，完成其第三面投影。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        28
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 28,
+          "box_normalized": [
+            0.03,
+            0.5801006647673315,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t06-q02-p28.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "二、已知平面的两面投影，完成其第三面投影。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 28,
+          "cache": "ocr原始/p28.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          28
+        ],
+        "question_number": 2,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t06-q03",
+      "paper": 6,
+      "question": 3,
+      "task": "三、已知两视图，求作第三视图。（15分）",
+      "heading": "三、已知两视图，求作第三视图。（15分）",
+      "points_candidates": [
+        "15"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        29
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 29,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.4916783340116674
+          ],
+          "image": "题图/t06-q03-p29.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 15,
+          "context": "三、已知两视图，求作第三视图。（15分）"
+        }
+      ],
+      "total_points": 15,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 29,
+          "cache": "ocr原始/p29.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          29
+        ],
+        "question_number": 3,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t06-q04",
+      "paper": 6,
+      "question": 4,
+      "task": "四、求作立体的相贯线。（12分）",
+      "heading": "四、求作立体的相贯线。（12分）",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "相贯线",
+      "pages": [
+        29
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 29,
+          "box_normalized": [
+            0.03,
+            0.4926783340116674,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t06-q04-p29.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "四、求作立体的相贯线。（12分）"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 29,
+          "cache": "ocr原始/p29.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          29
+        ],
+        "question_number": 4,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t06-q05",
+      "paper": 6,
+      "question": 5,
+      "task": "五、根据两视图补画第三视图。（12分）",
+      "heading": "五、根据两视图补画第三视图。（12分）",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        30
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 30,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.4916783340116674
+          ],
+          "image": "题图/t06-q05-p30.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "五、根据两视图补画第三视图。（12分）"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 30,
+          "cache": "ocr原始/p30.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          30
+        ],
+        "question_number": 5,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t06-q06",
+      "paper": 6,
+      "question": 6,
+      "task": "六、分析下列螺纹画法的错误,正确的打“√”, 错误的打“×”。（8分）\n( ) ( ) ( ) ( )",
+      "heading": "六、分析下列螺纹画法的错误,正确的打“√”, 错误的打“×”。（8分）",
+      "points_candidates": [
+        "8"
+      ],
+      "category": "螺纹与连接",
+      "pages": [
+        30
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 30,
+          "box_normalized": [
+            0.03,
+            0.4926783340116674,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t06-q06-p30.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 8,
+          "context": "六、分析下列螺纹画法的错误,正确的打“√”, 错误的打“×”。（8分）"
+        }
+      ],
+      "total_points": 8,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 30,
+          "cache": "ocr原始/p30.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          30
+        ],
+        "question_number": 6,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t06-q07",
+      "paper": 6,
+      "question": 7,
+      "task": "七、在指定位置将主视图画成全剖视图。（16分）",
+      "heading": "七、在指定位置将主视图画成全剖视图。（16分）",
+      "points_candidates": [
+        "16"
+      ],
+      "category": "剖视",
+      "pages": [
+        31
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 31,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.6821531678198345
+          ],
+          "image": "题图/t06-q07-p31.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 16,
+          "context": "七、在指定位置将主视图画成全剖视图。（16分）"
+        }
+      ],
+      "total_points": 16,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 31,
+          "cache": "ocr原始/p31.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          31
+        ],
+        "question_number": 7,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t06-q08",
+      "paper": 6,
+      "question": 8,
+      "task": "八、读齿轮轴零件图，在指定位置补画A-A断面图，并回答下列问题。（15分）\n1．说明M12×1.5-6g含义：___________________________\n2．说明 含义：__________________________\n3．指出图中的工艺结构：它有 处倒角，其尺寸分别\n为 ，\n有 处退刀槽，其尺寸为 。\n模数 2\n其余 齿数 18\n压力角\n精度等级 8-7-7-\n齿厚 3.142\n图号\n配对齿数\n齿数\n比例 数量 材料\n齿 轮 轴\n制图\n校核",
+      "heading": "八、读齿轮轴零件图，在指定位置补画A-A断面图，并回答下列问题。（15分）",
+      "points_candidates": [
+        "15"
+      ],
+      "category": "齿轮",
+      "pages": [
+        31,
+        32
+      ],
+      "subparts": [
+        "1．说明M12×1.5-6g含义：___________________________",
+        "2．说明 含义：__________________________",
+        "3．指出图中的工艺结构：它有 处倒角，其尺寸分别"
+      ],
+      "regions": [
+        {
+          "page": 31,
+          "box_normalized": [
+            0.03,
+            0.6831531678198345,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t06-q08-p31.png"
+        },
+        {
+          "page": 32,
+          "box_normalized": [
+            0.03,
+            0.025,
+            0.97,
+            0.972
+          ],
+          "image": "题图/t06-q08-p32.png",
+          "continuation": true
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 15,
+          "context": "八、读齿轮轴零件图，在指定位置补画A-A断面图，并回答下列问题。（15分）"
+        }
+      ],
+      "total_points": 15,
+      "subquestions": [
+        {
+          "id": "t06-q08-s01",
+          "number": 1,
+          "page": 31,
+          "marker_bbox_pt": [
+            62.759,
+            525.05,
+            374.759,
+            537.05
+          ],
+          "text_candidate": "1．说明M12×1.5-6g含义：___________________________",
+          "figure_region": "题图/t06-q08-p31.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t06-q08-s02",
+          "number": 2,
+          "page": 31,
+          "marker_bbox_pt": [
+            62.759,
+            553.73,
+            104.759,
+            565.73
+          ],
+          "text_candidate": "2．说明 含义：__________________________",
+          "figure_region": "题图/t06-q08-p31.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t06-q08-s03",
+          "number": 3,
+          "page": 31,
+          "marker_bbox_pt": [
+            62.759,
+            571.8489999999999,
+            250.9173,
+            583.8489999999999
+          ],
+          "text_candidate": "3．指出图中的工艺结构：它有 处倒角，其尺寸分别",
+          "figure_region": "题图/t06-q08-p31.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 31,
+          "cache": "ocr原始/p31.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        },
+        {
+          "page": 32,
+          "cache": "ocr原始/p32.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          31,
+          32
+        ],
+        "question_number": 8,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t07-q01",
+      "paper": 7,
+      "question": 1,
+      "task": "一、已知直线AB的两面投影。（1）完成其第三面投影；（2）设直线AB上一点\nC距H面25,完成点C的三面投影。（10分）",
+      "heading": "一、已知直线AB的两面投影。（1）完成其第三面投影；（2）设直线AB上一点",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        33
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 33,
+          "box_normalized": [
+            0.03,
+            0.24147632614299266,
+            0.97,
+            0.5791006647673315
+          ],
+          "image": "题图/t07-q01-p33.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "C距H面25,完成点C的三面投影。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [
+        {
+          "id": "t07-q01-s01",
+          "number": 1,
+          "page": 33,
+          "marker_bbox_pt": [
+            56.64,
+            183.8889999999999,
+            464.64,
+            195.8889999999999
+          ],
+          "text_candidate": "一、已知直线AB的两面投影。（1）完成其第三面投影；（2）设直线AB上一点",
+          "figure_region": "题图/t07-q01-p33.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t07-q01-s02",
+          "number": 2,
+          "page": 33,
+          "text_candidate": "（2）设直线AB上一点",
+          "figure_region": "题图/t07-q01-p33.png",
+          "position_region": [
+            0.03,
+            0.24147632614299266,
+            0.97,
+            0.5791006647673315
+          ],
+          "status": "行内小题；用对应原文字框定位"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 33,
+          "cache": "ocr原始/p33.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          33
+        ],
+        "question_number": 1,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t07-q02",
+      "paper": 7,
+      "question": 2,
+      "task": "二、作一直线MN，使MN//AB,且与直线CD、EF相交。（10分）",
+      "heading": "二、作一直线MN，使MN//AB,且与直线CD、EF相交。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        33
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 33,
+          "box_normalized": [
+            0.03,
+            0.5801006647673315,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t07-q02-p33.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "二、作一直线MN，使MN//AB,且与直线CD、EF相交。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 33,
+          "cache": "ocr原始/p33.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          33
+        ],
+        "question_number": 2,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t07-q03",
+      "paper": 7,
+      "question": 3,
+      "task": "三、求圆柱被截切后的W面投影。（10分）",
+      "heading": "三、求圆柱被截切后的W面投影。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "截交线",
+      "pages": [
+        34
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 34,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.4916783340116674
+          ],
+          "image": "题图/t07-q03-p34.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "三、求圆柱被截切后的W面投影。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 34,
+          "cache": "ocr原始/p34.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          34
+        ],
+        "question_number": 3,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t07-q04",
+      "paper": 7,
+      "question": 4,
+      "task": "四、补画相贯线的V面投影。（10分）",
+      "heading": "四、补画相贯线的V面投影。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "相贯线",
+      "pages": [
+        34
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 34,
+          "box_normalized": [
+            0.03,
+            0.4926783340116674,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t07-q04-p34.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "四、补画相贯线的V面投影。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 34,
+          "cache": "ocr原始/p34.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          34
+        ],
+        "question_number": 4,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t07-q05",
+      "paper": 7,
+      "question": 5,
+      "task": "五、根据主左视图，求作俯视图。（10分）",
+      "heading": "五、根据主左视图，求作俯视图。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "待细分",
+      "pages": [
+        35
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 35,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.5551690408357075
+          ],
+          "image": "题图/t07-q05-p35.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "五、根据主左视图，求作俯视图。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 35,
+          "cache": "ocr原始/p35.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          35
+        ],
+        "question_number": 5,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t07-q06",
+      "paper": 7,
+      "question": 6,
+      "task": "六、根据主俯视图，求作左视图。（10分）",
+      "heading": "六、根据主俯视图，求作左视图。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "待细分",
+      "pages": [
+        35
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 35,
+          "box_normalized": [
+            0.03,
+            0.5561690408357075,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t07-q06-p35.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "六、根据主俯视图，求作左视图。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 35,
+          "cache": "ocr原始/p35.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          35
+        ],
+        "question_number": 6,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t07-q07",
+      "paper": 7,
+      "question": 7,
+      "task": "七、将主视图改画成全剖视图。（10分）",
+      "heading": "七、将主视图改画成全剖视图。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "剖视",
+      "pages": [
+        36
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 36,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.5551690408357075
+          ],
+          "image": "题图/t07-q07-p36.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "七、将主视图改画成全剖视图。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 36,
+          "cache": "ocr原始/p36.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          36
+        ],
+        "question_number": 7,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t07-q08",
+      "paper": 7,
+      "question": 8,
+      "task": "八、判断下列螺纹画法的正误，正确的打“√”,错误的打“×”。（8分）\n( ) ( ) ( ) ( )",
+      "heading": "八、判断下列螺纹画法的正误，正确的打“√”,错误的打“×”。（8分）",
+      "points_candidates": [
+        "8"
+      ],
+      "category": "螺纹与连接",
+      "pages": [
+        36
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 36,
+          "box_normalized": [
+            0.03,
+            0.5561690408357075,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t07-q08-p36.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 8,
+          "context": "八、判断下列螺纹画法的正误，正确的打“√”,错误的打“×”。（8分）"
+        }
+      ],
+      "total_points": 8,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 36,
+          "cache": "ocr原始/p36.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          36
+        ],
+        "question_number": 8,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t07-q09",
+      "paper": 7,
+      "question": 9,
+      "task": "九、读齿轮轴零件图，在指定位置补画断面图，并完成填空题。（12分）\n（1）说明Ф20f7的含义：Ф20为 ，f7是 。\n(2)说明 含义：符号⊥表示 ，数字 0.03\n是 ，A 是 。\n（3）指出图中的工艺结构：它有 处倒角，其尺寸分别\n为 ，有 处退刀槽，其尺寸为 。\n(4)图中的粗糙度标注有____________处错误.\n模数 2\n其余 齿数 18\n压力角\n精度等级 8-7-7-\n齿厚 3.142\n图号\n配对齿数\n齿数\n比例 数量 材料\n齿 轮 轴\n制图\n校核",
+      "heading": "九、读齿轮轴零件图，在指定位置补画断面图，并完成填空题。（12分）",
+      "points_candidates": [
+        "12"
+      ],
+      "category": "齿轮",
+      "pages": [
+        37
+      ],
+      "subparts": [
+        "（1）说明Ф20f7的含义：Ф20为 ，f7是 。",
+        "(2)说明 含义：符号⊥表示 ，数字 0.03",
+        "（3）指出图中的工艺结构：它有 处倒角，其尺寸分别",
+        "(4)图中的粗糙度标注有____________处错误."
+      ],
+      "regions": [
+        {
+          "page": 37,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t07-q09-p37.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 12,
+          "context": "九、读齿轮轴零件图，在指定位置补画断面图，并完成填空题。（12分）"
+        }
+      ],
+      "total_points": 12,
+      "subquestions": [
+        {
+          "id": "t07-q09-s01",
+          "number": 1,
+          "page": 37,
+          "marker_bbox_pt": [
+            74.759,
+            88.25,
+            254.759,
+            100.25
+          ],
+          "text_candidate": "（1）说明Ф20f7的含义：Ф20为 ，f7是 。",
+          "figure_region": "题图/t07-q09-p37.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t07-q09-s02",
+          "number": 2,
+          "page": 37,
+          "marker_bbox_pt": [
+            80.4,
+            116.92999999999995,
+            124.3184,
+            128.92999999999995
+          ],
+          "text_candidate": "(2)说明 含义：符号⊥表示 ，数字 0.03",
+          "figure_region": "题图/t07-q09-p37.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t07-q09-s03",
+          "number": 3,
+          "page": 37,
+          "marker_bbox_pt": [
+            74.4,
+            150.64999999999998,
+            265.91774999999996,
+            162.64999999999998
+          ],
+          "text_candidate": "（3）指出图中的工艺结构：它有 处倒角，其尺寸分别",
+          "figure_region": "题图/t07-q09-p37.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t07-q09-s04",
+          "number": 4,
+          "page": 37,
+          "marker_bbox_pt": [
+            80.4,
+            181.8499999999999,
+            320.4,
+            193.8499999999999
+          ],
+          "text_candidate": "(4)图中的粗糙度标注有____________处错误.",
+          "figure_region": "题图/t07-q09-p37.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 37,
+          "cache": "ocr原始/p37.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          37
+        ],
+        "question_number": 9,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q01",
+      "paper": 8,
+      "question": 1,
+      "task": "一、已知 A 点的三面投影,B 点在A 点上方 1６、左方２０、 前方１8，求作 B\n点的三面投影。（6分）",
+      "heading": "一、已知 A 点的三面投影,B 点在A 点上方 1６、左方２０、 前方１8，求作 B",
+      "points_candidates": [
+        "6"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        38
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 38,
+          "box_normalized": [
+            0.03,
+            0.24147632614299266,
+            0.97,
+            0.5579366436033103
+          ],
+          "image": "题图/t08-q01-p38.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 6,
+          "context": "点的三面投影。（6分）"
+        }
+      ],
+      "total_points": 6,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 38,
+          "cache": "ocr原始/p38.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          38
+        ],
+        "question_number": 1,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q02",
+      "paper": 8,
+      "question": 2,
+      "task": "二、过已知点作直线。（10分）\n（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，\n交点B距V面为10。",
+      "heading": "二、过已知点作直线。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        38
+      ],
+      "subparts": [
+        "（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，"
+      ],
+      "regions": [
+        {
+          "page": 38,
+          "box_normalized": [
+            0.03,
+            0.5589366436033103,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t08-q02-p38.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "二、过已知点作直线。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [
+        {
+          "id": "t08-q02-s01",
+          "number": 1,
+          "page": 38,
+          "marker_bbox_pt": [
+            56.64,
+            433.48900000000003,
+            260.64,
+            445.48900000000003
+          ],
+          "text_candidate": "（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，",
+          "figure_region": "题图/t08-q02-p38.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t08-q02-s02",
+          "number": 2,
+          "page": 38,
+          "marker_bbox_pt": [
+            266.64,
+            433.48900000000003,
+            470.64,
+            445.48900000000003
+          ],
+          "text_candidate": "（2）过A点作一直线与直线EF相交，",
+          "figure_region": "题图/t08-q02-p38.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 38,
+          "cache": "ocr原始/p38.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          38
+        ],
+        "question_number": 2,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q03",
+      "paper": 8,
+      "question": 3,
+      "task": "三、在∆ABC平面上作一距V面15的正平线，并过顶点A作一水平线。（10分）",
+      "heading": "三、在∆ABC平面上作一距V面15的正平线，并过顶点A作一水平线。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "点线面投影",
+      "pages": [
+        39
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 39,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.44934893501560164
+          ],
+          "image": "题图/t08-q03-p39.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "三、在∆ABC平面上作一距V面15的正平线，并过顶点A作一水平线。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 39,
+          "cache": "ocr原始/p39.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          39
+        ],
+        "question_number": 3,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q04",
+      "paper": 8,
+      "question": 4,
+      "task": "四、分析圆柱的截交线，补全其三面投影。（10分）",
+      "heading": "四、分析圆柱的截交线，补全其三面投影。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "截交线",
+      "pages": [
+        39
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 39,
+          "box_normalized": [
+            0.03,
+            0.45034893501560164,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t08-q04-p39.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "四、分析圆柱的截交线，补全其三面投影。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 39,
+          "cache": "ocr原始/p39.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          39
+        ],
+        "question_number": 4,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q05",
+      "paper": 8,
+      "question": 5,
+      "task": "五、求作相贯体的相贯线。（8分）",
+      "heading": "五、求作相贯体的相贯线。（8分）",
+      "points_candidates": [
+        "8"
+      ],
+      "category": "相贯线",
+      "pages": [
+        40
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 40,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.4916783340116674
+          ],
+          "image": "题图/t08-q05-p40.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 8,
+          "context": "五、求作相贯体的相贯线。（8分）"
+        }
+      ],
+      "total_points": 8,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 40,
+          "cache": "ocr原始/p40.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          40
+        ],
+        "question_number": 5,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q06",
+      "paper": 8,
+      "question": 6,
+      "task": "六、读懂两视图，补画第三视图。（10分）",
+      "heading": "六、读懂两视图，补画第三视图。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        40
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 40,
+          "box_normalized": [
+            0.03,
+            0.4926783340116674,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t08-q06-p40.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "六、读懂两视图，补画第三视图。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 40,
+          "cache": "ocr原始/p40.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          40
+        ],
+        "question_number": 6,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q07",
+      "paper": 8,
+      "question": 7,
+      "task": "七、补画组合体视图中缺漏的图线。（10分）",
+      "heading": "七、补画组合体视图中缺漏的图线。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "补视图与补线",
+      "pages": [
+        41
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 41,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.47051431284764617
+          ],
+          "image": "题图/t08-q07-p41.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "七、补画组合体视图中缺漏的图线。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 41,
+          "cache": "ocr原始/p41.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          41
+        ],
+        "question_number": 7,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q08",
+      "paper": 8,
+      "question": 8,
+      "task": "八、在指定位置将机件的主视图画成阶梯剖视图。（10分）",
+      "heading": "八、在指定位置将机件的主视图画成阶梯剖视图。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "剖视",
+      "pages": [
+        41
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 41,
+          "box_normalized": [
+            0.03,
+            0.47151431284764617,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t08-q08-p41.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "八、在指定位置将机件的主视图画成阶梯剖视图。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 41,
+          "cache": "ocr原始/p41.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          41
+        ],
+        "question_number": 8,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q09",
+      "paper": 8,
+      "question": 9,
+      "task": "九、选择正确的移出断面图 （将正确的答案序号填入括号内）(6分)。（ ）",
+      "heading": "九、选择正确的移出断面图 （将正确的答案序号填入括号内）(6分)。（ ）",
+      "points_candidates": [
+        "6"
+      ],
+      "category": "断面",
+      "pages": [
+        42
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 42,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.5340050196716863
+          ],
+          "image": "题图/t08-q09-p42.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 6,
+          "context": "九、选择正确的移出断面图 （将正确的答案序号填入括号内）(6分)。（ ）"
+        }
+      ],
+      "total_points": 6,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 42,
+          "cache": "ocr原始/p42.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          42
+        ],
+        "question_number": 9,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q10",
+      "paper": 8,
+      "question": 10,
+      "task": "十、指出下图中的错误，并在指定位置画出正确的图形。（10分）",
+      "heading": "十、指出下图中的错误，并在指定位置画出正确的图形。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "待细分",
+      "pages": [
+        42
+      ],
+      "subparts": [],
+      "regions": [
+        {
+          "page": 42,
+          "box_normalized": [
+            0.03,
+            0.5350050196716863,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t08-q10-p42.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "十、指出下图中的错误，并在指定位置画出正确的图形。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [],
+      "recognition_candidates": [
+        {
+          "page": 42,
+          "cache": "ocr原始/p42.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          42
+        ],
+        "question_number": 10,
+        "answer_removed_by_user": true
+      }
+    },
+    {
+      "id": "t08-q11",
+      "paper": 8,
+      "question": 11,
+      "task": "十一、读“釜盖”零件图，并回答下列问题。（10分）\n（1）此零件名称是 ，主视图采用 剖视。\n（2）用指引线标出此零件长、宽、高三个方向的尺寸基准，并指明是哪个\n方向的尺寸基准。\n（3）用铅笔圈出此零件图上的定位尺寸。\n（4）釜盖上有 个 M12的螺孔，深是 ，是 分布的。\n（5）釜盖上有 个 形状的槽（可用图形说明），槽宽是 ，\n槽上方有直径是 的沉孔。\n（6）此零件表面质量要求最高的粗糙度代号是 。\n（7）标题栏中Q235-A表示 。\n其余\n深10\n孔深18\n锪平\n技术要求\n锐边倒钝\n倒角2\n比例 数量 材料\n釜 盖\nQ235-A\n制图\n校核",
+      "heading": "十一、读“釜盖”零件图，并回答下列问题。（10分）",
+      "points_candidates": [
+        "10"
+      ],
+      "category": "零件图",
+      "pages": [
+        43
+      ],
+      "subparts": [
+        "（1）此零件名称是 ，主视图采用 剖视。",
+        "（2）用指引线标出此零件长、宽、高三个方向的尺寸基准，并指明是哪个",
+        "（3）用铅笔圈出此零件图上的定位尺寸。",
+        "（4）釜盖上有 个 M12的螺孔，深是 ，是 分布的。",
+        "（5）釜盖上有 个 形状的槽（可用图形说明），槽宽是 ，",
+        "（6）此零件表面质量要求最高的粗糙度代号是 。",
+        "（7）标题栏中Q235-A表示 。"
+      ],
+      "regions": [
+        {
+          "page": 43,
+          "box_normalized": [
+            0.03,
+            0.09056193189526521,
+            0.97,
+            0.98
+          ],
+          "image": "题图/t08-q11-p43.png"
+        }
+      ],
+      "status": "题干已提取；原图已归档；几何与答案另行核验",
+      "score_mentions": [
+        {
+          "value": 10,
+          "context": "十一、读“釜盖”零件图，并回答下列问题。（10分）"
+        }
+      ],
+      "total_points": 10,
+      "subquestions": [
+        {
+          "id": "t08-q11-s01",
+          "number": 1,
+          "page": 43,
+          "marker_bbox_pt": [
+            80.64,
+            88.25,
+            182.64,
+            100.25
+          ],
+          "text_candidate": "（1）此零件名称是 ，主视图采用 剖视。",
+          "figure_region": "题图/t08-q11-p43.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t08-q11-s02",
+          "number": 2,
+          "page": 43,
+          "marker_bbox_pt": [
+            80.64,
+            103.84999999999991,
+            465.0,
+            115.84999999999991
+          ],
+          "text_candidate": "（2）用指引线标出此零件长、宽、高三个方向的尺寸基准，并指明是哪个",
+          "figure_region": "题图/t08-q11-p43.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t08-q11-s03",
+          "number": 3,
+          "page": 43,
+          "marker_bbox_pt": [
+            80.64,
+            135.04999999999995,
+            302.64,
+            147.04999999999995
+          ],
+          "text_candidate": "（3）用铅笔圈出此零件图上的定位尺寸。",
+          "figure_region": "题图/t08-q11-p43.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t08-q11-s04",
+          "number": 4,
+          "page": 43,
+          "marker_bbox_pt": [
+            80.64,
+            150.64999999999998,
+            158.64,
+            162.64999999999998
+          ],
+          "text_candidate": "（4）釜盖上有 个 M12的螺孔，深是 ，是 分布的。",
+          "figure_region": "题图/t08-q11-p43.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t08-q11-s05",
+          "number": 5,
+          "page": 43,
+          "marker_bbox_pt": [
+            80.64,
+            166.25,
+            158.64,
+            178.25
+          ],
+          "text_candidate": "（5）釜盖上有 个 形状的槽（可用图形说明），槽宽是 ，",
+          "figure_region": "题图/t08-q11-p43.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t08-q11-s06",
+          "number": 6,
+          "page": 43,
+          "marker_bbox_pt": [
+            80.64,
+            197.44999999999993,
+            326.64,
+            209.44999999999993
+          ],
+          "text_candidate": "（6）此零件表面质量要求最高的粗糙度代号是 。",
+          "figure_region": "题图/t08-q11-p43.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        },
+        {
+          "id": "t08-q11-s07",
+          "number": 7,
+          "page": 43,
+          "marker_bbox_pt": [
+            80.64,
+            213.04999999999995,
+            224.64,
+            225.04999999999995
+          ],
+          "text_candidate": "（7）标题栏中Q235-A表示 。",
+          "figure_region": "题图/t08-q11-p43.png",
+          "status": "原文定位；图形小题共享本大题裁切"
+        }
+      ],
+      "recognition_candidates": [
+        {
+          "page": 43,
+          "cache": "ocr原始/p43.json",
+          "scope": "用regions坐标筛选字框；尺寸/符号候选未等同原题事实"
+        }
+      ],
+      "pending_checks": [],
+      "teaching_assumptions": [],
+      "verified_facts": {
+        "pdf_pages": [
+          43
+        ],
+        "question_number": 11,
+        "answer_removed_by_user": true
+      }
+    }
+  ],
+  "information_classes": [
+    "原题核实事实",
+    "提取或OCR候选",
+    "教学设定",
+    "待核项"
+  ]
+}
