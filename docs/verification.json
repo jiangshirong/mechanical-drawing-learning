@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-25",
+  "source_validation": {
+    "formal_saves_unchanged": true,
+    "original_models_unchanged": true,
+    "production_changed_after_final_run": [],
+    "content_review": "16 chapters; current 420 beats",
+    "boundaries": {
+      "native_fullscreen_verified": false,
+      "system_drag_feel_verified": false,
+      "learner_study_performed": false,
+      "system_mouse_moved": false,
+      "manufacturing_cad_accuracy_claimed": false
+    }
+  },
+  "publication_changes": [
+    "Local Godot AI autoload/editor plugin disabled in the public project only.",
+    "Engines, system font, caches, installers, personal saves and QA images/logs excluded.",
+    "Six actual application screenshots copied unchanged for both READMEs."
+  ],
+  "public_snapshot_smoke_test": {
+    "windows_preparation": true,
+    "clean_import": true,
+    "walkthrough_checks": {
+      "normal": 114,
+      "minimum": 114
+    },
+    "geometry_checks": {
+      "method": 60,
+      "whole_course": 65275
+    },
+    "formal_saves_unchanged": true,
+    "owned_processes_exited_normally": true,
+    "remaining_owned_processes": [],
+    "system_mouse_moved": false
+  }
+}

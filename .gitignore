@@ -1,0 +1,24 @@
+# Local engines, fonts, saves and generated imports
+**/.godot/
+**/__pycache__/
+*.py[cod]
+*.import
+*.blend1
+*.log
+机械制图学习/runtime/
+机械制图学习/assets/fonts/*.ttc
+机械制图学习/assets/fonts/*.ttf
+机械制图学习/assets/fonts/*.otf
+机械制图学习/addons/
+机械制图学习/qa/*
+!机械制图学习/qa/*.gd
+!机械制图学习/qa/.gitkeep
+*.tmp
+.env
+.env.*
+!.env.example
+work/tools/
+work/course_deps/
+work/github-publication/
+.DS_Store
+Thumbs.db

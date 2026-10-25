@@ -1,0 +1,5 @@
+numpy
+Pillow
+PyMuPDF
+manifold3d==3.5.4
+psutil

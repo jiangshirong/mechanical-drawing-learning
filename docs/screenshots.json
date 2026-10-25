@@ -1,0 +1,38 @@
+[
+  {
+    "file": "screenshots/plane-projection.png",
+    "source_capture": "method-plane_projection_other-more-vertices-normal.png",
+    "sha256": "53826b9284619043ae1ad548093560f47a844c0a2a16838aaa0ec4bb0a07cdba",
+    "kind": "actual Godot viewport capture; no mock-up"
+  },
+  {
+    "file": "screenshots/knowledge-map.png",
+    "source_capture": "course-extra-knowledge-map-normal.png",
+    "sha256": "d5ea3a9a6c9352dddca9be75d553146472bf334ba714cfc7871451bbfd283181",
+    "kind": "actual Godot viewport capture; no mock-up"
+  },
+  {
+    "file": "screenshots/questions.png",
+    "source_capture": "plane-list-normal.png",
+    "sha256": "77673c81eddec32c5c27b5444788dc9eb6f45e1e843872cd9825c538d453eeb3",
+    "kind": "actual Godot viewport capture; no mock-up"
+  },
+  {
+    "file": "screenshots/half-section.png",
+    "source_capture": "beginner-section_half_cut-after-normal.png",
+    "sha256": "3e52438b8b7d7b48ae19eba2772de0138d0c67fc4d0702ce24abbbaa22e214a3",
+    "kind": "actual Godot viewport capture; no mock-up"
+  },
+  {
+    "file": "screenshots/gear.png",
+    "source_capture": "beginner-gears_single_pitch0-after-normal.png",
+    "sha256": "5d218fb5eee383bf664d27193585597fd67a4f5aeca0bde9b05a1c84abcef714",
+    "kind": "actual Godot viewport capture; no mock-up"
+  },
+  {
+    "file": "screenshots/problem-card.png",
+    "source_capture": "method-plane_complete_parallel-context-after-normal.png",
+    "sha256": "5d210a6fec769bcdc2e647670455eebfca86c4a22bdf5c884c88fa9109f68425",
+    "kind": "actual Godot viewport capture; no mock-up"
+  }
+]
