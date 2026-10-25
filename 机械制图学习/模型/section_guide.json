@@ -1,0 +1,178 @@
+{
+  "version": 2,
+  "removed_model": "assets/examples/section/removed.glb",
+  "steps": [
+    {
+      "id": "why_cut",
+      "title": "为什么要剖开",
+      "text": "剖视图帮助我们看清内部孔和台阶。\n外壳遮住内部结构，普通主视图只能用虚线表达。",
+      "state": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "show_projection": false,
+      "focus": "whole",
+      "camera": {
+        "yaw": -0.48,
+        "pitch": 0.38,
+        "zoom": 0.14,
+        "target_mm": [
+          5,
+          0,
+          32.5
+        ]
+      },
+      "conclusion": "剖视图帮助我们看清内部孔和台阶。",
+      "reason": "外壳遮住内部结构，普通主视图只能用虚线表达。",
+      "detail": ""
+    },
+    {
+      "id": "cut_plane",
+      "title": "在哪里切",
+      "text": "假想的剖切平面通过两个孔的轴线。\n这样能同时看清两个孔和右侧台阶；箭头表示从前向后的观察方向。\n全剖不要求总从中间对称线切开。",
+      "state": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "show_projection": false,
+      "focus": "cut_plane",
+      "camera": {
+        "yaw": -0.55,
+        "pitch": 0.18,
+        "zoom": 0.17,
+        "target_mm": [
+          5,
+          0,
+          32.5
+        ]
+      },
+      "conclusion": "假想的剖切平面通过两个孔的轴线。",
+      "reason": "这样能同时看清两个孔和右侧台阶；箭头表示从前向后的观察方向。",
+      "detail": "全剖不要求总从中间对称线切开。"
+    },
+    {
+      "id": "remove_front",
+      "title": "移走哪一部分",
+      "text": "移走观察者与剖切面之间的部分，留下后面的半体。\n挡住内部的部分移开后，孔壁和台阶就露出来了。\n这是假想的表达方法，不是把零件实际加工成半个。",
+      "state": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "show_projection": false,
+      "focus": "removed",
+      "camera": {
+        "yaw": -0.6,
+        "pitch": 0.32,
+        "zoom": 0.24,
+        "target_mm": [
+          5,
+          0,
+          32.5
+        ]
+      },
+      "conclusion": "移走观察者与剖切面之间的部分，留下后面的半体。",
+      "reason": "挡住内部的部分移开后，孔壁和台阶就露出来了。",
+      "detail": "这是假想的表达方法，不是把零件实际加工成半个。"
+    },
+    {
+      "id": "material_void",
+      "title": "切到了什么",
+      "text": "普通材料切面画剖面线，孔洞不填。\n切到材料会形成切面；穿过孔洞时没有材料。\n露出的孔壁是孔的内表面，不等于材料切面。",
+      "state": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "show_projection": false,
+      "focus": "material",
+      "camera": {
+        "yaw": -0.4,
+        "pitch": 0.22,
+        "zoom": 0.15,
+        "target_mm": [
+          5,
+          0,
+          32.5
+        ]
+      },
+      "conclusion": "普通材料切面画剖面线，孔洞不填。",
+      "reason": "切到材料会形成切面；穿过孔洞时没有材料。",
+      "detail": "露出的孔壁是孔的内表面，不等于材料切面。"
+    },
+    {
+      "id": "project_section",
+      "title": "怎样得到全剖视图",
+      "text": "将剖开后剩余的部分沿主视方向投影，得到全剖视图。\n图中包含材料切面和后方可见轮廓，不只画切口。\n俯、左视图仍表示原完整零件。",
+      "state": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "show_projection": true,
+      "focus": "projection",
+      "camera": {
+        "yaw": -0.6,
+        "pitch": 0.25,
+        "zoom": 0.24,
+        "target_mm": [
+          5,
+          0,
+          32.5
+        ]
+      },
+      "conclusion": "将剖开后剩余的部分沿主视方向投影，得到全剖视图。",
+      "reason": "图中包含材料切面和后方可见轮廓，不只画切口。",
+      "detail": "俯、左视图仍表示原完整零件。"
+    },
+    {
+      "id": "rib_convention",
+      "title": "肋板为什么留白",
+      "text": "肋板纵向剖切时，按规定不画剖面线。\n原因：容易把肋板和底座、凸台看成一整块厚实材料。\n它有材料，也确实被切到了；留白不代表孔洞，用粗实线区分相邻部分。\n横向切断肋板时则要画剖面线。",
+      "state": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "show_projection": true,
+      "focus": "rib",
+      "camera": {
+        "yaw": -1.05,
+        "pitch": 0.32,
+        "zoom": 0.2,
+        "target_mm": [
+          5,
+          0,
+          32.5
+        ]
+      },
+      "conclusion": "肋板纵向剖切时，按规定不画剖面线。",
+      "reason": "原因：容易把肋板和底座、凸台看成一整块厚实材料。",
+      "detail": "它有材料，也确实被切到了；留白不代表孔洞，用粗实线区分相邻部分。\n横向切断肋板时则要画剖面线。"
+    }
+  ],
+  "presentation": {
+    "fullscreen": true,
+    "controls": [
+      "exit",
+      "previous",
+      "next"
+    ],
+    "lock_navigation_during_animation": true,
+    "projection_from_step": "project_section"
+  }
+}

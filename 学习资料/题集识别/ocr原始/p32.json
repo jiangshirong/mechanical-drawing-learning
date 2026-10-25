@@ -1,0 +1,781 @@
+{
+    "source":  "D:\\桌面文件夹\\学习\\大学课程\\过考试\\未过）机械制图\\ChatGPT\\学习资料\\题集识别\\原页\\p32.png",
+    "height":  1536,
+    "text":  "1 已 5 齿 数 压 力 角 精 度 等 级 齿 厚 配 对 齿 数 2 18 Z 8 一 7 一 7 一 De 3 ． 1 2 图 号 台 5 囗 3 齿 数 2 1 7 29 一 囗 023 135 3 匚 l. 5 æx2 比 例 齿 轮 轴 制 图 数 量 材 料 第 5 页 共 ] 0 页",
+    "review_status":  "raw_unverified_not_an_answer_key",
+    "engine":  "Windows.Media.Ocr",
+    "language":  "zh-Hans-CN",
+    "sha256":  "078c5536384eff71308fec4d156331a30b7c01fa712355e5a9a703d5f3e399ff",
+    "lines":  [
+                  {
+                      "text":  "1 已 5",
+                      "words":  [
+                                    {
+                                        "text":  "1",
+                                        "rect":  {
+                                                     "y":  186,
+                                                     "width":  3,
+                                                     "height":  9,
+                                                     "x":  805
+                                                 }
+                                    },
+                                    {
+                                        "text":  "已",
+                                        "rect":  {
+                                                     "y":  186,
+                                                     "width":  9,
+                                                     "height":  9,
+                                                     "x":  810
+                                                 }
+                                    },
+                                    {
+                                        "text":  "5",
+                                        "rect":  {
+                                                     "y":  186,
+                                                     "width":  6,
+                                                     "height":  9,
+                                                     "x":  821
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "齿 数",
+                      "words":  [
+                                    {
+                                        "text":  "齿",
+                                        "rect":  {
+                                                     "y":  193,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  888
+                                                 }
+                                    },
+                                    {
+                                        "text":  "数",
+                                        "rect":  {
+                                                     "y":  193,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  906
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "压 力 角",
+                      "words":  [
+                                    {
+                                        "text":  "压",
+                                        "rect":  {
+                                                     "y":  219,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  879
+                                                 }
+                                    },
+                                    {
+                                        "text":  "力",
+                                        "rect":  {
+                                                     "y":  219,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  896
+                                                 }
+                                    },
+                                    {
+                                        "text":  "角",
+                                        "rect":  {
+                                                     "y":  219,
+                                                     "width":  14,
+                                                     "height":  16,
+                                                     "x":  914
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "精 度 等 级",
+                      "words":  [
+                                    {
+                                        "text":  "精",
+                                        "rect":  {
+                                                     "y":  247,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  871
+                                                 }
+                                    },
+                                    {
+                                        "text":  "度",
+                                        "rect":  {
+                                                     "y":  247,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  889
+                                                 }
+                                    },
+                                    {
+                                        "text":  "等",
+                                        "rect":  {
+                                                     "y":  247,
+                                                     "width":  16,
+                                                     "height":  16,
+                                                     "x":  906
+                                                 }
+                                    },
+                                    {
+                                        "text":  "级",
+                                        "rect":  {
+                                                     "y":  247,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  924
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "齿 厚",
+                      "words":  [
+                                    {
+                                        "text":  "齿",
+                                        "rect":  {
+                                                     "y":  275,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  888
+                                                 }
+                                    },
+                                    {
+                                        "text":  "厚",
+                                        "rect":  {
+                                                     "y":  275,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  905
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "配 对 齿 数",
+                      "words":  [
+                                    {
+                                        "text":  "配",
+                                        "rect":  {
+                                                     "y":  315,
+                                                     "width":  15,
+                                                     "height":  14,
+                                                     "x":  870
+                                                 }
+                                    },
+                                    {
+                                        "text":  "对",
+                                        "rect":  {
+                                                     "y":  315,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  887
+                                                 }
+                                    },
+                                    {
+                                        "text":  "齿",
+                                        "rect":  {
+                                                     "y":  314,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  905
+                                                 }
+                                    },
+                                    {
+                                        "text":  "数",
+                                        "rect":  {
+                                                     "y":  314,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  923
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "2",
+                      "words":  [
+                                    {
+                                        "text":  "2",
+                                        "rect":  {
+                                                     "y":  168,
+                                                     "width":  7,
+                                                     "height":  12,
+                                                     "x":  1018
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "18",
+                      "words":  [
+                                    {
+                                        "text":  "18",
+                                        "rect":  {
+                                                     "y":  194,
+                                                     "width":  15,
+                                                     "height":  12,
+                                                     "x":  1015
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "Z",
+                      "words":  [
+                                    {
+                                        "text":  "Z",
+                                        "rect":  {
+                                                     "y":  198,
+                                                     "width":  9,
+                                                     "height":  9,
+                                                     "x":  965
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "8 一 7 一 7 一 De",
+                      "words":  [
+                                    {
+                                        "text":  "8",
+                                        "rect":  {
+                                                     "y":  250,
+                                                     "width":  7,
+                                                     "height":  12,
+                                                     "x":  963
+                                                 }
+                                    },
+                                    {
+                                        "text":  "一",
+                                        "rect":  {
+                                                     "y":  255,
+                                                     "width":  7,
+                                                     "height":  1,
+                                                     "x":  972
+                                                 }
+                                    },
+                                    {
+                                        "text":  "7",
+                                        "rect":  {
+                                                     "y":  250,
+                                                     "width":  7,
+                                                     "height":  12,
+                                                     "x":  980
+                                                 }
+                                    },
+                                    {
+                                        "text":  "一",
+                                        "rect":  {
+                                                     "y":  255,
+                                                     "width":  7,
+                                                     "height":  1,
+                                                     "x":  989
+                                                 }
+                                    },
+                                    {
+                                        "text":  "7",
+                                        "rect":  {
+                                                     "y":  250,
+                                                     "width":  7,
+                                                     "height":  12,
+                                                     "x":  998
+                                                 }
+                                    },
+                                    {
+                                        "text":  "一",
+                                        "rect":  {
+                                                     "y":  255,
+                                                     "width":  7,
+                                                     "height":  1,
+                                                     "x":  1006
+                                                 }
+                                    },
+                                    {
+                                        "text":  "De",
+                                        "rect":  {
+                                                     "y":  249,
+                                                     "width":  21,
+                                                     "height":  13,
+                                                     "x":  1014
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "3 ． 1 2",
+                      "words":  [
+                                    {
+                                        "text":  "3",
+                                        "rect":  {
+                                                     "y":  275,
+                                                     "width":  7,
+                                                     "height":  12,
+                                                     "x":  976
+                                                 }
+                                    },
+                                    {
+                                        "text":  "．",
+                                        "rect":  {
+                                                     "y":  285,
+                                                     "width":  2,
+                                                     "height":  2,
+                                                     "x":  984
+                                                 }
+                                    },
+                                    {
+                                        "text":  "1",
+                                        "rect":  {
+                                                     "y":  275,
+                                                     "width":  5,
+                                                     "height":  12,
+                                                     "x":  994
+                                                 }
+                                    },
+                                    {
+                                        "text":  "2",
+                                        "rect":  {
+                                                     "y":  275,
+                                                     "width":  7,
+                                                     "height":  12,
+                                                     "x":  1011
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "图 号",
+                      "words":  [
+                                    {
+                                        "text":  "图",
+                                        "rect":  {
+                                                     "y":  302,
+                                                     "width":  14,
+                                                     "height":  16,
+                                                     "x":  953
+                                                 }
+                                    },
+                                    {
+                                        "text":  "号",
+                                        "rect":  {
+                                                     "y":  302,
+                                                     "width":  14,
+                                                     "height":  15,
+                                                     "x":  970
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "台 5 囗 3",
+                      "words":  [
+                                    {
+                                        "text":  "台",
+                                        "rect":  {
+                                                     "y":  302,
+                                                     "width":  10,
+                                                     "height":  13,
+                                                     "x":  1004
+                                                 }
+                                    },
+                                    {
+                                        "text":  "5",
+                                        "rect":  {
+                                                     "y":  302,
+                                                     "width":  9,
+                                                     "height":  13,
+                                                     "x":  1017
+                                                 }
+                                    },
+                                    {
+                                        "text":  "囗",
+                                        "rect":  {
+                                                     "y":  302,
+                                                     "width":  7,
+                                                     "height":  13,
+                                                     "x":  1029
+                                                 }
+                                    },
+                                    {
+                                        "text":  "3",
+                                        "rect":  {
+                                                     "y":  302,
+                                                     "width":  9,
+                                                     "height":  13,
+                                                     "x":  1040
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "齿 数",
+                      "words":  [
+                                    {
+                                        "text":  "齿",
+                                        "rect":  {
+                                                     "y":  329,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  952
+                                                 }
+                                    },
+                                    {
+                                        "text":  "数",
+                                        "rect":  {
+                                                     "y":  329,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  970
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "2",
+                      "words":  [
+                                    {
+                                        "text":  "2",
+                                        "rect":  {
+                                                     "y":  558,
+                                                     "width":  8,
+                                                     "height":  11,
+                                                     "x":  429
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "1 7",
+                      "words":  [
+                                    {
+                                        "text":  "1",
+                                        "rect":  {
+                                                     "y":  614,
+                                                     "width":  4,
+                                                     "height":  11,
+                                                     "x":  241
+                                                 }
+                                    },
+                                    {
+                                        "text":  "7",
+                                        "rect":  {
+                                                     "y":  613,
+                                                     "width":  7,
+                                                     "height":  11,
+                                                     "x":  249
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "29 一 囗 023",
+                      "words":  [
+                                    {
+                                        "text":  "29",
+                                        "rect":  {
+                                                     "y":  613,
+                                                     "width":  18,
+                                                     "height":  12,
+                                                     "x":  305
+                                                 }
+                                    },
+                                    {
+                                        "text":  "一",
+                                        "rect":  {
+                                                     "y":  619,
+                                                     "width":  7,
+                                                     "height":  1,
+                                                     "x":  326
+                                                 }
+                                    },
+                                    {
+                                        "text":  "囗",
+                                        "rect":  {
+                                                     "y":  613,
+                                                     "width":  6,
+                                                     "height":  12,
+                                                     "x":  336
+                                                 }
+                                    },
+                                    {
+                                        "text":  "023",
+                                        "rect":  {
+                                                     "y":  613,
+                                                     "width":  26,
+                                                     "height":  12,
+                                                     "x":  350
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "135",
+                      "words":  [
+                                    {
+                                        "text":  "135",
+                                        "rect":  {
+                                                     "y":  652,
+                                                     "width":  25,
+                                                     "height":  12,
+                                                     "x":  478
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "3",
+                      "words":  [
+                                    {
+                                        "text":  "3",
+                                        "rect":  {
+                                                     "y":  414,
+                                                     "width":  7,
+                                                     "height":  11,
+                                                     "x":  606
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "匚 l. 5",
+                      "words":  [
+                                    {
+                                        "text":  "匚",
+                                        "rect":  {
+                                                     "y":  466,
+                                                     "width":  8,
+                                                     "height":  7,
+                                                     "x":  702
+                                                 }
+                                    },
+                                    {
+                                        "text":  "l.",
+                                        "rect":  {
+                                                     "y":  462,
+                                                     "width":  7,
+                                                     "height":  11,
+                                                     "x":  713
+                                                 }
+                                    },
+                                    {
+                                        "text":  "5",
+                                        "rect":  {
+                                                     "y":  462,
+                                                     "width":  7,
+                                                     "height":  11,
+                                                     "x":  723
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "æx2",
+                      "words":  [
+                                    {
+                                        "text":  "æx2",
+                                        "rect":  {
+                                                     "y":  562,
+                                                     "width":  28,
+                                                     "height":  11,
+                                                     "x":  649
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "比 例",
+                      "words":  [
+                                    {
+                                        "text":  "比",
+                                        "rect":  {
+                                                     "y":  698,
+                                                     "width":  13,
+                                                     "height":  15,
+                                                     "x":  878
+                                                 }
+                                    },
+                                    {
+                                        "text":  "例",
+                                        "rect":  {
+                                                     "y":  698,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  893
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "齿 轮 轴",
+                      "words":  [
+                                    {
+                                        "text":  "齿",
+                                        "rect":  {
+                                                     "y":  712,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  746
+                                                 }
+                                    },
+                                    {
+                                        "text":  "轮",
+                                        "rect":  {
+                                                     "y":  712,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  772
+                                                 }
+                                    },
+                                    {
+                                        "text":  "轴",
+                                        "rect":  {
+                                                     "y":  712,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  798
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "制 图",
+                      "words":  [
+                                    {
+                                        "text":  "制",
+                                        "rect":  {
+                                                     "y":  754,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  711
+                                                 }
+                                    },
+                                    {
+                                        "text":  "图",
+                                        "rect":  {
+                                                     "y":  754,
+                                                     "width":  14,
+                                                     "height":  16,
+                                                     "x":  729
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "数 量 材 料",
+                      "words":  [
+                                    {
+                                        "text":  "数",
+                                        "rect":  {
+                                                     "y":  698,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  924
+                                                 }
+                                    },
+                                    {
+                                        "text":  "量",
+                                        "rect":  {
+                                                     "y":  698,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  940
+                                                 }
+                                    },
+                                    {
+                                        "text":  "材",
+                                        "rect":  {
+                                                     "y":  698,
+                                                     "width":  15,
+                                                     "height":  16,
+                                                     "x":  967
+                                                 }
+                                    },
+                                    {
+                                        "text":  "料",
+                                        "rect":  {
+                                                     "y":  698,
+                                                     "width":  16,
+                                                     "height":  15,
+                                                     "x":  984
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "第 5 页 共 ] 0 页",
+                      "words":  [
+                                    {
+                                        "text":  "第",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  475
+                                                 }
+                                    },
+                                    {
+                                        "text":  "5",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  7,
+                                                     "height":  13,
+                                                     "x":  502
+                                                 }
+                                    },
+                                    {
+                                        "text":  "页",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  522
+                                                 }
+                                    },
+                                    {
+                                        "text":  "共",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  16,
+                                                     "height":  17,
+                                                     "x":  549
+                                                 }
+                                    },
+                                    {
+                                        "text":  "]",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  4,
+                                                     "height":  13,
+                                                     "x":  578
+                                                 }
+                                    },
+                                    {
+                                        "text":  "0",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  8,
+                                                     "height":  13,
+                                                     "x":  587
+                                                 }
+                                    },
+                                    {
+                                        "text":  "页",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  597
+                                                 }
+                                    }
+                                ]
+                  }
+              ],
+    "width":  1087
+}

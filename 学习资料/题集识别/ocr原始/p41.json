@@ -1,0 +1,478 @@
+{
+    "source":  "D:\\桌面文件夹\\学习\\大学课程\\过考试\\未过）机械制图\\ChatGPT\\学习资料\\题集识别\\原页\\p41.png",
+    "height":  1536,
+    "text":  "七 、 补 画 组 合 体 视 中 缺 漏 的 线 。 〔 用 分 ） 八 、 在 指 定 位 置 将 机 件 的 主 视 画 成 阶 梯 剖 视 。 第 4 页 共 ] 2 页 〔 用 分 ）",
+    "review_status":  "raw_unverified_not_an_answer_key",
+    "engine":  "Windows.Media.Ocr",
+    "language":  "zh-Hans-CN",
+    "sha256":  "de5bc46088aff133e6a213521e56beb7a764fbfc88d9ce8f43c70abb145e337d",
+    "lines":  [
+                  {
+                      "text":  "七 、 补 画 组 合 体 视 中 缺 漏 的 线 。",
+                      "words":  [
+                                    {
+                                        "text":  "七",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  23,
+                                                     "height":  21,
+                                                     "x":  119
+                                                 }
+                                    },
+                                    {
+                                        "text":  "、",
+                                        "rect":  {
+                                                     "y":  168,
+                                                     "width":  6,
+                                                     "height":  5,
+                                                     "x":  146
+                                                 }
+                                    },
+                                    {
+                                        "text":  "补",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  22,
+                                                     "height":  22,
+                                                     "x":  169
+                                                 }
+                                    },
+                                    {
+                                        "text":  "画",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  20,
+                                                     "height":  21,
+                                                     "x":  195
+                                                 }
+                                    },
+                                    {
+                                        "text":  "组",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  22,
+                                                     "height":  21,
+                                                     "x":  220
+                                                 }
+                                    },
+                                    {
+                                        "text":  "合",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  21,
+                                                     "height":  22,
+                                                     "x":  245
+                                                 }
+                                    },
+                                    {
+                                        "text":  "体",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  22,
+                                                     "height":  22,
+                                                     "x":  269
+                                                 }
+                                    },
+                                    {
+                                        "text":  "视",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  23,
+                                                     "height":  22,
+                                                     "x":  294
+                                                 }
+                                    },
+                                    {
+                                        "text":  "中",
+                                        "rect":  {
+                                                     "y":  152,
+                                                     "width":  19,
+                                                     "height":  23,
+                                                     "x":  346
+                                                 }
+                                    },
+                                    {
+                                        "text":  "缺",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  23,
+                                                     "height":  22,
+                                                     "x":  369
+                                                 }
+                                    },
+                                    {
+                                        "text":  "漏",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  22,
+                                                     "height":  22,
+                                                     "x":  394
+                                                 }
+                                    },
+                                    {
+                                        "text":  "的",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  20,
+                                                     "height":  22,
+                                                     "x":  421
+                                                 }
+                                    },
+                                    {
+                                        "text":  "线",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  22,
+                                                     "height":  22,
+                                                     "x":  469
+                                                 }
+                                    },
+                                    {
+                                        "text":  "。",
+                                        "rect":  {
+                                                     "y":  168,
+                                                     "width":  5,
+                                                     "height":  5,
+                                                     "x":  497
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "〔 用 分 ）",
+                      "words":  [
+                                    {
+                                        "text":  "〔",
+                                        "rect":  {
+                                                     "y":  155,
+                                                     "width":  6,
+                                                     "height":  19,
+                                                     "x":  521
+                                                 }
+                                    },
+                                    {
+                                        "text":  "用",
+                                        "rect":  {
+                                                     "y":  155,
+                                                     "width":  20,
+                                                     "height":  18,
+                                                     "x":  534
+                                                 }
+                                    },
+                                    {
+                                        "text":  "分",
+                                        "rect":  {
+                                                     "y":  153,
+                                                     "width":  22,
+                                                     "height":  22,
+                                                     "x":  563
+                                                 }
+                                    },
+                                    {
+                                        "text":  "）",
+                                        "rect":  {
+                                                     "y":  154,
+                                                     "width":  7,
+                                                     "height":  19,
+                                                     "x":  591
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "八 、 在 指 定 位 置 将 机 件 的 主 视 画 成 阶 梯 剖 视 。",
+                      "words":  [
+                                    {
+                                        "text":  "八",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  21,
+                                                     "height":  22,
+                                                     "x":  120
+                                                 }
+                                    },
+                                    {
+                                        "text":  "、",
+                                        "rect":  {
+                                                     "y":  753,
+                                                     "width":  6,
+                                                     "height":  5,
+                                                     "x":  146
+                                                 }
+                                    },
+                                    {
+                                        "text":  "在",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  22,
+                                                     "height":  22,
+                                                     "x":  169
+                                                 }
+                                    },
+                                    {
+                                        "text":  "指",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  21,
+                                                     "height":  22,
+                                                     "x":  195
+                                                 }
+                                    },
+                                    {
+                                        "text":  "定",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  21,
+                                                     "height":  22,
+                                                     "x":  220
+                                                 }
+                                    },
+                                    {
+                                        "text":  "位",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  23,
+                                                     "height":  22,
+                                                     "x":  244
+                                                 }
+                                    },
+                                    {
+                                        "text":  "置",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  23,
+                                                     "height":  22,
+                                                     "x":  269
+                                                 }
+                                    },
+                                    {
+                                        "text":  "将",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  22,
+                                                     "height":  23,
+                                                     "x":  294
+                                                 }
+                                    },
+                                    {
+                                        "text":  "机",
+                                        "rect":  {
+                                                     "y":  737,
+                                                     "width":  23,
+                                                     "height":  24,
+                                                     "x":  319
+                                                 }
+                                    },
+                                    {
+                                        "text":  "件",
+                                        "rect":  {
+                                                     "y":  737,
+                                                     "width":  22,
+                                                     "height":  24,
+                                                     "x":  344
+                                                 }
+                                    },
+                                    {
+                                        "text":  "的",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  20,
+                                                     "height":  22,
+                                                     "x":  371
+                                                 }
+                                    },
+                                    {
+                                        "text":  "主",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  21,
+                                                     "height":  21,
+                                                     "x":  395
+                                                 }
+                                    },
+                                    {
+                                        "text":  "视",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  23,
+                                                     "height":  22,
+                                                     "x":  419
+                                                 }
+                                    },
+                                    {
+                                        "text":  "画",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  20,
+                                                     "height":  21,
+                                                     "x":  470
+                                                 }
+                                    },
+                                    {
+                                        "text":  "成",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  23,
+                                                     "height":  22,
+                                                     "x":  494
+                                                 }
+                                    },
+                                    {
+                                        "text":  "阶",
+                                        "rect":  {
+                                                     "y":  737,
+                                                     "width":  21,
+                                                     "height":  23,
+                                                     "x":  520
+                                                 }
+                                    },
+                                    {
+                                        "text":  "梯",
+                                        "rect":  {
+                                                     "y":  737,
+                                                     "width":  22,
+                                                     "height":  23,
+                                                     "x":  544
+                                                 }
+                                    },
+                                    {
+                                        "text":  "剖",
+                                        "rect":  {
+                                                     "y":  737,
+                                                     "width":  21,
+                                                     "height":  23,
+                                                     "x":  570
+                                                 }
+                                    },
+                                    {
+                                        "text":  "视",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  23,
+                                                     "height":  22,
+                                                     "x":  594
+                                                 }
+                                    },
+                                    {
+                                        "text":  "。",
+                                        "rect":  {
+                                                     "y":  753,
+                                                     "width":  5,
+                                                     "height":  5,
+                                                     "x":  647
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "第 4 页 共 ] 2 页",
+                      "words":  [
+                                    {
+                                        "text":  "第",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  475
+                                                 }
+                                    },
+                                    {
+                                        "text":  "4",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  9,
+                                                     "height":  13,
+                                                     "x":  501
+                                                 }
+                                    },
+                                    {
+                                        "text":  "页",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  522
+                                                 }
+                                    },
+                                    {
+                                        "text":  "共",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  16,
+                                                     "height":  17,
+                                                     "x":  549
+                                                 }
+                                    },
+                                    {
+                                        "text":  "]",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  4,
+                                                     "height":  13,
+                                                     "x":  578
+                                                 }
+                                    },
+                                    {
+                                        "text":  "2",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  7,
+                                                     "height":  13,
+                                                     "x":  587
+                                                 }
+                                    },
+                                    {
+                                        "text":  "页",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  597
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "〔 用 分 ）",
+                      "words":  [
+                                    {
+                                        "text":  "〔",
+                                        "rect":  {
+                                                     "y":  740,
+                                                     "width":  6,
+                                                     "height":  19,
+                                                     "x":  671
+                                                 }
+                                    },
+                                    {
+                                        "text":  "用",
+                                        "rect":  {
+                                                     "y":  740,
+                                                     "width":  20,
+                                                     "height":  18,
+                                                     "x":  684
+                                                 }
+                                    },
+                                    {
+                                        "text":  "分",
+                                        "rect":  {
+                                                     "y":  738,
+                                                     "width":  22,
+                                                     "height":  22,
+                                                     "x":  713
+                                                 }
+                                    },
+                                    {
+                                        "text":  "）",
+                                        "rect":  {
+                                                     "y":  739,
+                                                     "width":  7,
+                                                     "height":  19,
+                                                     "x":  741
+                                                 }
+                                    }
+                                ]
+                  }
+              ],
+    "width":  1087
+}

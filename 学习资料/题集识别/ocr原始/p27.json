@@ -1,0 +1,377 @@
+{
+    "source":  "D:\\桌面文件夹\\学习\\大学课程\\过考试\\未过）机械制图\\ChatGPT\\学习资料\\题集识别\\原页\\p27.png",
+    "height":  1536,
+    "text":  "铸 造 圆 角 R3 制 图 校 核 （ 校 名 ） 第 5 页 共 ] 0 页 班 上 山 制 图 图 号 数 量 1 比 例 1 ： 2",
+    "review_status":  "raw_unverified_not_an_answer_key",
+    "engine":  "Windows.Media.Ocr",
+    "language":  "zh-Hans-CN",
+    "sha256":  "2ded8e3e659c00c588ad2b0f7e6fb32f43b581cdfba8a68e8b7973797d6cfd4b",
+    "lines":  [
+                  {
+                      "text":  "铸 造 圆 角 R3",
+                      "words":  [
+                                    {
+                                        "text":  "铸",
+                                        "rect":  {
+                                                     "y":  681,
+                                                     "width":  20,
+                                                     "height":  20,
+                                                     "x":  616
+                                                 }
+                                    },
+                                    {
+                                        "text":  "造",
+                                        "rect":  {
+                                                     "y":  681,
+                                                     "width":  20,
+                                                     "height":  19,
+                                                     "x":  638
+                                                 }
+                                    },
+                                    {
+                                        "text":  "圆",
+                                        "rect":  {
+                                                     "y":  682,
+                                                     "width":  17,
+                                                     "height":  19,
+                                                     "x":  662
+                                                 }
+                                    },
+                                    {
+                                        "text":  "角",
+                                        "rect":  {
+                                                     "y":  681,
+                                                     "width":  17,
+                                                     "height":  20,
+                                                     "x":  683
+                                                 }
+                                    },
+                                    {
+                                        "text":  "R3",
+                                        "rect":  {
+                                                     "y":  683,
+                                                     "width":  27,
+                                                     "height":  17,
+                                                     "x":  704
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "制 图",
+                      "words":  [
+                                    {
+                                        "text":  "制",
+                                        "rect":  {
+                                                     "y":  719,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  592
+                                                 }
+                                    },
+                                    {
+                                        "text":  "图",
+                                        "rect":  {
+                                                     "y":  719,
+                                                     "width":  17,
+                                                     "height":  20,
+                                                     "x":  616
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "校 核",
+                      "words":  [
+                                    {
+                                        "text":  "校",
+                                        "rect":  {
+                                                     "y":  748,
+                                                     "width":  20,
+                                                     "height":  20,
+                                                     "x":  592
+                                                 }
+                                    },
+                                    {
+                                        "text":  "核",
+                                        "rect":  {
+                                                     "y":  748,
+                                                     "width":  20,
+                                                     "height":  20,
+                                                     "x":  614
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "（ 校 名 ）",
+                      "words":  [
+                                    {
+                                        "text":  "（",
+                                        "rect":  {
+                                                     "y":  780,
+                                                     "width":  5,
+                                                     "height":  16,
+                                                     "x":  596
+                                                 }
+                                    },
+                                    {
+                                        "text":  "校",
+                                        "rect":  {
+                                                     "y":  778,
+                                                     "width":  20,
+                                                     "height":  20,
+                                                     "x":  606
+                                                 }
+                                    },
+                                    {
+                                        "text":  "名",
+                                        "rect":  {
+                                                     "y":  778,
+                                                     "width":  17,
+                                                     "height":  20,
+                                                     "x":  629
+                                                 }
+                                    },
+                                    {
+                                        "text":  "）",
+                                        "rect":  {
+                                                     "y":  779,
+                                                     "width":  6,
+                                                     "height":  17,
+                                                     "x":  654
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "第 5 页 共 ] 0 页",
+                      "words":  [
+                                    {
+                                        "text":  "第",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  475
+                                                 }
+                                    },
+                                    {
+                                        "text":  "5",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  7,
+                                                     "height":  13,
+                                                     "x":  502
+                                                 }
+                                    },
+                                    {
+                                        "text":  "页",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  522
+                                                 }
+                                    },
+                                    {
+                                        "text":  "共",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  16,
+                                                     "height":  17,
+                                                     "x":  549
+                                                 }
+                                    },
+                                    {
+                                        "text":  "]",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  4,
+                                                     "height":  13,
+                                                     "x":  578
+                                                 }
+                                    },
+                                    {
+                                        "text":  "0",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  8,
+                                                     "height":  13,
+                                                     "x":  587
+                                                 }
+                                    },
+                                    {
+                                        "text":  "页",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  597
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "班",
+                      "words":  [
+                                    {
+                                        "text":  "班",
+                                        "rect":  {
+                                                     "y":  778,
+                                                     "width":  20,
+                                                     "height":  20,
+                                                     "x":  739
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "上 山",
+                      "words":  [
+                                    {
+                                        "text":  "上",
+                                        "rect":  {
+                                                     "y":  729,
+                                                     "width":  11,
+                                                     "height":  9,
+                                                     "x":  814
+                                                 }
+                                    },
+                                    {
+                                        "text":  "山",
+                                        "rect":  {
+                                                     "y":  729,
+                                                     "width":  16,
+                                                     "height":  10,
+                                                     "x":  827
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "制 图",
+                      "words":  [
+                                    {
+                                        "text":  "制",
+                                        "rect":  {
+                                                     "y":  778,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  805
+                                                 }
+                                    },
+                                    {
+                                        "text":  "图",
+                                        "rect":  {
+                                                     "y":  778,
+                                                     "width":  17,
+                                                     "height":  20,
+                                                     "x":  829
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "图 号",
+                      "words":  [
+                                    {
+                                        "text":  "图",
+                                        "rect":  {
+                                                     "y":  737,
+                                                     "width":  17,
+                                                     "height":  20,
+                                                     "x":  981
+                                                 }
+                                    },
+                                    {
+                                        "text":  "号",
+                                        "rect":  {
+                                                     "y":  737,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  1001
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "数 量 1 比 例 1 ： 2",
+                      "words":  [
+                                    {
+                                        "text":  "数",
+                                        "rect":  {
+                                                     "y":  778,
+                                                     "width":  20,
+                                                     "height":  20,
+                                                     "x":  901
+                                                 }
+                                    },
+                                    {
+                                        "text":  "量",
+                                        "rect":  {
+                                                     "y":  778,
+                                                     "width":  20,
+                                                     "height":  20,
+                                                     "x":  923
+                                                 }
+                                    },
+                                    {
+                                        "text":  "1",
+                                        "rect":  {
+                                                     "y":  781,
+                                                     "width":  7,
+                                                     "height":  15,
+                                                     "x":  946
+                                                 }
+                                    },
+                                    {
+                                        "text":  "比",
+                                        "rect":  {
+                                                     "y":  779,
+                                                     "width":  17,
+                                                     "height":  18,
+                                                     "x":  968
+                                                 }
+                                    },
+                                    {
+                                        "text":  "例",
+                                        "rect":  {
+                                                     "y":  778,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  988
+                                                 }
+                                    },
+                                    {
+                                        "text":  "1",
+                                        "rect":  {
+                                                     "y":  781,
+                                                     "width":  7,
+                                                     "height":  15,
+                                                     "x":  1012
+                                                 }
+                                    },
+                                    {
+                                        "text":  "：",
+                                        "rect":  {
+                                                     "y":  785,
+                                                     "width":  3,
+                                                     "height":  11,
+                                                     "x":  1025
+                                                 }
+                                    },
+                                    {
+                                        "text":  "2",
+                                        "rect":  {
+                                                     "y":  780,
+                                                     "width":  9,
+                                                     "height":  16,
+                                                     "x":  1033
+                                                 }
+                                    }
+                                ]
+                  }
+              ],
+    "width":  1087
+}

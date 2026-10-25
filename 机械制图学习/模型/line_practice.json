@@ -1,0 +1,2269 @@
+{
+  "schema_version": 1,
+  "chapter_id": "line",
+  "presentation": {
+    "characters_per_second": 16,
+    "punctuation_pause": 0.18
+  },
+  "tasks": [
+    {
+      "id": "horizontal",
+      "title": "作水平线",
+      "question_id": "t02-q01",
+      "statement": "一、作水平线AB的三面投影。已知点A距H面为15，距V面为5，距W面为10，\nAB与V面夹角为30°，实长为30，点B在点A的左前方。",
+      "source": {
+        "image": "res://assets/line_practice/t02-q01.png",
+        "archive": "题图/t02-q01-p07.png",
+        "page": 7,
+        "sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c"
+      },
+      "scale_basis": {
+        "kind": "dimensioned_model",
+        "model": "line"
+      },
+      "points": {
+        "A": [
+          -10,
+          -5,
+          15
+        ],
+        "B": [
+          -35.98076211353316,
+          -20,
+          15
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "views": [
+        "front",
+        "top",
+        "left"
+      ],
+      "known_points": [],
+      "known_lines": [],
+      "refs": {
+        "A_front": [
+          -10,
+          15
+        ],
+        "A_top": [
+          -10,
+          -5
+        ],
+        "A_left": [
+          5,
+          15
+        ],
+        "B_front": [
+          -35.98076211353316,
+          15
+        ],
+        "B_top": [
+          -35.98076211353316,
+          -20
+        ],
+        "B_left": [
+          20,
+          15
+        ],
+        "A-x0": [
+          -10,
+          -12
+        ],
+        "A-x1": [
+          -10,
+          22
+        ],
+        "A-z0": [
+          -18,
+          15
+        ],
+        "A-z1": [
+          3,
+          15
+        ],
+        "A-y0": [
+          -18,
+          -5
+        ],
+        "A-y1": [
+          3,
+          -5
+        ],
+        "A_45": [
+          5,
+          -5
+        ],
+        "A_height": [
+          12,
+          15
+        ],
+        "B_45": [
+          20,
+          -20
+        ],
+        "B_height": [
+          27,
+          15
+        ],
+        "O": [
+          0,
+          0
+        ]
+      },
+      "groups": [
+        {
+          "id": "A",
+          "title": "定位A",
+          "beats": [
+            {
+              "id": "horizontal:problem",
+              "text": "已知A的位置，作水平线AB的三面投影。",
+              "action": {
+                "type": "prepare"
+              },
+              "anchor": [
+                "O"
+              ],
+              "callout_kind": "problem",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:A-x",
+              "text": "A距W面10 mm。",
+              "action": {
+                "type": "line",
+                "id": "A-x",
+                "a": "A-x0",
+                "b": "A-x1",
+                "dashed": true
+              },
+              "anchor": [
+                "A-x0",
+                "A-x1"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:A-z",
+              "text": "A距H面15 mm。",
+              "action": {
+                "type": "line",
+                "id": "A-z",
+                "a": "A-z0",
+                "b": "A-z1",
+                "dashed": true
+              },
+              "anchor": [
+                "A-z0",
+                "A-z1"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:A-front",
+              "text": "标出a′。",
+              "action": {
+                "type": "point",
+                "id": "A-front",
+                "p": "A_front",
+                "name": "a′"
+              },
+              "anchor": [
+                "A_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:A-y",
+              "text": "A距V面5 mm。",
+              "action": {
+                "type": "line",
+                "id": "A-y",
+                "a": "A-y0",
+                "b": "A-y1",
+                "dashed": true
+              },
+              "anchor": [
+                "A-y0",
+                "A-y1"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:A-top",
+              "text": "标出a。",
+              "action": {
+                "type": "point",
+                "id": "A-top",
+                "p": "A_top",
+                "name": "a"
+              },
+              "anchor": [
+                "A_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:erase-A-x-A-z-A-y",
+              "text": "擦去这一步的辅助线。",
+              "action": {
+                "type": "erase",
+                "targets": [
+                  "A-x",
+                  "A-z",
+                  "A-y"
+                ]
+              },
+              "anchor": [
+                "A_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "top",
+          "title": "作水平投影",
+          "beats": [
+            {
+              "id": "horizontal:length",
+              "text": "AB平行H面，可在水平投影上量取30 mm。",
+              "action": {
+                "type": "none"
+              },
+              "anchor": [
+                "A_top",
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "brace",
+              "value": "30 mm"
+            },
+            {
+              "id": "horizontal:angle",
+              "text": "与V面夹角30°，B在A的左前方。",
+              "action": {
+                "type": "none"
+              },
+              "anchor": [
+                "A_top",
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "angle",
+              "value": "30°"
+            },
+            {
+              "id": "horizontal:top-direction",
+              "text": "从a向左前方画30°方向的辅助线。",
+              "action": {
+                "type": "line",
+                "id": "top-direction",
+                "a": "A_top",
+                "b": "B_top",
+                "dashed": true
+              },
+              "anchor": [
+                "A_top",
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:B-top",
+              "text": "量取30 mm，标出b。",
+              "action": {
+                "type": "point",
+                "id": "B-top",
+                "p": "B_top",
+                "name": "b"
+              },
+              "anchor": [
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:join-top-AB",
+              "text": "连接水平投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-top-AB",
+                "a": "A_top",
+                "b": "B_top",
+                "dashed": false
+              },
+              "anchor": [
+                "A_top",
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:erase-top-direction",
+              "text": "擦去这一步的辅助线。",
+              "action": {
+                "type": "erase",
+                "targets": [
+                  "top-direction"
+                ]
+              },
+              "anchor": [
+                "A_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "front",
+          "title": "补正面投影",
+          "beats": [
+            {
+              "id": "horizontal:B-alignment",
+              "text": "从b向上画对应辅助线。",
+              "action": {
+                "type": "line",
+                "id": "B-alignment",
+                "a": "B_top",
+                "b": "B_front",
+                "dashed": true
+              },
+              "anchor": [
+                "B_top",
+                "B_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:B-level",
+              "text": "B与A等高，从a′画水平辅助线。",
+              "action": {
+                "type": "line",
+                "id": "B-level",
+                "a": "A_front",
+                "b": "B_front",
+                "dashed": true
+              },
+              "anchor": [
+                "A_front",
+                "B_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:B-front",
+              "text": "在交点标出b′。",
+              "action": {
+                "type": "point",
+                "id": "B-front",
+                "p": "B_front",
+                "name": "b′"
+              },
+              "anchor": [
+                "B_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:join-front-AB",
+              "text": "连接正面投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-front-AB",
+                "a": "A_front",
+                "b": "B_front",
+                "dashed": false
+              },
+              "anchor": [
+                "A_front",
+                "B_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:erase-B-alignment-B-level",
+              "text": "擦去这一步的辅助线。",
+              "action": {
+                "type": "erase",
+                "targets": [
+                  "B-alignment",
+                  "B-level"
+                ]
+              },
+              "anchor": [
+                "A_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "side",
+          "title": "补侧面投影",
+          "beats": [
+            {
+              "id": "horizontal:A-side",
+              "text": "补出a″。",
+              "action": {
+                "type": "side_point",
+                "top": "A_top",
+                "front": "A_front",
+                "side": "A_left",
+                "diagonal": "A_45",
+                "height": "A_height",
+                "name": "a″",
+                "duration": 2.4
+              },
+              "anchor": [
+                "A_top",
+                "A_front",
+                "A_left"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:B-side",
+              "text": "补出b″。",
+              "action": {
+                "type": "side_point",
+                "top": "B_top",
+                "front": "B_front",
+                "side": "B_left",
+                "diagonal": "B_45",
+                "height": "B_height",
+                "name": "b″",
+                "duration": 2.4
+              },
+              "anchor": [
+                "B_top",
+                "B_front",
+                "B_left"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "horizontal:join-left-AB",
+              "text": "连接侧面投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-left-AB",
+                "a": "A_left",
+                "b": "B_left",
+                "dashed": false
+              },
+              "anchor": [
+                "A_left",
+                "B_left"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "bounds": [
+        -49.98076211353316,
+        -34,
+        41,
+        36
+      ]
+    },
+    {
+      "id": "third-height",
+      "title": "补投影、按面距取点",
+      "question_id": "t07-q01",
+      "statement": "一、已知直线AB的两面投影。（1）完成其第三面投影；（2）设直线AB上一点\nC距H面25,完成点C的三面投影。（10分）",
+      "source": {
+        "image": "res://assets/line_practice/t07-q01.png",
+        "archive": "题图/t07-q01-p33.png",
+        "page": 33,
+        "sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c"
+      },
+      "scale_basis": {
+        "kind": "diagram_scale",
+        "mm_per_source_pixel": 0.2,
+        "origin_pixel": [
+          508,
+          278
+        ],
+        "note": "shared x corrected; not original dimensions"
+      },
+      "points": {
+        "A": [
+          -34.8,
+          -7.8,
+          5.0
+        ],
+        "B": [
+          -10.4,
+          -32.2,
+          32.4
+        ],
+        "C": [
+          -16.98978102189781,
+          -25.610218978102193,
+          25.0
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "views": [
+        "front",
+        "top",
+        "left"
+      ],
+      "known_points": [
+        "A_front",
+        "B_front",
+        "A_top",
+        "B_top"
+      ],
+      "known_lines": [
+        "AB_front",
+        "AB_top"
+      ],
+      "refs": {
+        "A_front": [
+          -34.8,
+          5.0
+        ],
+        "A_top": [
+          -34.8,
+          -7.8
+        ],
+        "A_left": [
+          7.8,
+          5.0
+        ],
+        "B_front": [
+          -10.4,
+          32.4
+        ],
+        "B_top": [
+          -10.4,
+          -32.2
+        ],
+        "B_left": [
+          32.2,
+          32.4
+        ],
+        "C_front": [
+          -16.98978102189781,
+          25.0
+        ],
+        "C_top": [
+          -16.98978102189781,
+          -25.610218978102193
+        ],
+        "C_left": [
+          25.610218978102193,
+          25.0
+        ],
+        "A_45": [
+          7.8,
+          -7.8
+        ],
+        "A_height": [
+          14.8,
+          5.0
+        ],
+        "B_45": [
+          32.2,
+          -32.2
+        ],
+        "B_height": [
+          39.2,
+          32.4
+        ],
+        "C-level0": [
+          -43,
+          25
+        ],
+        "C-level1": [
+          0,
+          25
+        ],
+        "C_45": [
+          25.610218978102193,
+          -25.610218978102193
+        ],
+        "C_height": [
+          32.610218978102196,
+          25.0
+        ],
+        "O": [
+          0,
+          0
+        ]
+      },
+      "groups": [
+        {
+          "id": "third",
+          "title": "补侧面投影",
+          "beats": [
+            {
+              "id": "third-height:problem",
+              "text": "已知两面投影，补直线AB的侧面投影。",
+              "action": {
+                "type": "prepare"
+              },
+              "anchor": [
+                "O"
+              ],
+              "callout_kind": "problem",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "third-height:A-side",
+              "text": "补出a″。",
+              "action": {
+                "type": "side_point",
+                "top": "A_top",
+                "front": "A_front",
+                "side": "A_left",
+                "diagonal": "A_45",
+                "height": "A_height",
+                "name": "a″",
+                "duration": 2.4
+              },
+              "anchor": [
+                "A_top",
+                "A_front",
+                "A_left"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "third-height:B-side",
+              "text": "补出b″。",
+              "action": {
+                "type": "side_point",
+                "top": "B_top",
+                "front": "B_front",
+                "side": "B_left",
+                "diagonal": "B_45",
+                "height": "B_height",
+                "name": "b″",
+                "duration": 2.4
+              },
+              "anchor": [
+                "B_top",
+                "B_front",
+                "B_left"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "third-height:join-left-AB",
+              "text": "连接侧面投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-left-AB",
+                "a": "A_left",
+                "b": "B_left",
+                "dashed": false
+              },
+              "anchor": [
+                "A_left",
+                "B_left"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "height",
+          "title": "按高度取点",
+          "beats": [
+            {
+              "id": "third-height:height-guide",
+              "text": "C距H面25 mm，画等高辅助线。",
+              "action": {
+                "type": "line",
+                "id": "height-guide",
+                "a": "C-level0",
+                "b": "C-level1",
+                "dashed": true
+              },
+              "anchor": [
+                "C-level0",
+                "C-level1"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "third-height:C-front",
+              "text": "与a′b′相交，标出c′。",
+              "action": {
+                "type": "point",
+                "id": "C-front",
+                "p": "C_front",
+                "name": "c′"
+              },
+              "anchor": [
+                "C_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "third-height:C-align",
+              "text": "从c′向水平投影画对应线。",
+              "action": {
+                "type": "line",
+                "id": "C-align",
+                "a": "C_front",
+                "b": "C_top",
+                "dashed": true
+              },
+              "anchor": [
+                "C_front",
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "third-height:C-top",
+              "text": "在ab上标出c。",
+              "action": {
+                "type": "point",
+                "id": "C-top",
+                "p": "C_top",
+                "name": "c"
+              },
+              "anchor": [
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "third-height:erase-height-guide-C-align",
+              "text": "擦去这一步的辅助线。",
+              "action": {
+                "type": "erase",
+                "targets": [
+                  "height-guide",
+                  "C-align"
+                ]
+              },
+              "anchor": [
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "third-height:C-side",
+              "text": "补出c″。",
+              "action": {
+                "type": "side_point",
+                "top": "C_top",
+                "front": "C_front",
+                "side": "C_left",
+                "diagonal": "C_45",
+                "height": "C_height",
+                "name": "c″",
+                "duration": 2.4
+              },
+              "anchor": [
+                "C_top",
+                "C_front",
+                "C_left"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "bounds": [
+        -57,
+        -46.2,
+        53.2,
+        46.4
+      ]
+    },
+    {
+      "id": "ratio",
+      "title": "按比例取点",
+      "question_id": "t05-q01",
+      "statement": "一、已知直线AB的两面投影，设直线AB 上一点C将AB 分成2：3，求C 点\n的三面投影。（12分）",
+      "source": {
+        "image": "res://assets/line_practice/t05-q01.png",
+        "archive": "题图/t05-q01-p23.png",
+        "page": 23,
+        "sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c"
+      },
+      "scale_basis": {
+        "kind": "diagram_scale",
+        "mm_per_source_pixel": 0.2,
+        "origin_pixel": [
+          512,
+          289
+        ]
+      },
+      "points": {
+        "A": [
+          -32.8,
+          -7.4,
+          4.8
+        ],
+        "B": [
+          -9.6,
+          -30.2,
+          30
+        ],
+        "C": [
+          -23.519999999999996,
+          -16.52,
+          14.879999999999999
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ]
+      },
+      "views": [
+        "front",
+        "top",
+        "left"
+      ],
+      "known_points": [
+        "A_front",
+        "B_front",
+        "A_top",
+        "B_top"
+      ],
+      "known_lines": [
+        "AB_front",
+        "AB_top"
+      ],
+      "refs": {
+        "A_front": [
+          -32.8,
+          4.8
+        ],
+        "A_top": [
+          -32.8,
+          -7.4
+        ],
+        "A_left": [
+          7.4,
+          4.8
+        ],
+        "B_front": [
+          -9.6,
+          30
+        ],
+        "B_top": [
+          -9.6,
+          -30.2
+        ],
+        "B_left": [
+          30.2,
+          30
+        ],
+        "C_front": [
+          -23.519999999999996,
+          14.879999999999999
+        ],
+        "C_top": [
+          -23.519999999999996,
+          -16.52
+        ],
+        "C_left": [
+          16.52,
+          14.879999999999999
+        ],
+        "division1": [
+          -28.159999999999997,
+          9.84
+        ],
+        "division2": [
+          -23.519999999999996,
+          14.879999999999999
+        ],
+        "division3": [
+          -18.880000000000003,
+          19.919999999999998
+        ],
+        "division4": [
+          -14.239999999999998,
+          24.96
+        ],
+        "C_45": [
+          16.52,
+          -16.52
+        ],
+        "C_height": [
+          23.52,
+          14.879999999999999
+        ],
+        "O": [
+          0,
+          0
+        ]
+      },
+      "groups": [
+        {
+          "id": "divide",
+          "title": "等比分点",
+          "beats": [
+            {
+              "id": "ratio:problem",
+              "text": "已知两面投影，按AC∶CB＝2∶3确定C。",
+              "action": {
+                "type": "prepare"
+              },
+              "anchor": [
+                "O"
+              ],
+              "callout_kind": "problem",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "ratio:ticks",
+              "text": "将a′b′分成五等份。",
+              "action": {
+                "type": "ticks",
+                "points": [
+                  "division1",
+                  "division2",
+                  "division3",
+                  "division4"
+                ],
+                "a": "A_front",
+                "b": "B_front"
+              },
+              "anchor": [
+                "A_front",
+                "B_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "ratio:C-front",
+              "text": "取从a′起的第二个分点c′。",
+              "action": {
+                "type": "point",
+                "id": "C-front",
+                "p": "C_front",
+                "name": "c′"
+              },
+              "anchor": [
+                "C_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "transfer",
+          "title": "求其余投影",
+          "beats": [
+            {
+              "id": "ratio:C-align",
+              "text": "从c′向水平投影画对应线。",
+              "action": {
+                "type": "line",
+                "id": "C-align",
+                "a": "C_front",
+                "b": "C_top",
+                "dashed": true
+              },
+              "anchor": [
+                "C_front",
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "ratio:C-top",
+              "text": "在ab上标出c。",
+              "action": {
+                "type": "point",
+                "id": "C-top",
+                "p": "C_top",
+                "name": "c"
+              },
+              "anchor": [
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "ratio:erase-C-align",
+              "text": "擦去这一步的辅助线。",
+              "action": {
+                "type": "erase",
+                "targets": [
+                  "C-align"
+                ]
+              },
+              "anchor": [
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "ratio:C-side",
+              "text": "补出c″。",
+              "action": {
+                "type": "side_point",
+                "top": "C_top",
+                "front": "C_front",
+                "side": "C_left",
+                "diagonal": "C_45",
+                "height": "C_height",
+                "name": "c″",
+                "duration": 2.4
+              },
+              "anchor": [
+                "C_top",
+                "C_front",
+                "C_left"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "bounds": [
+        -46.8,
+        -44.2,
+        44.2,
+        44
+      ]
+    },
+    {
+      "id": "through-parallel",
+      "title": "过点作平行线",
+      "question_id": "t04-q02",
+      "statement": "二、过已知点作直线。（10分）\n（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，交\n点B距V面为10。",
+      "source": {
+        "image": "res://assets/line_practice/t04-q02.png",
+        "archive": "题图/t04-q02-p18.png",
+        "page": 18,
+        "sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c"
+      },
+      "scale_basis": {
+        "kind": "diagram_scale",
+        "mm_per_source_pixel": 0.1,
+        "origin_pixel": [
+          780,
+          323
+        ]
+      },
+      "points": {
+        "A": [
+          -35.8,
+          -12,
+          11.9
+        ],
+        "E": [
+          -25.4,
+          -8.4,
+          8.5
+        ],
+        "F": [
+          -11.2,
+          -17.5,
+          17.5
+        ],
+        "T": [
+          -21.6,
+          -21.1,
+          20.9
+        ],
+        "B": [
+          -22.903296703296704,
+          -10.0,
+          10.082417582417582
+        ]
+      },
+      "lines": {
+        "EF": [
+          "E",
+          "F"
+        ]
+      },
+      "views": [
+        "front",
+        "top"
+      ],
+      "known_points": [
+        "A_front",
+        "A_top",
+        "E_front",
+        "E_top",
+        "F_front",
+        "F_top"
+      ],
+      "known_lines": [
+        "EF_front",
+        "EF_top"
+      ],
+      "refs": {
+        "A_front": [
+          -35.8,
+          11.9
+        ],
+        "A_top": [
+          -35.8,
+          -12
+        ],
+        "E_front": [
+          -25.4,
+          8.5
+        ],
+        "E_top": [
+          -25.4,
+          -8.4
+        ],
+        "F_front": [
+          -11.2,
+          17.5
+        ],
+        "F_top": [
+          -11.2,
+          -17.5
+        ],
+        "T_front": [
+          -21.6,
+          20.9
+        ],
+        "T_top": [
+          -21.6,
+          -21.1
+        ],
+        "B_front": [
+          -22.903296703296704,
+          10.082417582417582
+        ],
+        "B_top": [
+          -22.903296703296704,
+          -10.0
+        ],
+        "O": [
+          0,
+          0
+        ]
+      },
+      "groups": [
+        {
+          "id": "construct",
+          "title": "作平行线",
+          "beats": [
+            {
+              "id": "through-parallel:problem",
+              "text": "过已知A作EF的平行线。",
+              "action": {
+                "type": "prepare"
+              },
+              "anchor": [
+                "O"
+              ],
+              "callout_kind": "problem",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "through-parallel:parallel-front",
+              "text": "过a′画e′f′的平行线。",
+              "action": {
+                "type": "line",
+                "id": "parallel-front",
+                "a": "A_front",
+                "b": "T_front",
+                "dashed": false
+              },
+              "anchor": [
+                "A_front",
+                "T_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "through-parallel:parallel-top",
+              "text": "过a画ef的平行线。",
+              "action": {
+                "type": "line",
+                "id": "parallel-top",
+                "a": "A_top",
+                "b": "T_top",
+                "dashed": false
+              },
+              "anchor": [
+                "A_top",
+                "T_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "subquestion": 1,
+      "bounds": [
+        -49.8,
+        -35.1,
+        14,
+        34.9
+      ]
+    },
+    {
+      "id": "through-intersect",
+      "title": "过点作相交线",
+      "question_id": "t04-q02",
+      "statement": "二、过已知点作直线。（10分）\n（1）过A点作一直线与直线EF平行； （2）过A点作一直线与直线EF相交，交\n点B距V面为10。",
+      "source": {
+        "image": "res://assets/line_practice/t04-q02.png",
+        "archive": "题图/t04-q02-p18.png",
+        "page": 18,
+        "sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c"
+      },
+      "scale_basis": {
+        "kind": "diagram_scale",
+        "mm_per_source_pixel": 0.1,
+        "origin_pixel": [
+          780,
+          323
+        ]
+      },
+      "points": {
+        "A": [
+          -35.8,
+          -12,
+          11.9
+        ],
+        "E": [
+          -25.4,
+          -8.4,
+          8.5
+        ],
+        "F": [
+          -11.2,
+          -17.5,
+          17.5
+        ],
+        "T": [
+          -21.6,
+          -21.1,
+          20.9
+        ],
+        "B": [
+          -22.903296703296704,
+          -10.0,
+          10.082417582417582
+        ]
+      },
+      "lines": {
+        "EF": [
+          "E",
+          "F"
+        ]
+      },
+      "views": [
+        "front",
+        "top"
+      ],
+      "known_points": [
+        "A_front",
+        "A_top",
+        "E_front",
+        "E_top",
+        "F_front",
+        "F_top"
+      ],
+      "known_lines": [
+        "EF_front",
+        "EF_top"
+      ],
+      "refs": {
+        "A_front": [
+          -35.8,
+          11.9
+        ],
+        "A_top": [
+          -35.8,
+          -12
+        ],
+        "E_front": [
+          -25.4,
+          8.5
+        ],
+        "E_top": [
+          -25.4,
+          -8.4
+        ],
+        "F_front": [
+          -11.2,
+          17.5
+        ],
+        "F_top": [
+          -11.2,
+          -17.5
+        ],
+        "T_front": [
+          -21.6,
+          20.9
+        ],
+        "T_top": [
+          -21.6,
+          -21.1
+        ],
+        "B_front": [
+          -22.903296703296704,
+          10.082417582417582
+        ],
+        "B_top": [
+          -22.903296703296704,
+          -10.0
+        ],
+        "B-level0": [
+          -31,
+          -10
+        ],
+        "B-level1": [
+          0,
+          -10
+        ],
+        "O": [
+          0,
+          0
+        ]
+      },
+      "groups": [
+        {
+          "id": "construct",
+          "title": "作相交线",
+          "beats": [
+            {
+              "id": "through-intersect:problem",
+              "text": "过已知A作EF的相交线，交点B距V面10 mm。",
+              "action": {
+                "type": "prepare"
+              },
+              "anchor": [
+                "O"
+              ],
+              "callout_kind": "problem",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "through-intersect:B-distance",
+              "text": "在距X轴10 mm处画水平辅助线。",
+              "action": {
+                "type": "line",
+                "id": "B-distance",
+                "a": "B-level0",
+                "b": "B-level1",
+                "dashed": true
+              },
+              "anchor": [
+                "B-level0",
+                "B-level1"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "through-intersect:B-top",
+              "text": "与ef相交，标出b。",
+              "action": {
+                "type": "point",
+                "id": "B-top",
+                "p": "B_top",
+                "name": "b"
+              },
+              "anchor": [
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "through-intersect:B-align",
+              "text": "从b求正面投影b′。",
+              "action": {
+                "type": "line",
+                "id": "B-align",
+                "a": "B_top",
+                "b": "B_front",
+                "dashed": true
+              },
+              "anchor": [
+                "B_top",
+                "B_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "through-intersect:B-front",
+              "text": "在e′f′上标出b′。",
+              "action": {
+                "type": "point",
+                "id": "B-front",
+                "p": "B_front",
+                "name": "b′"
+              },
+              "anchor": [
+                "B_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "through-intersect:join-front-AB",
+              "text": "连接正面投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-front-AB",
+                "a": "A_front",
+                "b": "B_front",
+                "dashed": false
+              },
+              "anchor": [
+                "A_front",
+                "B_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "through-intersect:join-top-AB",
+              "text": "连接水平投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-top-AB",
+                "a": "A_top",
+                "b": "B_top",
+                "dashed": false
+              },
+              "anchor": [
+                "A_top",
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "through-intersect:erase-B-distance-B-align",
+              "text": "擦去这一步的辅助线。",
+              "action": {
+                "type": "erase",
+                "targets": [
+                  "B-distance",
+                  "B-align"
+                ]
+              },
+              "anchor": [
+                "A_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "subquestion": 2,
+      "bounds": [
+        -49.8,
+        -35.1,
+        14,
+        34.9
+      ]
+    },
+    {
+      "id": "parallelogram",
+      "title": "补平行四边形投影",
+      "question_id": "t02-q02",
+      "statement": "二、已知直线为AC为正平线，试补全平行四边形ABCD的水平投影。(12分)",
+      "source": {
+        "image": "res://assets/line_practice/t02-q02.png",
+        "archive": "题图/t02-q02-p07.png",
+        "page": 7,
+        "sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c"
+      },
+      "scale_basis": {
+        "kind": "diagram_scale",
+        "mm_per_source_pixel": 0.2,
+        "origin_pixel": [
+          724,
+          412
+        ],
+        "note": "front parallelogram closure corrected"
+      },
+      "points": {
+        "A": [
+          -70.6,
+          -28,
+          29.4
+        ],
+        "C": [
+          -6.4,
+          -28,
+          47.2
+        ],
+        "D": [
+          -40.2,
+          -19.6,
+          17.6
+        ],
+        "B": [
+          -36.8,
+          -36.4,
+          58.99999999999999
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ],
+        "BC": [
+          "B",
+          "C"
+        ],
+        "CD": [
+          "C",
+          "D"
+        ],
+        "DA": [
+          "D",
+          "A"
+        ]
+      },
+      "views": [
+        "front",
+        "top"
+      ],
+      "known_points": [
+        "A_front",
+        "A_top",
+        "C_front",
+        "D_front",
+        "D_top",
+        "B_front"
+      ],
+      "known_lines": [
+        "AB_front",
+        "BC_front",
+        "CD_front",
+        "DA_front",
+        "DA_top"
+      ],
+      "refs": {
+        "A_front": [
+          -70.6,
+          29.4
+        ],
+        "A_top": [
+          -70.6,
+          -28
+        ],
+        "C_front": [
+          -6.4,
+          47.2
+        ],
+        "C_top": [
+          -6.4,
+          -28
+        ],
+        "D_front": [
+          -40.2,
+          17.6
+        ],
+        "D_top": [
+          -40.2,
+          -19.6
+        ],
+        "B_front": [
+          -36.8,
+          58.99999999999999
+        ],
+        "B_top": [
+          -36.8,
+          -36.4
+        ],
+        "O": [
+          0,
+          0
+        ]
+      },
+      "groups": [
+        {
+          "id": "C",
+          "title": "求c",
+          "beats": [
+            {
+              "id": "parallelogram:problem",
+              "text": "已知AC为正平线，补齐水平投影。",
+              "action": {
+                "type": "prepare"
+              },
+              "anchor": [
+                "O"
+              ],
+              "callout_kind": "problem",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "parallelogram:C-height",
+              "text": "AC两端距V相同，过a画水平辅助线。",
+              "action": {
+                "type": "line",
+                "id": "C-height",
+                "a": "A_top",
+                "b": "C_top",
+                "dashed": true
+              },
+              "anchor": [
+                "A_top",
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "parallelogram:C-align",
+              "text": "从c′向下画对应线。",
+              "action": {
+                "type": "line",
+                "id": "C-align",
+                "a": "C_front",
+                "b": "C_top",
+                "dashed": true
+              },
+              "anchor": [
+                "C_front",
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "parallelogram:C-top",
+              "text": "在交点标出c。",
+              "action": {
+                "type": "point",
+                "id": "C-top",
+                "p": "C_top",
+                "name": "c"
+              },
+              "anchor": [
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "parallelogram:erase-C-height-C-align",
+              "text": "擦去这一步的辅助线。",
+              "action": {
+                "type": "erase",
+                "targets": [
+                  "C-height",
+                  "C-align"
+                ]
+              },
+              "anchor": [
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "title": "求b并连线",
+          "beats": [
+            {
+              "id": "parallelogram:B-guide1",
+              "text": "过a画dc的平行辅助线。",
+              "action": {
+                "type": "line",
+                "id": "B-guide1",
+                "a": "A_top",
+                "b": "B_top",
+                "dashed": true
+              },
+              "anchor": [
+                "A_top",
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "parallelogram:B-guide2",
+              "text": "过c画ad的平行辅助线。",
+              "action": {
+                "type": "line",
+                "id": "B-guide2",
+                "a": "C_top",
+                "b": "B_top",
+                "dashed": true
+              },
+              "anchor": [
+                "C_top",
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "parallelogram:B-top",
+              "text": "在交点标出b。",
+              "action": {
+                "type": "point",
+                "id": "B-top",
+                "p": "B_top",
+                "name": "b"
+              },
+              "anchor": [
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "parallelogram:join-top-AB",
+              "text": "连接水平投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-top-AB",
+                "a": "A_top",
+                "b": "B_top",
+                "dashed": false
+              },
+              "anchor": [
+                "A_top",
+                "B_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "parallelogram:join-top-BC",
+              "text": "连接水平投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-top-BC",
+                "a": "B_top",
+                "b": "C_top",
+                "dashed": false
+              },
+              "anchor": [
+                "B_top",
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "parallelogram:join-top-CD",
+              "text": "连接水平投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-top-CD",
+                "a": "C_top",
+                "b": "D_top",
+                "dashed": false
+              },
+              "anchor": [
+                "C_top",
+                "D_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "parallelogram:erase-B-guide1-B-guide2",
+              "text": "擦去这一步的辅助线。",
+              "action": {
+                "type": "erase",
+                "targets": [
+                  "B-guide1",
+                  "B-guide2"
+                ]
+              },
+              "anchor": [
+                "C_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "bounds": [
+        -84.6,
+        -50.4,
+        14,
+        73.0
+      ]
+    },
+    {
+      "id": "transversal",
+      "title": "平行并与两线相交",
+      "question_id": "t03-q02",
+      "statement": "二、作一直线MN，使MNL//AB,且与直线CD、EF相交。（10分）",
+      "source": {
+        "image": "res://assets/line_practice/t03-q02.png",
+        "archive": "题图/t03-q02-p12.png",
+        "page": 12,
+        "sha256": "bc60d596c26c5bbd1152a6a6bcc5925dfba054dc215d45eb38030ad324c69b9c"
+      },
+      "scale_basis": {
+        "kind": "diagram_scale",
+        "mm_per_source_pixel": 0.15,
+        "origin_pixel": [
+          720,
+          198
+        ]
+      },
+      "points": {
+        "A": [
+          -50.25,
+          -16.65,
+          5.4
+        ],
+        "B": [
+          -37.35,
+          -3,
+          12.15
+        ],
+        "C": [
+          -23.25,
+          -24.3,
+          7.65
+        ],
+        "D": [
+          -23.25,
+          -9.3,
+          7.65
+        ],
+        "E": [
+          -10.35,
+          -6.75,
+          20.55
+        ],
+        "F": [
+          -10.35,
+          -6.75,
+          4.5
+        ],
+        "M": [
+          -23.25,
+          -20.400000000000002,
+          7.65
+        ],
+        "N": [
+          -10.35,
+          -6.75,
+          14.400000000000002
+        ]
+      },
+      "lines": {
+        "AB": [
+          "A",
+          "B"
+        ],
+        "CD": [
+          "C",
+          "D"
+        ],
+        "EF": [
+          "E",
+          "F"
+        ]
+      },
+      "views": [
+        "front",
+        "top"
+      ],
+      "known_points": [
+        "A_front",
+        "A_top",
+        "B_front",
+        "B_top",
+        "C_front",
+        "C_top",
+        "D_front",
+        "D_top",
+        "E_front",
+        "E_top",
+        "F_front",
+        "F_top"
+      ],
+      "known_lines": [
+        "AB_front",
+        "AB_top",
+        "CD_front",
+        "CD_top",
+        "EF_front",
+        "EF_top"
+      ],
+      "refs": {
+        "A_front": [
+          -50.25,
+          5.4
+        ],
+        "A_top": [
+          -50.25,
+          -16.65
+        ],
+        "B_front": [
+          -37.35,
+          12.15
+        ],
+        "B_top": [
+          -37.35,
+          -3
+        ],
+        "C_front": [
+          -23.25,
+          7.65
+        ],
+        "C_top": [
+          -23.25,
+          -24.3
+        ],
+        "D_front": [
+          -23.25,
+          7.65
+        ],
+        "D_top": [
+          -23.25,
+          -9.3
+        ],
+        "E_front": [
+          -10.35,
+          20.55
+        ],
+        "E_top": [
+          -10.35,
+          -6.75
+        ],
+        "F_front": [
+          -10.35,
+          4.5
+        ],
+        "F_top": [
+          -10.35,
+          -6.75
+        ],
+        "M_front": [
+          -23.25,
+          7.65
+        ],
+        "M_top": [
+          -23.25,
+          -20.400000000000002
+        ],
+        "N_front": [
+          -10.35,
+          14.400000000000002
+        ],
+        "N_top": [
+          -10.35,
+          -6.75
+        ],
+        "O": [
+          0,
+          0
+        ]
+      },
+      "groups": [
+        {
+          "id": "front",
+          "title": "从正面求交点",
+          "beats": [
+            {
+              "id": "transversal:problem",
+              "text": "作MN平行AB，并与CD、EF相交。",
+              "action": {
+                "type": "prepare"
+              },
+              "anchor": [
+                "O"
+              ],
+              "callout_kind": "problem",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "transversal:M-front",
+              "text": "CD的正面投影积聚，m′在此处。",
+              "action": {
+                "type": "point",
+                "id": "M-front",
+                "p": "M_front",
+                "name": "m′"
+              },
+              "anchor": [
+                "M_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "transversal:front-guide",
+              "text": "过m′作a′b′的平行辅助线。",
+              "action": {
+                "type": "line",
+                "id": "front-guide",
+                "a": "M_front",
+                "b": "N_front",
+                "dashed": true
+              },
+              "anchor": [
+                "M_front",
+                "N_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "transversal:N-front",
+              "text": "与e′f′相交，标出n′。",
+              "action": {
+                "type": "point",
+                "id": "N-front",
+                "p": "N_front",
+                "name": "n′"
+              },
+              "anchor": [
+                "N_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        },
+        {
+          "id": "top",
+          "title": "求水平投影",
+          "beats": [
+            {
+              "id": "transversal:N-top",
+              "text": "EF的水平投影积聚，n在此处。",
+              "action": {
+                "type": "point",
+                "id": "N-top",
+                "p": "N_top",
+                "name": "n"
+              },
+              "anchor": [
+                "N_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "transversal:top-guide",
+              "text": "过n作ab的平行辅助线。",
+              "action": {
+                "type": "line",
+                "id": "top-guide",
+                "a": "N_top",
+                "b": "M_top",
+                "dashed": true
+              },
+              "anchor": [
+                "N_top",
+                "M_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "transversal:M-top",
+              "text": "与cd相交，标出m。",
+              "action": {
+                "type": "point",
+                "id": "M-top",
+                "p": "M_top",
+                "name": "m"
+              },
+              "anchor": [
+                "M_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "transversal:join-front-MN",
+              "text": "连接正面投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-front-MN",
+                "a": "M_front",
+                "b": "N_front",
+                "dashed": false
+              },
+              "anchor": [
+                "M_front",
+                "N_front"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "transversal:join-top-MN",
+              "text": "连接水平投影的端点。",
+              "action": {
+                "type": "line",
+                "id": "join-top-MN",
+                "a": "M_top",
+                "b": "N_top",
+                "dashed": false
+              },
+              "anchor": [
+                "M_top",
+                "N_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            },
+            {
+              "id": "transversal:erase-front-guide-top-guide",
+              "text": "擦去这一步的辅助线。",
+              "action": {
+                "type": "erase",
+                "targets": [
+                  "front-guide",
+                  "top-guide"
+                ]
+              },
+              "anchor": [
+                "M_top"
+              ],
+              "callout_kind": "normal",
+              "indicator": "highlight",
+              "value": ""
+            }
+          ]
+        }
+      ],
+      "bounds": [
+        -64.25,
+        -38.3,
+        14,
+        34.55
+      ]
+    }
+  ]
+}

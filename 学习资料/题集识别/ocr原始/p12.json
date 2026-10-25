@@ -1,0 +1,866 @@
+{
+    "source":  "D:\\桌面文件夹\\学习\\大学课程\\过考试\\未过）机械制图\\ChatGPT\\学习资料\\题集识别\\原页\\p12.png",
+    "height":  1536,
+    "text":  "试 卷 （ 3 ） 题 号 得 分 阅 卷 人 丿 丶 七 b\u0027 、 作 一 直 线 鼎 ， 使 L / / ， 且 与 直 线 EF 相 交 。 〔 10 分 ） 匚 气 d 0 e （ F ） 第 ] 页 共 ] 2 页 八 0 九 总 分 、 在 平 面 ABC 内 作 一 条 水 平 线 ， 使 其 到 H 面 的 距 离 为 10mmo 00 分 〕",
+    "review_status":  "raw_unverified_not_an_answer_key",
+    "engine":  "Windows.Media.Ocr",
+    "language":  "zh-Hans-CN",
+    "sha256":  "0b59479f4379eaf30e2eb6772a4b9041f076b42db6a5feda3a7de9335a689753",
+    "lines":  [
+                  {
+                      "text":  "试 卷 （ 3 ）",
+                      "words":  [
+                                    {
+                                        "text":  "试",
+                                        "rect":  {
+                                                     "y":  165,
+                                                     "width":  30,
+                                                     "height":  30,
+                                                     "x":  502
+                                                 }
+                                    },
+                                    {
+                                        "text":  "卷",
+                                        "rect":  {
+                                                     "y":  165,
+                                                     "width":  30,
+                                                     "height":  29,
+                                                     "x":  535
+                                                 }
+                                    },
+                                    {
+                                        "text":  "（",
+                                        "rect":  {
+                                                     "y":  165,
+                                                     "width":  8,
+                                                     "height":  30,
+                                                     "x":  574
+                                                 }
+                                    },
+                                    {
+                                        "text":  "3",
+                                        "rect":  {
+                                                     "y":  169,
+                                                     "width":  13,
+                                                     "height":  22,
+                                                     "x":  585
+                                                 }
+                                    },
+                                    {
+                                        "text":  "）",
+                                        "rect":  {
+                                                     "y":  165,
+                                                     "width":  7,
+                                                     "height":  30,
+                                                     "x":  602
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "题 号",
+                      "words":  [
+                                    {
+                                        "text":  "题",
+                                        "rect":  {
+                                                     "y":  316,
+                                                     "width":  19,
+                                                     "height":  19,
+                                                     "x":  175
+                                                 }
+                                    },
+                                    {
+                                        "text":  "号",
+                                        "rect":  {
+                                                     "y":  316,
+                                                     "width":  18,
+                                                     "height":  19,
+                                                     "x":  219
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "得 分",
+                      "words":  [
+                                    {
+                                        "text":  "得",
+                                        "rect":  {
+                                                     "y":  345,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  175
+                                                 }
+                                    },
+                                    {
+                                        "text":  "分",
+                                        "rect":  {
+                                                     "y":  345,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  218
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "阅 卷 人",
+                      "words":  [
+                                    {
+                                        "text":  "阅",
+                                        "rect":  {
+                                                     "y":  374,
+                                                     "width":  16,
+                                                     "height":  20,
+                                                     "x":  177
+                                                 }
+                                    },
+                                    {
+                                        "text":  "卷",
+                                        "rect":  {
+                                                     "y":  374,
+                                                     "width":  19,
+                                                     "height":  19,
+                                                     "x":  197
+                                                 }
+                                    },
+                                    {
+                                        "text":  "人",
+                                        "rect":  {
+                                                     "y":  374,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  218
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "丿 丶",
+                      "words":  [
+                                    {
+                                        "text":  "丿",
+                                        "rect":  {
+                                                     "y":  324,
+                                                     "width":  8,
+                                                     "height":  11,
+                                                     "x":  634
+                                                 }
+                                    },
+                                    {
+                                        "text":  "丶",
+                                        "rect":  {
+                                                     "y":  324,
+                                                     "width":  6,
+                                                     "height":  10,
+                                                     "x":  646
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "七",
+                      "words":  [
+                                    {
+                                        "text":  "七",
+                                        "rect":  {
+                                                     "y":  315,
+                                                     "width":  20,
+                                                     "height":  19,
+                                                     "x":  704
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "b\u0027",
+                      "words":  [
+                                    {
+                                        "text":  "b\u0027",
+                                        "rect":  {
+                                                     "y":  678,
+                                                     "width":  25,
+                                                     "height":  23,
+                                                     "x":  410
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "、 作 一 直 线 鼎 ， 使 L / / ， 且 与 直 线 EF 相 交 。 〔 10 分 ）",
+                      "words":  [
+                                    {
+                                        "text":  "、",
+                                        "rect":  {
+                                                     "y":  972,
+                                                     "width":  6,
+                                                     "height":  5,
+                                                     "x":  142
+                                                 }
+                                    },
+                                    {
+                                        "text":  "作",
+                                        "rect":  {
+                                                     "y":  959,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  163
+                                                 }
+                                    },
+                                    {
+                                        "text":  "一",
+                                        "rect":  {
+                                                     "y":  967,
+                                                     "width":  19,
+                                                     "height":  2,
+                                                     "x":  186
+                                                 }
+                                    },
+                                    {
+                                        "text":  "直",
+                                        "rect":  {
+                                                     "y":  959,
+                                                     "width":  20,
+                                                     "height":  19,
+                                                     "x":  207
+                                                 }
+                                    },
+                                    {
+                                        "text":  "线",
+                                        "rect":  {
+                                                     "y":  959,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  228
+                                                 }
+                                    },
+                                    {
+                                        "text":  "鼎",
+                                        "rect":  {
+                                                     "y":  962,
+                                                     "width":  22,
+                                                     "height":  15,
+                                                     "x":  255
+                                                 }
+                                    },
+                                    {
+                                        "text":  "，",
+                                        "rect":  {
+                                                     "y":  972,
+                                                     "width":  3,
+                                                     "height":  6,
+                                                     "x":  280
+                                                 }
+                                    },
+                                    {
+                                        "text":  "使",
+                                        "rect":  {
+                                                     "y":  959,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  300
+                                                 }
+                                    },
+                                    {
+                                        "text":  "L",
+                                        "rect":  {
+                                                     "y":  962,
+                                                     "width":  9,
+                                                     "height":  15,
+                                                     "x":  349
+                                                 }
+                                    },
+                                    {
+                                        "text":  "/",
+                                        "rect":  {
+                                                     "y":  960,
+                                                     "width":  9,
+                                                     "height":  18,
+                                                     "x":  360
+                                                 }
+                                    },
+                                    {
+                                        "text":  "/",
+                                        "rect":  {
+                                                     "y":  960,
+                                                     "width":  9,
+                                                     "height":  18,
+                                                     "x":  371
+                                                 }
+                                    },
+                                    {
+                                        "text":  "，",
+                                        "rect":  {
+                                                     "y":  974,
+                                                     "width":  2,
+                                                     "height":  5,
+                                                     "x":  405
+                                                 }
+                                    },
+                                    {
+                                        "text":  "且",
+                                        "rect":  {
+                                                     "y":  960,
+                                                     "width":  20,
+                                                     "height":  18,
+                                                     "x":  415
+                                                 }
+                                    },
+                                    {
+                                        "text":  "与",
+                                        "rect":  {
+                                                     "y":  959,
+                                                     "width":  17,
+                                                     "height":  20,
+                                                     "x":  437
+                                                 }
+                                    },
+                                    {
+                                        "text":  "直",
+                                        "rect":  {
+                                                     "y":  959,
+                                                     "width":  20,
+                                                     "height":  19,
+                                                     "x":  458
+                                                 }
+                                    },
+                                    {
+                                        "text":  "线",
+                                        "rect":  {
+                                                     "y":  959,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  480
+                                                 }
+                                    },
+                                    {
+                                        "text":  "EF",
+                                        "rect":  {
+                                                     "y":  962,
+                                                     "width":  20,
+                                                     "height":  15,
+                                                     "x":  551
+                                                 }
+                                    },
+                                    {
+                                        "text":  "相",
+                                        "rect":  {
+                                                     "y":  960,
+                                                     "width":  18,
+                                                     "height":  19,
+                                                     "x":  579
+                                                 }
+                                    },
+                                    {
+                                        "text":  "交",
+                                        "rect":  {
+                                                     "y":  959,
+                                                     "width":  18,
+                                                     "height":  20,
+                                                     "x":  601
+                                                 }
+                                    },
+                                    {
+                                        "text":  "。",
+                                        "rect":  {
+                                                     "y":  972,
+                                                     "width":  5,
+                                                     "height":  5,
+                                                     "x":  624
+                                                 }
+                                    },
+                                    {
+                                        "text":  "〔",
+                                        "rect":  {
+                                                     "y":  961,
+                                                     "width":  6,
+                                                     "height":  17,
+                                                     "x":  645
+                                                 }
+                                    },
+                                    {
+                                        "text":  "10",
+                                        "rect":  {
+                                                     "y":  962,
+                                                     "width":  19,
+                                                     "height":  15,
+                                                     "x":  656
+                                                 }
+                                    },
+                                    {
+                                        "text":  "分",
+                                        "rect":  {
+                                                     "y":  959,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  682
+                                                 }
+                                    },
+                                    {
+                                        "text":  "）",
+                                        "rect":  {
+                                                     "y":  960,
+                                                     "width":  7,
+                                                     "height":  18,
+                                                     "x":  706
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "匚 气 d 0",
+                      "words":  [
+                                    {
+                                        "text":  "匚",
+                                        "rect":  {
+                                                     "y":  1075,
+                                                     "width":  9,
+                                                     "height":  9,
+                                                     "x":  573
+                                                 }
+                                    },
+                                    {
+                                        "text":  "气",
+                                        "rect":  {
+                                                     "y":  1071,
+                                                     "width":  11,
+                                                     "height":  13,
+                                                     "x":  586
+                                                 }
+                                    },
+                                    {
+                                        "text":  "d",
+                                        "rect":  {
+                                                     "y":  1071,
+                                                     "width":  10,
+                                                     "height":  13,
+                                                     "x":  600
+                                                 }
+                                    },
+                                    {
+                                        "text":  "0",
+                                        "rect":  {
+                                                     "y":  1071,
+                                                     "width":  13,
+                                                     "height":  13,
+                                                     "x":  613
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "e （ F ）",
+                      "words":  [
+                                    {
+                                        "text":  "e",
+                                        "rect":  {
+                                                     "y":  1200,
+                                                     "width":  10,
+                                                     "height":  9,
+                                                     "x":  674
+                                                 }
+                                    },
+                                    {
+                                        "text":  "（",
+                                        "rect":  {
+                                                     "y":  1196,
+                                                     "width":  5,
+                                                     "height":  13,
+                                                     "x":  687
+                                                 }
+                                    },
+                                    {
+                                        "text":  "F",
+                                        "rect":  {
+                                                     "y":  1196,
+                                                     "width":  8,
+                                                     "height":  13,
+                                                     "x":  696
+                                                 }
+                                    },
+                                    {
+                                        "text":  "）",
+                                        "rect":  {
+                                                     "y":  1196,
+                                                     "width":  5,
+                                                     "height":  13,
+                                                     "x":  708
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "第 ] 页 共 ] 2 页",
+                      "words":  [
+                                    {
+                                        "text":  "第",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  490
+                                                 }
+                                    },
+                                    {
+                                        "text":  "]",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  4,
+                                                     "height":  13,
+                                                     "x":  518
+                                                 }
+                                    },
+                                    {
+                                        "text":  "页",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  537
+                                                 }
+                                    },
+                                    {
+                                        "text":  "共",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  16,
+                                                     "height":  17,
+                                                     "x":  564
+                                                 }
+                                    },
+                                    {
+                                        "text":  "]",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  4,
+                                                     "height":  13,
+                                                     "x":  593
+                                                 }
+                                    },
+                                    {
+                                        "text":  "2",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  7,
+                                                     "height":  13,
+                                                     "x":  602
+                                                 }
+                                    },
+                                    {
+                                        "text":  "页",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  612
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "八",
+                      "words":  [
+                                    {
+                                        "text":  "八",
+                                        "rect":  {
+                                                     "y":  316,
+                                                     "width":  19,
+                                                     "height":  19,
+                                                     "x":  775
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "0",
+                      "words":  [
+                                    {
+                                        "text":  "0",
+                                        "rect":  {
+                                                     "y":  1139,
+                                                     "width":  7,
+                                                     "height":  14,
+                                                     "x":  771
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "九",
+                      "words":  [
+                                    {
+                                        "text":  "九",
+                                        "rect":  {
+                                                     "y":  316,
+                                                     "width":  18,
+                                                     "height":  19,
+                                                     "x":  846
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "总 分",
+                      "words":  [
+                                    {
+                                        "text":  "总",
+                                        "rect":  {
+                                                     "y":  316,
+                                                     "width":  18,
+                                                     "height":  18,
+                                                     "x":  906
+                                                 }
+                                    },
+                                    {
+                                        "text":  "分",
+                                        "rect":  {
+                                                     "y":  315,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  926
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "、 在 平 面 ABC 内 作 一 条 水 平 线 ， 使 其 到 H 面 的 距 离 为 10mmo 00 分 〕",
+                      "words":  [
+                                    {
+                                        "text":  "、",
+                                        "rect":  {
+                                                     "y":  451,
+                                                     "width":  6,
+                                                     "height":  5,
+                                                     "x":  142
+                                                 }
+                                    },
+                                    {
+                                        "text":  "在",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  163
+                                                 }
+                                    },
+                                    {
+                                        "text":  "平",
+                                        "rect":  {
+                                                     "y":  439,
+                                                     "width":  19,
+                                                     "height":  19,
+                                                     "x":  185
+                                                 }
+                                    },
+                                    {
+                                        "text":  "面",
+                                        "rect":  {
+                                                     "y":  439,
+                                                     "width":  19,
+                                                     "height":  19,
+                                                     "x":  207
+                                                 }
+                                    },
+                                    {
+                                        "text":  "ABC",
+                                        "rect":  {
+                                                     "y":  441,
+                                                     "width":  44,
+                                                     "height":  15,
+                                                     "x":  233
+                                                 }
+                                    },
+                                    {
+                                        "text":  "内",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  16,
+                                                     "height":  20,
+                                                     "x":  286
+                                                 }
+                                    },
+                                    {
+                                        "text":  "作",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  306
+                                                 }
+                                    },
+                                    {
+                                        "text":  "一",
+                                        "rect":  {
+                                                     "y":  446,
+                                                     "width":  19,
+                                                     "height":  2,
+                                                     "x":  329
+                                                 }
+                                    },
+                                    {
+                                        "text":  "条",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  17,
+                                                     "height":  20,
+                                                     "x":  352
+                                                 }
+                                    },
+                                    {
+                                        "text":  "水",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  18,
+                                                     "height":  20,
+                                                     "x":  373
+                                                 }
+                                    },
+                                    {
+                                        "text":  "平",
+                                        "rect":  {
+                                                     "y":  439,
+                                                     "width":  19,
+                                                     "height":  19,
+                                                     "x":  394
+                                                 }
+                                    },
+                                    {
+                                        "text":  "线",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  416
+                                                 }
+                                    },
+                                    {
+                                        "text":  "，",
+                                        "rect":  {
+                                                     "y":  451,
+                                                     "width":  3,
+                                                     "height":  6,
+                                                     "x":  439
+                                                 }
+                                    },
+                                    {
+                                        "text":  "使",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  459
+                                                 }
+                                    },
+                                    {
+                                        "text":  "其",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  481
+                                                 }
+                                    },
+                                    {
+                                        "text":  "到",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  18,
+                                                     "height":  20,
+                                                     "x":  504
+                                                 }
+                                    },
+                                    {
+                                        "text":  "H",
+                                        "rect":  {
+                                                     "y":  441,
+                                                     "width":  15,
+                                                     "height":  15,
+                                                     "x":  530
+                                                 }
+                                    },
+                                    {
+                                        "text":  "面",
+                                        "rect":  {
+                                                     "y":  439,
+                                                     "width":  19,
+                                                     "height":  19,
+                                                     "x":  552
+                                                 }
+                                    },
+                                    {
+                                        "text":  "的",
+                                        "rect":  {
+                                                     "y":  439,
+                                                     "width":  17,
+                                                     "height":  19,
+                                                     "x":  576
+                                                 }
+                                    },
+                                    {
+                                        "text":  "距",
+                                        "rect":  {
+                                                     "y":  439,
+                                                     "width":  20,
+                                                     "height":  18,
+                                                     "x":  596
+                                                 }
+                                    },
+                                    {
+                                        "text":  "离",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  18,
+                                                     "height":  20,
+                                                     "x":  618
+                                                 }
+                                    },
+                                    {
+                                        "text":  "为",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  639
+                                                 }
+                                    },
+                                    {
+                                        "text":  "10mmo",
+                                        "rect":  {
+                                                     "y":  441,
+                                                     "width":  61,
+                                                     "height":  15,
+                                                     "x":  669
+                                                 }
+                                    },
+                                    {
+                                        "text":  "00",
+                                        "rect":  {
+                                                     "y":  441,
+                                                     "width":  28,
+                                                     "height":  20,
+                                                     "x":  744
+                                                 }
+                                    },
+                                    {
+                                        "text":  "分",
+                                        "rect":  {
+                                                     "y":  438,
+                                                     "width":  19,
+                                                     "height":  20,
+                                                     "x":  779
+                                                 }
+                                    },
+                                    {
+                                        "text":  "〕",
+                                        "rect":  {
+                                                     "y":  441,
+                                                     "width":  6,
+                                                     "height":  20,
+                                                     "x":  800
+                                                 }
+                                    }
+                                ]
+                  }
+              ],
+    "width":  1087
+}

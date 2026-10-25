@@ -1,0 +1,103 @@
+{
+    "source":  "D:\\桌面文件夹\\学习\\大学课程\\过考试\\未过）机械制图\\ChatGPT\\学习资料\\题集识别\\原页\\p17.png",
+    "height":  1536,
+    "text":  "《 00 第 6 页 共 ] 2 页",
+    "review_status":  "raw_unverified_not_an_answer_key",
+    "engine":  "Windows.Media.Ocr",
+    "language":  "zh-Hans-CN",
+    "sha256":  "12335f8c052fa2d447db52a764d9d17f7c57590c3a65e1e95cd7f7bb288329b5",
+    "lines":  [
+                  {
+                      "text":  "《 00",
+                      "words":  [
+                                    {
+                                        "text":  "《",
+                                        "rect":  {
+                                                     "y":  572,
+                                                     "width":  22,
+                                                     "height":  43,
+                                                     "x":  216
+                                                 }
+                                    },
+                                    {
+                                        "text":  "00",
+                                        "rect":  {
+                                                     "y":  580,
+                                                     "width":  72,
+                                                     "height":  33,
+                                                     "x":  239
+                                                 }
+                                    }
+                                ]
+                  },
+                  {
+                      "text":  "第 6 页 共 ] 2 页",
+                      "words":  [
+                                    {
+                                        "text":  "第",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  490
+                                                 }
+                                    },
+                                    {
+                                        "text":  "6",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  8,
+                                                     "height":  13,
+                                                     "x":  517
+                                                 }
+                                    },
+                                    {
+                                        "text":  "页",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  537
+                                                 }
+                                    },
+                                    {
+                                        "text":  "共",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  16,
+                                                     "height":  17,
+                                                     "x":  564
+                                                 }
+                                    },
+                                    {
+                                        "text":  "]",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  4,
+                                                     "height":  13,
+                                                     "x":  593
+                                                 }
+                                    },
+                                    {
+                                        "text":  "2",
+                                        "rect":  {
+                                                     "y":  1414,
+                                                     "width":  7,
+                                                     "height":  13,
+                                                     "x":  602
+                                                 }
+                                    },
+                                    {
+                                        "text":  "页",
+                                        "rect":  {
+                                                     "y":  1412,
+                                                     "width":  15,
+                                                     "height":  17,
+                                                     "x":  612
+                                                 }
+                                    }
+                                ]
+                  }
+              ],
+    "width":  1087
+}
